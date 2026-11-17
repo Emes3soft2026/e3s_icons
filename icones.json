@@ -1,0 +1,4740 @@
+{
+ "versao": "1.8.1",
+ "licenca": "GPL-3.0-only",
+ "categorias": {
+  "acoes": "Ações",
+  "geral": "Geral",
+  "estados": "Estados, fases e ambientes",
+  "medidas": "Medidas e unidades",
+  "educacao": "Educação",
+  "alunos": "Alunos",
+  "utilizadores": "Utilizadores",
+  "tempo": "Tempo e datas",
+  "setas": "Setas",
+  "matematica": "Matemática e símbolos",
+  "comunicacao": "Comunicação",
+  "vistas": "Vistas e janelas",
+  "graficos": "Gráficos",
+  "dados": "Filtros e ordenação",
+  "design": "Design e edição",
+  "multimedia": "Multimédia e audiovisual",
+  "tecnologia": "Tecnologia",
+  "portas": "Portas e ligações",
+  "resolucoes": "Resoluções de vídeo",
+  "percursos": "Percursos",
+  "transportes": "Transportes e via pública",
+  "pessoas": "Pessoas (sexo e idade)",
+  "saude": "Saúde e acessibilidade",
+  "seguranca": "Segurança",
+  "objetos": "Objetos",
+  "emojis": "Emojis e reações",
+  "marcas": "Marcas e pagamentos",
+  "tipos_dados": "Tipos de dados",
+  "ficheiros": "Ficheiros e pastas",
+  "equipamentos": "Discos, rede e servidores"
+ },
+ "acoes": {
+  "adicionar": {
+   "rotulo": "adicionar",
+   "palavras": "mais novo criar"
+  },
+  "remover": {
+   "rotulo": "remover",
+   "palavras": "menos retirar tirar"
+  },
+  "ativar": {
+   "rotulo": "ativar",
+   "palavras": "confirmar visto ativo aprovar"
+  },
+  "cancelar": {
+   "rotulo": "cancelar",
+   "palavras": "anular desativar cruz"
+  },
+  "editar": {
+   "rotulo": "editar",
+   "palavras": "alterar lápis"
+  },
+  "bloquear": {
+   "rotulo": "bloquear",
+   "palavras": "cadeado suspender"
+  },
+  "desbloquear": {
+   "rotulo": "desbloquear",
+   "palavras": "cadeado aberto reativar"
+  },
+  "pesquisar": {
+   "rotulo": "pesquisar",
+   "palavras": "procurar lupa"
+  },
+  "ver": {
+   "rotulo": "ver",
+   "palavras": "olho ver consultar visualizar abrir"
+  },
+  "transferir": {
+   "rotulo": "transferir",
+   "palavras": "descarregar download exportar"
+  },
+  "carregar": {
+   "rotulo": "carregar",
+   "palavras": "upload importar enviar ficheiro"
+  },
+  "sincronizar": {
+   "rotulo": "sincronizar",
+   "palavras": "atualizar sincronização setas"
+  },
+  "duplicar": {
+   "rotulo": "duplicar",
+   "palavras": "copiar clonar"
+  },
+  "mover": {
+   "rotulo": "mover",
+   "palavras": "mudar transferir de turma seta"
+  },
+  "importar": {
+   "rotulo": "importar",
+   "palavras": "importar entrada receber dados para dentro"
+  },
+  "exportar": {
+   "rotulo": "exportar",
+   "palavras": "exportar saída enviar dados para fora"
+  },
+  "pendente": {
+   "rotulo": "pendente",
+   "palavras": "aguarda espera relógio validação"
+  },
+  "aviso": {
+   "rotulo": "aviso",
+   "palavras": "atenção alerta exclamação"
+  },
+  "verificado": {
+   "rotulo": "verificado",
+   "palavras": "validado confirmado escudo"
+  },
+  "info": {
+   "rotulo": "info",
+   "palavras": "informação nota observação"
+  },
+  "favorito": {
+   "rotulo": "favorito",
+   "palavras": "estrela marcado"
+  },
+  "estrela": {
+   "rotulo": "estrela",
+   "palavras": "estrela classificação destaque avaliação cheia"
+  },
+  "premio": {
+   "rotulo": "prémio",
+   "palavras": "prémio medalha mérito distinção"
+  },
+  "novo": {
+   "rotulo": "novo",
+   "palavras": "novidade por ver ponto"
+  },
+  "enviar": {
+   "rotulo": "enviar",
+   "palavras": "avião papel convocatória"
+  },
+  "partilhar": {
+   "rotulo": "partilhar",
+   "palavras": "partilha rede"
+  },
+  "ligacao": {
+   "rotulo": "ligação",
+   "palavras": "associar link elo"
+  },
+  "mapa": {
+   "rotulo": "mapa",
+   "palavras": "mapa localização roteiro onde"
+  },
+  "mostrar": {
+   "rotulo": "mostrar",
+   "palavras": "visível ver olho reaparecer"
+  },
+  "ocultar": {
+   "rotulo": "ocultar",
+   "palavras": "esconder invisível olho riscado"
+  },
+  "vazio": {
+   "rotulo": "vazio",
+   "palavras": "vazio sem conteúdo livre disponível"
+  },
+  "cheio": {
+   "rotulo": "cheio",
+   "palavras": "cheio completo preenchido"
+  },
+  "lotado": {
+   "rotulo": "lotado",
+   "palavras": "lotado esgotado sem vagas lotação"
+  },
+  "valido": {
+   "rotulo": "válido",
+   "palavras": "válido validado correto confirmado"
+  },
+  "invalido": {
+   "rotulo": "inválido",
+   "palavras": "inválido incorreto erro recusado"
+  },
+  "parcial": {
+   "rotulo": "parcial",
+   "palavras": "parcial meio incompleto em parte"
+  },
+  "indefinido": {
+   "rotulo": "não definido",
+   "palavras": "não definido indefinido desconhecido sem valor pergunta"
+  },
+  "inconsistencia": {
+   "rotulo": "inconsistência",
+   "palavras": "inconsistência diferente discrepância não coincide"
+  },
+  "progresso": {
+   "rotulo": "em curso",
+   "palavras": "em curso a decorrer em andamento iniciado"
+  },
+  "suspenso": {
+   "rotulo": "suspenso",
+   "palavras": "suspenso pausa parado interrompido"
+  },
+  "concluido": {
+   "rotulo": "concluído",
+   "palavras": "concluído terminado bandeira meta"
+  },
+  "detecao": {
+   "rotulo": "deteção",
+   "palavras": "deteção detetar reconhecer"
+  },
+  "autodetecao": {
+   "rotulo": "deteção automática",
+   "palavras": "deteção automática automático detetar"
+  },
+  "ia": {
+   "rotulo": "inteligência artificial",
+   "palavras": "ia inteligência artificial gerado sugestão"
+  },
+  "recalcular": {
+   "rotulo": "recalcular",
+   "palavras": "recalcular voltar a calcular"
+  },
+  "credencial": {
+   "rotulo": "credencial",
+   "palavras": "credencial credenciais acesso cartão"
+  },
+  "quimica": {
+   "rotulo": "química",
+   "palavras": "química frasco laboratório"
+  },
+  "residencia": {
+   "rotulo": "residência",
+   "palavras": "residência morada casa"
+  },
+  "emprego": {
+   "rotulo": "emprego",
+   "palavras": "emprego trabalho pasta"
+  },
+  "masculino": {
+   "rotulo": "masculino",
+   "palavras": "masculino rapaz homem sexo"
+  },
+  "feminino": {
+   "rotulo": "feminino",
+   "palavras": "feminino rapariga mulher sexo"
+  },
+  "agendado": {
+   "rotulo": "agendado",
+   "palavras": "agendado agendar programado calendário data marcada"
+  },
+  "expirado": {
+   "rotulo": "expirado",
+   "palavras": "expirado caducado prazo terminado validade ampulheta"
+  },
+  "spam": {
+   "rotulo": "spam",
+   "palavras": "spam lixo publicidade indesejado proibido"
+  },
+  "manutencao": {
+   "rotulo": "manutenção",
+   "palavras": "manutenção reparação ferramenta chave inglesa"
+  }
+ },
+ "cores": {
+  "primary": "var(--e3s-primary, #1565c0)",
+  "success": "#15803d",
+  "danger": "#dc2626",
+  "warning": "#f59e0b",
+  "info": "#0284c7",
+  "neutro": "#475569",
+  "marca": "#1565c0",
+  "roxo": "#7c3aed",
+  "rosa": "#db2777",
+  "laranja": "#ea580c",
+  "verde-agua": "#0d9488"
+ },
+ "tamanhos": {
+  "xs": "0.75rem",
+  "sm": "1rem",
+  "md": "1.25rem",
+  "lg": "1.5rem",
+  "xl": "2rem",
+  "2xl": "3rem"
+ },
+ "icones": [
+  {
+   "nome": "adicionar",
+   "classe": "e3s-i-adicionar",
+   "rotulo": "Adicionar",
+   "categoria": "acoes",
+   "palavras": "mais novo criar"
+  },
+  {
+   "nome": "editar",
+   "classe": "e3s-i-editar",
+   "rotulo": "Editar",
+   "categoria": "acoes",
+   "palavras": "lápis alterar escrever"
+  },
+  {
+   "nome": "ver",
+   "classe": "e3s-i-ver",
+   "rotulo": "Ver detalhes",
+   "categoria": "acoes",
+   "palavras": "olho mostrar visualizar"
+  },
+  {
+   "nome": "apagar",
+   "classe": "e3s-i-apagar",
+   "rotulo": "Apagar",
+   "categoria": "acoes",
+   "palavras": "eliminar lixo caixote remover"
+  },
+  {
+   "nome": "executar",
+   "classe": "e3s-i-executar",
+   "rotulo": "Executar",
+   "categoria": "acoes",
+   "palavras": "play correr iniciar"
+  },
+  {
+   "nome": "limpar",
+   "classe": "e3s-i-limpar",
+   "rotulo": "Limpar",
+   "categoria": "acoes",
+   "palavras": "borracha apagar texto"
+  },
+  {
+   "nome": "guardar",
+   "classe": "e3s-i-guardar",
+   "rotulo": "Guardar",
+   "categoria": "acoes",
+   "palavras": "disquete gravar salvar"
+  },
+  {
+   "nome": "aprovar",
+   "classe": "e3s-i-aprovar",
+   "rotulo": "Aprovar",
+   "categoria": "acoes",
+   "palavras": "visto confirmar ok"
+  },
+  {
+   "nome": "rejeitar",
+   "classe": "e3s-i-rejeitar",
+   "rotulo": "Rejeitar",
+   "categoria": "acoes",
+   "palavras": "não recusar cruz"
+  },
+  {
+   "nome": "duplicar",
+   "classe": "e3s-i-duplicar",
+   "rotulo": "Duplicar",
+   "categoria": "acoes",
+   "palavras": "cópia clonar"
+  },
+  {
+   "nome": "copiar",
+   "classe": "e3s-i-copiar",
+   "rotulo": "Copiar",
+   "categoria": "acoes",
+   "palavras": "prancheta área de transferência"
+  },
+  {
+   "nome": "partilhar",
+   "classe": "e3s-i-partilhar",
+   "rotulo": "Partilhar",
+   "categoria": "acoes",
+   "palavras": "enviar ligação rede"
+  },
+  {
+   "nome": "enviar",
+   "classe": "e3s-i-enviar",
+   "rotulo": "Enviar",
+   "categoria": "acoes",
+   "palavras": "avião papel submeter"
+  },
+  {
+   "nome": "transferir",
+   "classe": "e3s-i-transferir",
+   "rotulo": "Transferir",
+   "categoria": "acoes",
+   "palavras": "descarregar download baixar"
+  },
+  {
+   "nome": "carregar",
+   "classe": "e3s-i-carregar",
+   "rotulo": "Carregar ficheiro",
+   "categoria": "acoes",
+   "palavras": "upload enviar subir"
+  },
+  {
+   "nome": "imprimir",
+   "classe": "e3s-i-imprimir",
+   "rotulo": "Imprimir",
+   "categoria": "acoes",
+   "palavras": "impressora papel"
+  },
+  {
+   "nome": "exportar",
+   "classe": "e3s-i-exportar",
+   "rotulo": "Exportar",
+   "categoria": "acoes",
+   "palavras": "abrir externo sair caixa"
+  },
+  {
+   "nome": "atualizar",
+   "classe": "e3s-i-atualizar",
+   "rotulo": "Atualizar",
+   "categoria": "acoes",
+   "palavras": "recarregar sincronizar setas"
+  },
+  {
+   "nome": "filtrar",
+   "classe": "e3s-i-filtrar",
+   "rotulo": "Filtrar",
+   "categoria": "acoes",
+   "palavras": "funil"
+  },
+  {
+   "nome": "pesquisar",
+   "classe": "e3s-i-pesquisar",
+   "rotulo": "Pesquisar",
+   "categoria": "acoes",
+   "palavras": "procurar lupa"
+  },
+  {
+   "nome": "arquivar",
+   "classe": "e3s-i-arquivar",
+   "rotulo": "Arquivar",
+   "categoria": "acoes",
+   "palavras": "caixa guardar"
+  },
+  {
+   "nome": "favorito",
+   "classe": "e3s-i-favorito",
+   "rotulo": "Favorito",
+   "categoria": "acoes",
+   "palavras": "estrela marcar"
+  },
+  {
+   "nome": "bloquear",
+   "classe": "e3s-i-bloquear",
+   "rotulo": "Bloquear",
+   "categoria": "acoes",
+   "palavras": "cadeado fechar segurança"
+  },
+  {
+   "nome": "desbloquear",
+   "classe": "e3s-i-desbloquear",
+   "rotulo": "Desbloquear",
+   "categoria": "acoes",
+   "palavras": "cadeado abrir"
+  },
+  {
+   "nome": "notificacoes",
+   "classe": "e3s-i-notificacoes",
+   "rotulo": "Notificações",
+   "categoria": "acoes",
+   "palavras": "sino alerta avisos"
+  },
+  {
+   "nome": "mensagem",
+   "classe": "e3s-i-mensagem",
+   "rotulo": "Mensagem",
+   "categoria": "acoes",
+   "palavras": "conversa chat balão"
+  },
+  {
+   "nome": "email",
+   "classe": "e3s-i-email",
+   "rotulo": "Email",
+   "categoria": "acoes",
+   "palavras": "correio envelope carta"
+  },
+  {
+   "nome": "ligar",
+   "classe": "e3s-i-ligar",
+   "rotulo": "Ligar",
+   "categoria": "acoes",
+   "palavras": "telefone chamada"
+  },
+  {
+   "nome": "definicoes",
+   "classe": "e3s-i-definicoes",
+   "rotulo": "Definições",
+   "categoria": "acoes",
+   "palavras": "engrenagem configurar opções"
+  },
+  {
+   "nome": "ajuda",
+   "classe": "e3s-i-ajuda",
+   "rotulo": "Ajuda",
+   "categoria": "acoes",
+   "palavras": "pergunta dúvida"
+  },
+  {
+   "nome": "info",
+   "classe": "e3s-i-info",
+   "rotulo": "Informação",
+   "categoria": "acoes",
+   "palavras": "i detalhes saber mais"
+  },
+  {
+   "nome": "historico",
+   "classe": "e3s-i-historico",
+   "rotulo": "Histórico",
+   "categoria": "acoes",
+   "palavras": "relógio passado registo"
+  },
+  {
+   "nome": "mais",
+   "classe": "e3s-i-mais",
+   "rotulo": "Mais opções",
+   "categoria": "acoes",
+   "palavras": "três pontos menu"
+  },
+  {
+   "nome": "mais_vertical",
+   "classe": "e3s-i-mais-vertical",
+   "rotulo": "Mais opções (vertical)",
+   "categoria": "acoes",
+   "palavras": "três pontos vertical menu kebab"
+  },
+  {
+   "nome": "fechar",
+   "classe": "e3s-i-fechar",
+   "rotulo": "Fechar",
+   "categoria": "acoes",
+   "palavras": "cruz sair"
+  },
+  {
+   "nome": "expandir",
+   "classe": "e3s-i-expandir",
+   "rotulo": "Expandir",
+   "categoria": "acoes",
+   "palavras": "ecrã inteiro aumentar"
+  },
+  {
+   "nome": "anterior",
+   "classe": "e3s-i-anterior",
+   "rotulo": "Anterior",
+   "categoria": "acoes",
+   "palavras": "voltar seta esquerda"
+  },
+  {
+   "nome": "seguinte",
+   "classe": "e3s-i-seguinte",
+   "rotulo": "Seguinte",
+   "categoria": "acoes",
+   "palavras": "avançar seta direita"
+  },
+  {
+   "nome": "primeiro",
+   "classe": "e3s-i-primeiro",
+   "rotulo": "Primeiro",
+   "categoria": "acoes",
+   "palavras": "início começo seta esquerda página"
+  },
+  {
+   "nome": "ultimo",
+   "classe": "e3s-i-ultimo",
+   "rotulo": "Último",
+   "categoria": "acoes",
+   "palavras": "fim seta direita página"
+  },
+  {
+   "nome": "inicio",
+   "classe": "e3s-i-inicio",
+   "rotulo": "Início",
+   "categoria": "geral",
+   "palavras": "casa página principal"
+  },
+  {
+   "nome": "utilizador",
+   "classe": "e3s-i-utilizador",
+   "rotulo": "Utilizador",
+   "categoria": "geral",
+   "palavras": "pessoa conta perfil"
+  },
+  {
+   "nome": "utilizadores",
+   "classe": "e3s-i-utilizadores",
+   "rotulo": "Utilizadores",
+   "categoria": "geral",
+   "palavras": "pessoas grupo equipa"
+  },
+  {
+   "nome": "calendario",
+   "classe": "e3s-i-calendario",
+   "rotulo": "Calendário",
+   "categoria": "geral",
+   "palavras": "data agenda dia"
+  },
+  {
+   "nome": "relogio",
+   "classe": "e3s-i-relogio",
+   "rotulo": "Relógio",
+   "categoria": "geral",
+   "palavras": "hora tempo"
+  },
+  {
+   "nome": "ficheiro",
+   "classe": "e3s-i-ficheiro",
+   "rotulo": "Ficheiro",
+   "categoria": "geral",
+   "palavras": "documento papel"
+  },
+  {
+   "nome": "pasta",
+   "classe": "e3s-i-pasta",
+   "rotulo": "Pasta",
+   "categoria": "geral",
+   "palavras": "diretório arquivo"
+  },
+  {
+   "nome": "imagem",
+   "classe": "e3s-i-imagem",
+   "rotulo": "Imagem",
+   "categoria": "geral",
+   "palavras": "fotografia foto"
+  },
+  {
+   "nome": "ligacao",
+   "classe": "e3s-i-ligacao",
+   "rotulo": "Ligação",
+   "categoria": "geral",
+   "palavras": "link url endereço"
+  },
+  {
+   "nome": "localizacao",
+   "classe": "e3s-i-localizacao",
+   "rotulo": "Localização",
+   "categoria": "geral",
+   "palavras": "mapa morada local pino"
+  },
+  {
+   "nome": "grafico",
+   "classe": "e3s-i-grafico",
+   "rotulo": "Gráfico",
+   "categoria": "geral",
+   "palavras": "estatísticas barras dados"
+  },
+  {
+   "nome": "painel",
+   "classe": "e3s-i-painel",
+   "rotulo": "Painel",
+   "categoria": "geral",
+   "palavras": "dashboard resumo blocos"
+  },
+  {
+   "nome": "menu",
+   "classe": "e3s-i-menu",
+   "rotulo": "Menu",
+   "categoria": "geral",
+   "palavras": "hambúrguer navegação linhas"
+  },
+  {
+   "nome": "entrar",
+   "classe": "e3s-i-entrar",
+   "rotulo": "Entrar",
+   "categoria": "geral",
+   "palavras": "iniciar sessão login"
+  },
+  {
+   "nome": "sair",
+   "classe": "e3s-i-sair",
+   "rotulo": "Sair",
+   "categoria": "geral",
+   "palavras": "terminar sessão logout"
+  },
+  {
+   "nome": "aviso",
+   "classe": "e3s-i-aviso",
+   "rotulo": "Aviso",
+   "categoria": "geral",
+   "palavras": "atenção alerta triângulo"
+  },
+  {
+   "nome": "sucesso",
+   "classe": "e3s-i-sucesso",
+   "rotulo": "Sucesso",
+   "categoria": "geral",
+   "palavras": "concluído ok visto círculo"
+  },
+  {
+   "nome": "erro",
+   "classe": "e3s-i-erro",
+   "rotulo": "Erro",
+   "categoria": "geral",
+   "palavras": "falha cruz círculo"
+  },
+  {
+   "nome": "lista",
+   "classe": "e3s-i-lista",
+   "rotulo": "Lista",
+   "categoria": "geral",
+   "palavras": "itens enumeração"
+  },
+  {
+   "nome": "tabela",
+   "classe": "e3s-i-tabela",
+   "rotulo": "Tabela",
+   "categoria": "geral",
+   "palavras": "grelha dados linhas colunas"
+  },
+  {
+   "nome": "etiqueta",
+   "classe": "e3s-i-etiqueta",
+   "rotulo": "Etiqueta",
+   "categoria": "geral",
+   "palavras": "tag categoria"
+  },
+  {
+   "nome": "carrinho",
+   "classe": "e3s-i-carrinho",
+   "rotulo": "Carrinho",
+   "categoria": "geral",
+   "palavras": "compras loja"
+  },
+  {
+   "nome": "euro",
+   "classe": "e3s-i-euro",
+   "rotulo": "Euro",
+   "categoria": "geral",
+   "palavras": "dinheiro preço pagamento"
+  },
+  {
+   "nome": "cartao",
+   "classe": "e3s-i-cartao",
+   "rotulo": "Cartão",
+   "categoria": "geral",
+   "palavras": "pagamento crédito multibanco"
+  },
+  {
+   "nome": "chave",
+   "classe": "e3s-i-chave",
+   "rotulo": "Chave",
+   "categoria": "geral",
+   "palavras": "licença acesso palavra-passe"
+  },
+  {
+   "nome": "escudo",
+   "classe": "e3s-i-escudo",
+   "rotulo": "Segurança",
+   "categoria": "geral",
+   "palavras": "escudo proteção privacidade"
+  },
+  {
+   "nome": "globo",
+   "classe": "e3s-i-globo",
+   "rotulo": "Internet",
+   "categoria": "geral",
+   "palavras": "globo mundo idioma web"
+  },
+  {
+   "nome": "nuvem",
+   "classe": "e3s-i-nuvem",
+   "rotulo": "Nuvem",
+   "categoria": "geral",
+   "palavras": "cloud armazenamento online"
+  },
+  {
+   "nome": "base_dados",
+   "classe": "e3s-i-base-dados",
+   "rotulo": "Base de dados",
+   "categoria": "geral",
+   "palavras": "dados sql servidor"
+  },
+  {
+   "nome": "terminal",
+   "classe": "e3s-i-terminal",
+   "rotulo": "Terminal",
+   "categoria": "geral",
+   "palavras": "consola ssh comandos"
+  },
+  {
+   "nome": "codigo",
+   "classe": "e3s-i-codigo",
+   "rotulo": "Código",
+   "categoria": "geral",
+   "palavras": "programação html"
+  },
+  {
+   "nome": "copiar_celula",
+   "classe": "e3s-i-copiar-celula",
+   "rotulo": "Copiar célula",
+   "categoria": "geral",
+   "palavras": "tabela célula copiar valor área de transferência"
+  },
+  {
+   "nome": "escola",
+   "classe": "e3s-i-escola",
+   "rotulo": "Escola",
+   "categoria": "educacao",
+   "palavras": "edifício agrupamento estabelecimento"
+  },
+  {
+   "nome": "formatura",
+   "classe": "e3s-i-formatura",
+   "rotulo": "Formatura",
+   "categoria": "educacao",
+   "palavras": "chapéu diploma curso superior"
+  },
+  {
+   "nome": "aluno",
+   "classe": "e3s-i-aluno",
+   "rotulo": "Aluno",
+   "categoria": "educacao",
+   "palavras": "estudante discente"
+  },
+  {
+   "nome": "professor",
+   "classe": "e3s-i-professor",
+   "rotulo": "Professor",
+   "categoria": "educacao",
+   "palavras": "docente quadro ensinar"
+  },
+  {
+   "nome": "turma",
+   "classe": "e3s-i-turma",
+   "rotulo": "Turma",
+   "categoria": "educacao",
+   "palavras": "grupo alunos classe"
+  },
+  {
+   "nome": "encarregado",
+   "classe": "e3s-i-encarregado",
+   "rotulo": "Encarregado de educação",
+   "categoria": "educacao",
+   "palavras": "pai mãe família criança"
+  },
+  {
+   "nome": "livro",
+   "classe": "e3s-i-livro",
+   "rotulo": "Livro",
+   "categoria": "educacao",
+   "palavras": "manual leitura disciplina"
+  },
+  {
+   "nome": "livro_aberto",
+   "classe": "e3s-i-livro-aberto",
+   "rotulo": "Livro aberto",
+   "categoria": "educacao",
+   "palavras": "leitura estudar sumário"
+  },
+  {
+   "nome": "caderno",
+   "classe": "e3s-i-caderno",
+   "rotulo": "Caderno",
+   "categoria": "educacao",
+   "palavras": "apontamentos notas"
+  },
+  {
+   "nome": "regua",
+   "classe": "e3s-i-regua",
+   "rotulo": "Régua",
+   "categoria": "educacao",
+   "palavras": "medir geometria matemática"
+  },
+  {
+   "nome": "calculadora",
+   "classe": "e3s-i-calculadora",
+   "rotulo": "Calculadora",
+   "categoria": "educacao",
+   "palavras": "matemática contas"
+  },
+  {
+   "nome": "mochila",
+   "classe": "e3s-i-mochila",
+   "rotulo": "Mochila",
+   "categoria": "educacao",
+   "palavras": "material escolar"
+  },
+  {
+   "nome": "quadro",
+   "classe": "e3s-i-quadro",
+   "rotulo": "Quadro",
+   "categoria": "educacao",
+   "palavras": "aula sala exposição"
+  },
+  {
+   "nome": "horario",
+   "classe": "e3s-i-horario",
+   "rotulo": "Horário",
+   "categoria": "educacao",
+   "palavras": "aulas tempos semana"
+  },
+  {
+   "nome": "avaliacao",
+   "classe": "e3s-i-avaliacao",
+   "rotulo": "Avaliação",
+   "categoria": "educacao",
+   "palavras": "nota classificação teste"
+  },
+  {
+   "nome": "exame",
+   "classe": "e3s-i-exame",
+   "rotulo": "Exame",
+   "categoria": "educacao",
+   "palavras": "prova teste verificação"
+  },
+  {
+   "nome": "agrupamento",
+   "classe": "e3s-i-agrupamento",
+   "rotulo": "Agrupamento",
+   "categoria": "educacao",
+   "palavras": "escolas agrupamento várias escolas rede"
+  },
+  {
+   "nome": "teste",
+   "classe": "e3s-i-teste",
+   "rotulo": "Teste",
+   "categoria": "educacao",
+   "palavras": "prova ficha questionário escolha múltipla"
+  },
+  {
+   "nome": "curso",
+   "classe": "e3s-i-curso",
+   "rotulo": "Curso",
+   "categoria": "educacao",
+   "palavras": "plano de estudos programa formação módulos"
+  },
+  {
+   "nome": "disciplina",
+   "classe": "e3s-i-disciplina",
+   "rotulo": "Disciplina",
+   "categoria": "educacao",
+   "palavras": "matéria unidade curricular módulo ufcd"
+  },
+  {
+   "nome": "numero_processo",
+   "classe": "e3s-i-numero-processo",
+   "rotulo": "Número de processo",
+   "categoria": "educacao",
+   "palavras": "processo número aluno cartão identificação n.º"
+  },
+  {
+   "nome": "sala",
+   "classe": "e3s-i-sala",
+   "rotulo": "Sala",
+   "categoria": "educacao",
+   "palavras": "sala de aula porta espaço reserva"
+  },
+  {
+   "nome": "sala_informatica",
+   "classe": "e3s-i-sala-informatica",
+   "rotulo": "Sala de informática",
+   "categoria": "educacao",
+   "palavras": "computadores laboratório tic informática"
+  },
+  {
+   "nome": "percurso_pe",
+   "classe": "e3s-i-percurso-pe",
+   "rotulo": "Percurso a pé",
+   "categoria": "percursos",
+   "palavras": "caminhar andar peão trajeto"
+  },
+  {
+   "nome": "percurso_carro",
+   "classe": "e3s-i-percurso-carro",
+   "rotulo": "Percurso de carro",
+   "categoria": "percursos",
+   "palavras": "automóvel viatura trajeto estrada"
+  },
+  {
+   "nome": "percurso_autocarro",
+   "classe": "e3s-i-percurso-autocarro",
+   "rotulo": "Percurso de autocarro",
+   "categoria": "percursos",
+   "palavras": "transporte público carreira trajeto paragem"
+  },
+  {
+   "nome": "matricula",
+   "classe": "e3s-i-matricula",
+   "rotulo": "Matrícula",
+   "categoria": "educacao",
+   "palavras": "matrículas inscrição candidatura ficha novo aluno"
+  },
+  {
+   "nome": "certificado",
+   "classe": "e3s-i-certificado",
+   "rotulo": "Certificado",
+   "categoria": "educacao",
+   "palavras": "diploma conclusão"
+  },
+  {
+   "nome": "presenca",
+   "classe": "e3s-i-presenca",
+   "rotulo": "Presença",
+   "categoria": "educacao",
+   "palavras": "presente assiduidade"
+  },
+  {
+   "nome": "falta",
+   "classe": "e3s-i-falta",
+   "rotulo": "Falta",
+   "categoria": "educacao",
+   "palavras": "ausente faltou"
+  },
+  {
+   "nome": "laboratorio",
+   "classe": "e3s-i-laboratorio",
+   "rotulo": "Laboratório",
+   "categoria": "educacao",
+   "palavras": "ciências química experiência testes ensaio"
+  },
+  {
+   "nome": "biblioteca",
+   "classe": "e3s-i-biblioteca",
+   "rotulo": "Biblioteca",
+   "categoria": "educacao",
+   "palavras": "livros estante"
+  },
+  {
+   "nome": "maca",
+   "classe": "e3s-i-maca",
+   "rotulo": "Maçã",
+   "categoria": "educacao",
+   "palavras": "professor lanche saúde"
+  },
+  {
+   "nome": "autocarro",
+   "classe": "e3s-i-autocarro",
+   "rotulo": "Transporte escolar",
+   "categoria": "educacao",
+   "palavras": "autocarro viagem visita"
+  },
+  {
+   "nome": "cantina",
+   "classe": "e3s-i-cantina",
+   "rotulo": "Cantina",
+   "categoria": "educacao",
+   "palavras": "refeição almoço refeitório"
+  },
+  {
+   "nome": "desporto",
+   "classe": "e3s-i-desporto",
+   "rotulo": "Desporto",
+   "categoria": "educacao",
+   "palavras": "educação física bola"
+  },
+  {
+   "nome": "musica",
+   "classe": "e3s-i-musica",
+   "rotulo": "Música",
+   "categoria": "educacao",
+   "palavras": "nota som canto"
+  },
+  {
+   "nome": "arte",
+   "classe": "e3s-i-arte",
+   "rotulo": "Artes",
+   "categoria": "educacao",
+   "palavras": "paleta pintura desenho"
+  },
+  {
+   "nome": "computador",
+   "classe": "e3s-i-computador",
+   "rotulo": "Computador",
+   "categoria": "educacao",
+   "palavras": "portátil informática tic"
+  },
+  {
+   "nome": "premio",
+   "classe": "e3s-i-premio",
+   "rotulo": "Prémio",
+   "categoria": "educacao",
+   "palavras": "medalha mérito quadro de honra"
+  },
+  {
+   "nome": "ideia",
+   "classe": "e3s-i-ideia",
+   "rotulo": "Ideia",
+   "categoria": "educacao",
+   "palavras": "lâmpada projeto criatividade"
+  },
+  {
+   "nome": "ano_letivo",
+   "classe": "e3s-i-ano-letivo",
+   "rotulo": "Ano letivo",
+   "categoria": "educacao",
+   "palavras": "ano escolar letivo calendário escolar setembro"
+  },
+  {
+   "nome": "periodo_letivo",
+   "classe": "e3s-i-periodo-letivo",
+   "rotulo": "Período letivo",
+   "categoria": "educacao",
+   "palavras": "períodos letivos semestre trimestre etapa"
+  },
+  {
+   "nome": "interrupcao_letiva",
+   "classe": "e3s-i-interrupcao-letiva",
+   "rotulo": "Interrupção letiva",
+   "categoria": "educacao",
+   "palavras": "interrupções férias pausa natal páscoa carnaval"
+  },
+  {
+   "nome": "feriados",
+   "classe": "e3s-i-feriados",
+   "rotulo": "Feriados",
+   "categoria": "educacao",
+   "palavras": "feriado dia festivo nacional municipal"
+  },
+  {
+   "nome": "departamento",
+   "classe": "e3s-i-departamento",
+   "rotulo": "Departamento",
+   "categoria": "educacao",
+   "palavras": "departamentos curricular organograma estrutura área"
+  },
+  {
+   "nome": "regras",
+   "classe": "e3s-i-regras",
+   "rotulo": "Regras",
+   "categoria": "geral",
+   "palavras": "regulamento normas lei critérios balança"
+  },
+  {
+   "nome": "campos",
+   "classe": "e3s-i-campos",
+   "rotulo": "Campos",
+   "categoria": "geral",
+   "palavras": "campos colunas tabela estrutura esquema atributos"
+  },
+  {
+   "nome": "estatisticas",
+   "classe": "e3s-i-estatisticas",
+   "rotulo": "Estatísticas",
+   "categoria": "geral",
+   "palavras": "estatística gráfico circular percentagens indicadores relatório"
+  },
+  {
+   "nome": "grupos",
+   "classe": "e3s-i-grupos",
+   "rotulo": "Grupos",
+   "categoria": "geral",
+   "palavras": "grupo conjunto equipa interseção"
+  },
+  {
+   "nome": "eventos",
+   "classe": "e3s-i-eventos",
+   "rotulo": "Eventos",
+   "categoria": "geral",
+   "palavras": "evento atividade bilhete visita de estudo festa"
+  },
+  {
+   "nome": "prioridades",
+   "classe": "e3s-i-prioridades",
+   "rotulo": "Prioridades",
+   "categoria": "geral",
+   "palavras": "prioridade alta urgente subir ordem"
+  },
+  {
+   "nome": "seriacao",
+   "classe": "e3s-i-seriacao",
+   "rotulo": "Seriação",
+   "categoria": "educacao",
+   "palavras": "ordenação ranking pódio lista ordenada candidatos colocação"
+  },
+  {
+   "nome": "metodos",
+   "classe": "e3s-i-metodos",
+   "rotulo": "Métodos",
+   "categoria": "geral",
+   "palavras": "método processo fluxograma procedimento algoritmo"
+  },
+  {
+   "nome": "gps",
+   "classe": "e3s-i-gps",
+   "rotulo": "GPS",
+   "categoria": "geral",
+   "palavras": "coordenadas latitude longitude satélite posição mira"
+  },
+  {
+   "nome": "escaloes",
+   "classe": "e3s-i-escaloes",
+   "rotulo": "Escalões",
+   "categoria": "educacao",
+   "palavras": "escalão degraus níveis patamares ação social"
+  },
+  {
+   "nome": "escaloes_abono",
+   "classe": "e3s-i-escaloes-abono",
+   "rotulo": "Escalões de abono",
+   "categoria": "educacao",
+   "palavras": "abono de família escalão moedas ação social escolar ase"
+  },
+  {
+   "nome": "nivel_ensino",
+   "classe": "e3s-i-nivel-ensino",
+   "rotulo": "Nível de ensino",
+   "categoria": "educacao",
+   "palavras": "níveis pré-escolar básico secundário superior camadas"
+  },
+  {
+   "nome": "nivel_escolaridade",
+   "classe": "e3s-i-nivel-escolaridade",
+   "rotulo": "Nível de escolaridade",
+   "categoria": "educacao",
+   "palavras": "escolaridade ano de escolaridade habilitações escada"
+  },
+  {
+   "nome": "nacionalidade",
+   "classe": "e3s-i-nacionalidade",
+   "rotulo": "Nacionalidade",
+   "categoria": "geral",
+   "palavras": "país bandeira naturalidade origem"
+  },
+  {
+   "nome": "motivos",
+   "classe": "e3s-i-motivos",
+   "rotulo": "Motivos",
+   "categoria": "geral",
+   "palavras": "motivo razão justificação causa porquê"
+  },
+  {
+   "nome": "sexo",
+   "classe": "e3s-i-sexo",
+   "rotulo": "Sexo",
+   "categoria": "geral",
+   "palavras": "género masculino feminino"
+  },
+  {
+   "nome": "dgeste",
+   "classe": "e3s-i-dgeste",
+   "rotulo": "DGEstE",
+   "categoria": "educacao",
+   "palavras": "direção-geral estabelecimentos escolares ministério administração organismo"
+  },
+  {
+   "nome": "data_nascimento",
+   "classe": "e3s-i-data-nascimento",
+   "rotulo": "Data de nascimento",
+   "categoria": "geral",
+   "palavras": "aniversário bolo idade nascimento"
+  },
+  {
+   "nome": "aluno_nee",
+   "classe": "e3s-i-aluno-nee",
+   "rotulo": "Aluno com necessidades específicas",
+   "categoria": "alunos",
+   "palavras": "nee necessidades educativas específicas inclusão apoio"
+  },
+  {
+   "nome": "aluno_refugiado",
+   "classe": "e3s-i-aluno-refugiado",
+   "rotulo": "Aluno refugiado",
+   "categoria": "alunos",
+   "palavras": "refugiado acolhimento proteção internacional migrante"
+  },
+  {
+   "nome": "aluno_atleta",
+   "classe": "e3s-i-aluno-atleta",
+   "rotulo": "Aluno atleta",
+   "categoria": "alunos",
+   "palavras": "atleta desporto alto rendimento medalha"
+  },
+  {
+   "nome": "aluno_musico",
+   "classe": "e3s-i-aluno-musico",
+   "rotulo": "Aluno músico",
+   "categoria": "alunos",
+   "palavras": "música conservatório ensino artístico articulado instrumento"
+  },
+  {
+   "nome": "aluno_danca",
+   "classe": "e3s-i-aluno-danca",
+   "rotulo": "Aluno de dança",
+   "categoria": "alunos",
+   "palavras": "dança bailarino ballet ensino artístico articulado"
+  },
+  {
+   "nome": "aluno_reprovado",
+   "classe": "e3s-i-aluno-reprovado",
+   "rotulo": "Aluno retido",
+   "categoria": "alunos",
+   "palavras": "reprovado retido não transitou chumbou repetente"
+  },
+  {
+   "nome": "tipo_texto",
+   "classe": "e3s-i-tipo-texto",
+   "rotulo": "Texto",
+   "categoria": "tipos_dados",
+   "palavras": "campo texto curto string varchar"
+  },
+  {
+   "nome": "tipo_texto_longo",
+   "classe": "e3s-i-tipo-texto-longo",
+   "rotulo": "Texto longo",
+   "categoria": "tipos_dados",
+   "palavras": "campo parágrafo memorando observações text"
+  },
+  {
+   "nome": "tipo_inteiro",
+   "classe": "e3s-i-tipo-inteiro",
+   "rotulo": "Número inteiro",
+   "categoria": "tipos_dados",
+   "palavras": "campo número inteiro integer 123"
+  },
+  {
+   "nome": "tipo_decimal",
+   "classe": "e3s-i-tipo-decimal",
+   "rotulo": "Número decimal",
+   "categoria": "tipos_dados",
+   "palavras": "campo decimal real vírgula float numeric"
+  },
+  {
+   "nome": "tipo_moeda",
+   "classe": "e3s-i-tipo-moeda",
+   "rotulo": "Moeda",
+   "categoria": "tipos_dados",
+   "palavras": "campo moeda euro dinheiro valor preço"
+  },
+  {
+   "nome": "tipo_percentagem",
+   "classe": "e3s-i-tipo-percentagem",
+   "rotulo": "Percentagem",
+   "categoria": "tipos_dados",
+   "palavras": "campo percentagem por cento taxa"
+  },
+  {
+   "nome": "tipo_data",
+   "classe": "e3s-i-tipo-data",
+   "rotulo": "Data",
+   "categoria": "tipos_dados",
+   "palavras": "campo data dia date"
+  },
+  {
+   "nome": "tipo_data_hora",
+   "classe": "e3s-i-tipo-data-hora",
+   "rotulo": "Data e hora",
+   "categoria": "tipos_dados",
+   "palavras": "campo data hora timestamp datetime"
+  },
+  {
+   "nome": "tipo_booleano",
+   "classe": "e3s-i-tipo-booleano",
+   "rotulo": "Booleano",
+   "categoria": "tipos_dados",
+   "palavras": "campo sim não verdadeiro falso interruptor boolean"
+  },
+  {
+   "nome": "tipo_caixa",
+   "classe": "e3s-i-tipo-caixa",
+   "rotulo": "Caixa de verificação",
+   "categoria": "tipos_dados",
+   "palavras": "campo checkbox visto marcar sim não"
+  },
+  {
+   "nome": "tipo_escolha",
+   "classe": "e3s-i-tipo-escolha",
+   "rotulo": "Escolha (lista)",
+   "categoria": "tipos_dados",
+   "palavras": "campo lista pendente select opções enumeração"
+  },
+  {
+   "nome": "tipo_opcao",
+   "classe": "e3s-i-tipo-opcao",
+   "rotulo": "Opção única",
+   "categoria": "tipos_dados",
+   "palavras": "campo rádio escolha única radio"
+  },
+  {
+   "nome": "tipo_escolha_multipla",
+   "classe": "e3s-i-tipo-escolha-multipla",
+   "rotulo": "Escolha múltipla",
+   "categoria": "tipos_dados",
+   "palavras": "campo várias opções caixas checkbox multi"
+  },
+  {
+   "nome": "tipo_cor",
+   "classe": "e3s-i-tipo-cor",
+   "rotulo": "Cor",
+   "categoria": "tipos_dados",
+   "palavras": "campo cor hexadecimal gota tinta"
+  },
+  {
+   "nome": "tipo_json",
+   "classe": "e3s-i-tipo-json",
+   "rotulo": "JSON",
+   "categoria": "tipos_dados",
+   "palavras": "campo json objeto chavetas estruturado"
+  },
+  {
+   "nome": "tipo_senha",
+   "classe": "e3s-i-tipo-senha",
+   "rotulo": "Palavra-passe",
+   "categoria": "tipos_dados",
+   "palavras": "campo senha password asteriscos oculto"
+  },
+  {
+   "nome": "tipo_identificador",
+   "classe": "e3s-i-tipo-identificador",
+   "rotulo": "Identificador",
+   "categoria": "tipos_dados",
+   "palavras": "campo id chave primária autonumeração código"
+  },
+  {
+   "nome": "tipo_relacao",
+   "classe": "e3s-i-tipo-relacao",
+   "rotulo": "Relação",
+   "categoria": "tipos_dados",
+   "palavras": "campo chave estrangeira ligação tabela referência"
+  },
+  {
+   "nome": "sexo_masculino",
+   "classe": "e3s-i-sexo-masculino",
+   "rotulo": "Sexo masculino",
+   "categoria": "geral",
+   "palavras": "masculino homem rapaz género"
+  },
+  {
+   "nome": "sexo_feminino",
+   "classe": "e3s-i-sexo-feminino",
+   "rotulo": "Sexo feminino",
+   "categoria": "geral",
+   "palavras": "feminino mulher rapariga género"
+  },
+  {
+   "nome": "utilizador_admin",
+   "classe": "e3s-i-utilizador-admin",
+   "rotulo": "Administrador",
+   "categoria": "utilizadores",
+   "palavras": "administrador admin superutilizador gestão total escudo"
+  },
+  {
+   "nome": "utilizador_gestor",
+   "classe": "e3s-i-utilizador-gestor",
+   "rotulo": "Gestor",
+   "categoria": "utilizadores",
+   "palavras": "gestor responsável gerente pasta executiva"
+  },
+  {
+   "nome": "utilizador_diretor",
+   "classe": "e3s-i-utilizador-diretor",
+   "rotulo": "Diretor",
+   "categoria": "utilizadores",
+   "palavras": "diretor direção presidente coroa"
+  },
+  {
+   "nome": "utilizador_coordenador",
+   "classe": "e3s-i-utilizador-coordenador",
+   "rotulo": "Coordenador",
+   "categoria": "utilizadores",
+   "palavras": "coordenador coordenação diretor de turma bandeira"
+  },
+  {
+   "nome": "utilizador_administrativo",
+   "classe": "e3s-i-utilizador-administrativo",
+   "rotulo": "Administrativo",
+   "categoria": "utilizadores",
+   "palavras": "secretaria serviços administrativos assistente técnico"
+  },
+  {
+   "nome": "utilizador_operacional",
+   "classe": "e3s-i-utilizador-operacional",
+   "rotulo": "Assistente operacional",
+   "categoria": "utilizadores",
+   "palavras": "assistente operacional auxiliar funcionário chaves"
+  },
+  {
+   "nome": "utilizador_tecnico",
+   "classe": "e3s-i-utilizador-tecnico",
+   "rotulo": "Técnico",
+   "categoria": "utilizadores",
+   "palavras": "técnico informático suporte apoio sistemas código"
+  },
+  {
+   "nome": "utilizador_cliente",
+   "classe": "e3s-i-utilizador-cliente",
+   "rotulo": "Cliente",
+   "categoria": "utilizadores",
+   "palavras": "cliente comprador saco compras"
+  },
+  {
+   "nome": "utilizador_convidado",
+   "classe": "e3s-i-utilizador-convidado",
+   "rotulo": "Convidado",
+   "categoria": "utilizadores",
+   "palavras": "convidado visitante anónimo sem conta"
+  },
+  {
+   "nome": "utilizador_externo",
+   "classe": "e3s-i-utilizador-externo",
+   "rotulo": "Utilizador externo",
+   "categoria": "utilizadores",
+   "palavras": "externo parceiro fornecedor fora da organização"
+  },
+  {
+   "nome": "utilizador_sistema",
+   "classe": "e3s-i-utilizador-sistema",
+   "rotulo": "Utilizador de sistema",
+   "categoria": "utilizadores",
+   "palavras": "sistema serviço robô bot automático api"
+  },
+  {
+   "nome": "ficheiro_pdf",
+   "classe": "e3s-i-ficheiro-pdf",
+   "rotulo": "PDF",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro pdf documento portátil"
+  },
+  {
+   "nome": "ficheiro_documento",
+   "classe": "e3s-i-ficheiro-documento",
+   "rotulo": "Documento (DOC)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro doc docx word processador de texto"
+  },
+  {
+   "nome": "ficheiro_folha",
+   "classe": "e3s-i-ficheiro-folha",
+   "rotulo": "Folha de cálculo (XLS)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro xls xlsx excel folha de cálculo"
+  },
+  {
+   "nome": "ficheiro_apresentacao",
+   "classe": "e3s-i-ficheiro-apresentacao",
+   "rotulo": "Apresentação (PPT)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro ppt pptx powerpoint diapositivos"
+  },
+  {
+   "nome": "ficheiro_odt",
+   "classe": "e3s-i-ficheiro-odt",
+   "rotulo": "Documento (ODT)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro odt libreoffice opendocument texto"
+  },
+  {
+   "nome": "ficheiro_ods",
+   "classe": "e3s-i-ficheiro-ods",
+   "rotulo": "Folha de cálculo (ODS)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro ods libreoffice opendocument folha"
+  },
+  {
+   "nome": "ficheiro_odp",
+   "classe": "e3s-i-ficheiro-odp",
+   "rotulo": "Apresentação (ODP)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro odp libreoffice opendocument apresentação"
+  },
+  {
+   "nome": "ficheiro_csv",
+   "classe": "e3s-i-ficheiro-csv",
+   "rotulo": "CSV",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro csv valores separados dados exportar"
+  },
+  {
+   "nome": "ficheiro_txt",
+   "classe": "e3s-i-ficheiro-txt",
+   "rotulo": "Texto (TXT)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro txt texto simples notas"
+  },
+  {
+   "nome": "ficheiro_xml",
+   "classe": "e3s-i-ficheiro-xml",
+   "rotulo": "XML",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro xml saft dados estruturados"
+  },
+  {
+   "nome": "ficheiro_json",
+   "classe": "e3s-i-ficheiro-json",
+   "rotulo": "JSON",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro json dados api"
+  },
+  {
+   "nome": "ficheiro_sql",
+   "classe": "e3s-i-ficheiro-sql",
+   "rotulo": "SQL",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro sql cópia base de dados dump"
+  },
+  {
+   "nome": "ficheiro_imagem",
+   "classe": "e3s-i-ficheiro-imagem",
+   "rotulo": "Ficheiro de imagem",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro imagem jpg png fotografia"
+  },
+  {
+   "nome": "ficheiro_video",
+   "classe": "e3s-i-ficheiro-video",
+   "rotulo": "Ficheiro de vídeo",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro vídeo mp4 filme"
+  },
+  {
+   "nome": "ficheiro_audio",
+   "classe": "e3s-i-ficheiro-audio",
+   "rotulo": "Ficheiro de áudio",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro áudio mp3 som música"
+  },
+  {
+   "nome": "ficheiro_codigo",
+   "classe": "e3s-i-ficheiro-codigo",
+   "rotulo": "Ficheiro de código",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro código html css js python programação"
+  },
+  {
+   "nome": "ficheiro_arquivo",
+   "classe": "e3s-i-ficheiro-arquivo",
+   "rotulo": "Arquivo comprimido",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro zip rar 7z comprimido arquivo"
+  },
+  {
+   "nome": "pasta_aberta",
+   "classe": "e3s-i-pasta-aberta",
+   "rotulo": "Pasta aberta",
+   "categoria": "ficheiros",
+   "palavras": "pasta aberta diretório conteúdo"
+  },
+  {
+   "nome": "pasta_partilhada",
+   "classe": "e3s-i-pasta-partilhada",
+   "rotulo": "Pasta partilhada",
+   "categoria": "ficheiros",
+   "palavras": "pasta partilhada equipa colaboração pessoas"
+  },
+  {
+   "nome": "pasta_rede",
+   "classe": "e3s-i-pasta-rede",
+   "rotulo": "Pasta de rede",
+   "categoria": "ficheiros",
+   "palavras": "pasta rede partilha smb unidade mapeada servidor"
+  },
+  {
+   "nome": "pasta_nuvem",
+   "classe": "e3s-i-pasta-nuvem",
+   "rotulo": "Pasta na nuvem",
+   "categoria": "ficheiros",
+   "palavras": "pasta nuvem nextcloud cloud sincronizada online"
+  },
+  {
+   "nome": "pasta_comprimida",
+   "classe": "e3s-i-pasta-comprimida",
+   "rotulo": "Pasta comprimida",
+   "categoria": "ficheiros",
+   "palavras": "pasta zip comprimida arquivo"
+  },
+  {
+   "nome": "disco_hdd",
+   "classe": "e3s-i-disco-hdd",
+   "rotulo": "Disco rígido (HDD)",
+   "categoria": "equipamentos",
+   "palavras": "disco hdd rígido magnético prato armazenamento"
+  },
+  {
+   "nome": "disco_ssd",
+   "classe": "e3s-i-disco-ssd",
+   "rotulo": "Disco SSD",
+   "categoria": "equipamentos",
+   "palavras": "disco ssd estado sólido flash armazenamento"
+  },
+  {
+   "nome": "disco_nvme",
+   "classe": "e3s-i-disco-nvme",
+   "rotulo": "Disco NVMe (M.2)",
+   "categoria": "equipamentos",
+   "palavras": "disco nvme m.2 ssd pcie placa"
+  },
+  {
+   "nome": "disco_sata",
+   "classe": "e3s-i-disco-sata",
+   "rotulo": "Disco SATA",
+   "categoria": "equipamentos",
+   "palavras": "disco sata interface armazenamento"
+  },
+  {
+   "nome": "disco_sas",
+   "classe": "e3s-i-disco-sas",
+   "rotulo": "Disco SAS",
+   "categoria": "equipamentos",
+   "palavras": "disco sas servidor interface armazenamento"
+  },
+  {
+   "nome": "disco_scsi",
+   "classe": "e3s-i-disco-scsi",
+   "rotulo": "Disco SCSI",
+   "categoria": "equipamentos",
+   "palavras": "disco scsi servidor interface armazenamento"
+  },
+  {
+   "nome": "disco_raid",
+   "classe": "e3s-i-disco-raid",
+   "rotulo": "RAID",
+   "categoria": "equipamentos",
+   "palavras": "raid matriz discos redundância espelho"
+  },
+  {
+   "nome": "disco_usb",
+   "classe": "e3s-i-disco-usb",
+   "rotulo": "Pen USB",
+   "categoria": "equipamentos",
+   "palavras": "pen usb disco amovível memória"
+  },
+  {
+   "nome": "disco_otico",
+   "classe": "e3s-i-disco-otico",
+   "rotulo": "Disco ótico",
+   "categoria": "equipamentos",
+   "palavras": "cd dvd blu-ray disco ótico"
+  },
+  {
+   "nome": "cartao_memoria",
+   "classe": "e3s-i-cartao-memoria",
+   "rotulo": "Cartão de memória",
+   "categoria": "equipamentos",
+   "palavras": "cartão sd microsd memória câmara"
+  },
+  {
+   "nome": "unidade_rede",
+   "classe": "e3s-i-unidade-rede",
+   "rotulo": "Unidade de rede",
+   "categoria": "equipamentos",
+   "palavras": "unidade de rede disco partilhado mapeado smb nfs"
+  },
+  {
+   "nome": "nas",
+   "classe": "e3s-i-nas",
+   "rotulo": "NAS",
+   "categoria": "equipamentos",
+   "palavras": "nas armazenamento em rede discos baías"
+  },
+  {
+   "nome": "servidor",
+   "classe": "e3s-i-servidor",
+   "rotulo": "Servidor",
+   "categoria": "equipamentos",
+   "palavras": "servidor rack máquina alojamento"
+  },
+  {
+   "nome": "servidor_ficheiros",
+   "classe": "e3s-i-servidor-ficheiros",
+   "rotulo": "Servidor de ficheiros",
+   "categoria": "equipamentos",
+   "palavras": "servidor ficheiros partilhas pastas"
+  },
+  {
+   "nome": "servidor_base_dados",
+   "classe": "e3s-i-servidor-base-dados",
+   "rotulo": "Servidor de base de dados",
+   "categoria": "equipamentos",
+   "palavras": "servidor base de dados sql postgresql mysql"
+  },
+  {
+   "nome": "servidor_impressao",
+   "classe": "e3s-i-servidor-impressao",
+   "rotulo": "Servidor de impressão",
+   "categoria": "equipamentos",
+   "palavras": "servidor impressão impressoras fila"
+  },
+  {
+   "nome": "servidor_web",
+   "classe": "e3s-i-servidor-web",
+   "rotulo": "Servidor web",
+   "categoria": "equipamentos",
+   "palavras": "servidor web site http nginx apache"
+  },
+  {
+   "nome": "servidor_email",
+   "classe": "e3s-i-servidor-email",
+   "rotulo": "Servidor de email",
+   "categoria": "equipamentos",
+   "palavras": "servidor email correio smtp imap"
+  },
+  {
+   "nome": "servidor_aplicacoes",
+   "classe": "e3s-i-servidor-aplicacoes",
+   "rotulo": "Servidor de aplicações",
+   "categoria": "equipamentos",
+   "palavras": "servidor aplicações serviços apps"
+  },
+  {
+   "nome": "servidor_copias",
+   "classe": "e3s-i-servidor-copias",
+   "rotulo": "Servidor de cópias de segurança",
+   "categoria": "equipamentos",
+   "palavras": "servidor backup cópias de segurança restauro"
+  },
+  {
+   "nome": "alunos",
+   "classe": "e3s-i-alunos",
+   "rotulo": "Alunos",
+   "categoria": "educacao",
+   "palavras": "estudantes discentes turma grupo vários"
+  },
+  {
+   "nome": "ficha",
+   "classe": "e3s-i-ficha",
+   "rotulo": "Ficha",
+   "categoria": "educacao",
+   "palavras": "ficha individual registo processo dados aluno formulário"
+  },
+  {
+   "nome": "detalhes",
+   "classe": "e3s-i-detalhes",
+   "rotulo": "Detalhes",
+   "categoria": "geral",
+   "palavras": "pormenores consultar ver mais informação lista lupa"
+  },
+  {
+   "nome": "relogio_pulso",
+   "classe": "e3s-i-relogio-pulso",
+   "rotulo": "Relógio de pulso",
+   "categoria": "tempo",
+   "palavras": "relógio pulso hora tempo"
+  },
+  {
+   "nome": "tempo_15",
+   "classe": "e3s-i-tempo-15",
+   "rotulo": "15 minutos",
+   "categoria": "tempo",
+   "palavras": "tempo decorrido quarto de hora minutos duração passagem"
+  },
+  {
+   "nome": "tempo_30",
+   "classe": "e3s-i-tempo-30",
+   "rotulo": "30 minutos",
+   "categoria": "tempo",
+   "palavras": "tempo decorrido meia hora minutos duração passagem"
+  },
+  {
+   "nome": "tempo_45",
+   "classe": "e3s-i-tempo-45",
+   "rotulo": "45 minutos",
+   "categoria": "tempo",
+   "palavras": "tempo decorrido três quartos minutos duração passagem"
+  },
+  {
+   "nome": "tempo_60",
+   "classe": "e3s-i-tempo-60",
+   "rotulo": "60 minutos",
+   "categoria": "tempo",
+   "palavras": "tempo decorrido uma hora minutos duração passagem"
+  },
+  {
+   "nome": "cronometro",
+   "classe": "e3s-i-cronometro",
+   "rotulo": "Cronómetro",
+   "categoria": "tempo",
+   "palavras": "cronómetro tempo contagem prova duração"
+  },
+  {
+   "nome": "despertador",
+   "classe": "e3s-i-despertador",
+   "rotulo": "Despertador",
+   "categoria": "tempo",
+   "palavras": "despertador alarme acordar hora lembrete"
+  },
+  {
+   "nome": "ampulheta",
+   "classe": "e3s-i-ampulheta",
+   "rotulo": "Ampulheta",
+   "categoria": "tempo",
+   "palavras": "ampulheta espera tempo a decorrer areia"
+  },
+  {
+   "nome": "calendario_folha",
+   "classe": "e3s-i-calendario-folha",
+   "rotulo": "Calendário de folhas",
+   "categoria": "tempo",
+   "palavras": "calendário rasgar folha dia passar arrancar destacar"
+  },
+  {
+   "nome": "calendario_intervalo",
+   "classe": "e3s-i-calendario-intervalo",
+   "rotulo": "Intervalo de datas",
+   "categoria": "tempo",
+   "palavras": "calendário entre datas de a período seleção intervalo"
+  },
+  {
+   "nome": "mat_somar",
+   "classe": "e3s-i-mat-somar",
+   "rotulo": "Somar",
+   "categoria": "matematica",
+   "palavras": "mais adição soma operador"
+  },
+  {
+   "nome": "mat_subtrair",
+   "classe": "e3s-i-mat-subtrair",
+   "rotulo": "Subtrair",
+   "categoria": "matematica",
+   "palavras": "menos subtração diferença operador"
+  },
+  {
+   "nome": "mat_multiplicar",
+   "classe": "e3s-i-mat-multiplicar",
+   "rotulo": "Multiplicar",
+   "categoria": "matematica",
+   "palavras": "vezes multiplicação produto operador x"
+  },
+  {
+   "nome": "mat_dividir",
+   "classe": "e3s-i-mat-dividir",
+   "rotulo": "Dividir",
+   "categoria": "matematica",
+   "palavras": "divisão quociente operador barra"
+  },
+  {
+   "nome": "mat_igual",
+   "classe": "e3s-i-mat-igual",
+   "rotulo": "Igual",
+   "categoria": "matematica",
+   "palavras": "igual resultado operador"
+  },
+  {
+   "nome": "mat_diferente",
+   "classe": "e3s-i-mat-diferente",
+   "rotulo": "Diferente",
+   "categoria": "matematica",
+   "palavras": "diferente não igual operador"
+  },
+  {
+   "nome": "mat_maior",
+   "classe": "e3s-i-mat-maior",
+   "rotulo": "Maior que",
+   "categoria": "matematica",
+   "palavras": "maior comparação operador"
+  },
+  {
+   "nome": "mat_menor",
+   "classe": "e3s-i-mat-menor",
+   "rotulo": "Menor que",
+   "categoria": "matematica",
+   "palavras": "menor comparação operador"
+  },
+  {
+   "nome": "mat_mais_menos",
+   "classe": "e3s-i-mat-mais-menos",
+   "rotulo": "Mais ou menos",
+   "categoria": "matematica",
+   "palavras": "mais menos aproximado operador"
+  },
+  {
+   "nome": "mat_parenteses",
+   "classe": "e3s-i-mat-parenteses",
+   "rotulo": "Parênteses",
+   "categoria": "matematica",
+   "palavras": "parênteses agrupar expressão"
+  },
+  {
+   "nome": "mat_chavetas",
+   "classe": "e3s-i-mat-chavetas",
+   "rotulo": "Chavetas",
+   "categoria": "matematica",
+   "palavras": "chavetas conjunto expressão"
+  },
+  {
+   "nome": "mat_raiz",
+   "classe": "e3s-i-mat-raiz",
+   "rotulo": "Raiz quadrada",
+   "categoria": "matematica",
+   "palavras": "raiz quadrada radical"
+  },
+  {
+   "nome": "mat_potencia",
+   "classe": "e3s-i-mat-potencia",
+   "rotulo": "Potência",
+   "categoria": "matematica",
+   "palavras": "potência expoente quadrado x2"
+  },
+  {
+   "nome": "mat_pi",
+   "classe": "e3s-i-mat-pi",
+   "rotulo": "Pi",
+   "categoria": "matematica",
+   "palavras": "pi círculo constante"
+  },
+  {
+   "nome": "mat_infinito",
+   "classe": "e3s-i-mat-infinito",
+   "rotulo": "Infinito",
+   "categoria": "matematica",
+   "palavras": "infinito ilimitado"
+  },
+  {
+   "nome": "mat_somatorio",
+   "classe": "e3s-i-mat-somatorio",
+   "rotulo": "Somatório",
+   "categoria": "matematica",
+   "palavras": "somatório sigma soma total"
+  },
+  {
+   "nome": "asterisco",
+   "classe": "e3s-i-asterisco",
+   "rotulo": "Asterisco",
+   "categoria": "matematica",
+   "palavras": "asterisco estrela obrigatório nota"
+  },
+  {
+   "nome": "cardinal",
+   "classe": "e3s-i-cardinal",
+   "rotulo": "Cardinal",
+   "categoria": "matematica",
+   "palavras": "cardinal hashtag número etiqueta"
+  },
+  {
+   "nome": "arroba",
+   "classe": "e3s-i-arroba",
+   "rotulo": "Arroba",
+   "categoria": "matematica",
+   "palavras": "arroba email endereço @"
+  },
+  {
+   "nome": "seta_cima",
+   "classe": "e3s-i-seta-cima",
+   "rotulo": "Seta para cima",
+   "categoria": "setas",
+   "palavras": "seta cima subir norte"
+  },
+  {
+   "nome": "seta_baixo",
+   "classe": "e3s-i-seta-baixo",
+   "rotulo": "Seta para baixo",
+   "categoria": "setas",
+   "palavras": "seta baixo descer sul"
+  },
+  {
+   "nome": "seta_esquerda",
+   "classe": "e3s-i-seta-esquerda",
+   "rotulo": "Seta para a esquerda",
+   "categoria": "setas",
+   "palavras": "seta esquerda voltar oeste"
+  },
+  {
+   "nome": "seta_direita",
+   "classe": "e3s-i-seta-direita",
+   "rotulo": "Seta para a direita",
+   "categoria": "setas",
+   "palavras": "seta direita avançar este"
+  },
+  {
+   "nome": "seta_cima_direita",
+   "classe": "e3s-i-seta-cima-direita",
+   "rotulo": "Seta diagonal (cima, direita)",
+   "categoria": "setas",
+   "palavras": "seta diagonal nordeste abrir"
+  },
+  {
+   "nome": "seta_cima_esquerda",
+   "classe": "e3s-i-seta-cima-esquerda",
+   "rotulo": "Seta diagonal (cima, esquerda)",
+   "categoria": "setas",
+   "palavras": "seta diagonal noroeste"
+  },
+  {
+   "nome": "seta_baixo_direita",
+   "classe": "e3s-i-seta-baixo-direita",
+   "rotulo": "Seta diagonal (baixo, direita)",
+   "categoria": "setas",
+   "palavras": "seta diagonal sudeste"
+  },
+  {
+   "nome": "seta_baixo_esquerda",
+   "classe": "e3s-i-seta-baixo-esquerda",
+   "rotulo": "Seta diagonal (baixo, esquerda)",
+   "categoria": "setas",
+   "palavras": "seta diagonal sudoeste"
+  },
+  {
+   "nome": "seta_curva_direita",
+   "classe": "e3s-i-seta-curva-direita",
+   "rotulo": "Seta em L para a direita",
+   "categoria": "setas",
+   "palavras": "seta curva desce vira direita subnível resposta"
+  },
+  {
+   "nome": "seta_curva_esquerda",
+   "classe": "e3s-i-seta-curva-esquerda",
+   "rotulo": "Seta em L para a esquerda",
+   "categoria": "setas",
+   "palavras": "seta curva enter retorno mudar de linha"
+  },
+  {
+   "nome": "seta_dupla_horizontal",
+   "classe": "e3s-i-seta-dupla-horizontal",
+   "rotulo": "Seta dupla horizontal",
+   "categoria": "setas",
+   "palavras": "seta dupla largura esquerda direita trocar"
+  },
+  {
+   "nome": "seta_dupla_vertical",
+   "classe": "e3s-i-seta-dupla-vertical",
+   "rotulo": "Seta dupla vertical",
+   "categoria": "setas",
+   "palavras": "seta dupla altura cima baixo"
+  },
+  {
+   "nome": "setas_mover",
+   "classe": "e3s-i-setas-mover",
+   "rotulo": "Mover (quatro direções)",
+   "categoria": "setas",
+   "palavras": "setas mover arrastar quatro direções posição"
+  },
+  {
+   "nome": "desfazer",
+   "classe": "e3s-i-desfazer",
+   "rotulo": "Desfazer",
+   "categoria": "setas",
+   "palavras": "desfazer anular voltar atrás seta"
+  },
+  {
+   "nome": "refazer",
+   "classe": "e3s-i-refazer",
+   "rotulo": "Refazer",
+   "categoria": "setas",
+   "palavras": "refazer repetir seta"
+  },
+  {
+   "nome": "rodar",
+   "classe": "e3s-i-rodar",
+   "rotulo": "Rodar",
+   "categoria": "setas",
+   "palavras": "rodar girar sentido horário seta circular"
+  },
+  {
+   "nome": "chevron_cima",
+   "classe": "e3s-i-chevron-cima",
+   "rotulo": "Divisa para cima",
+   "categoria": "setas",
+   "palavras": "chevron subir recolher"
+  },
+  {
+   "nome": "chevron_baixo",
+   "classe": "e3s-i-chevron-baixo",
+   "rotulo": "Divisa para baixo",
+   "categoria": "setas",
+   "palavras": "chevron descer expandir abrir"
+  },
+  {
+   "nome": "chevrons_direita",
+   "classe": "e3s-i-chevrons-direita",
+   "rotulo": "Divisa dupla (direita)",
+   "categoria": "setas",
+   "palavras": "chevron duplo avançar mais"
+  },
+  {
+   "nome": "chevrons_esquerda",
+   "classe": "e3s-i-chevrons-esquerda",
+   "rotulo": "Divisa dupla (esquerda)",
+   "categoria": "setas",
+   "palavras": "chevron duplo recuar"
+  },
+  {
+   "nome": "coracao",
+   "classe": "e3s-i-coracao",
+   "rotulo": "Coração",
+   "categoria": "emojis",
+   "palavras": "coração gosto amor favorito saúde"
+  },
+  {
+   "nome": "emoji_feliz",
+   "classe": "e3s-i-emoji-feliz",
+   "rotulo": "Feliz",
+   "categoria": "emojis",
+   "palavras": "emoji sorriso contente satisfeito"
+  },
+  {
+   "nome": "emoji_riso",
+   "classe": "e3s-i-emoji-riso",
+   "rotulo": "A rir",
+   "categoria": "emojis",
+   "palavras": "emoji riso gargalhada muito contente"
+  },
+  {
+   "nome": "emoji_fixe",
+   "classe": "e3s-i-emoji-fixe",
+   "rotulo": "Fixe",
+   "categoria": "emojis",
+   "palavras": "emoji fixe óculos de sol cool"
+  },
+  {
+   "nome": "emoji_piscar",
+   "classe": "e3s-i-emoji-piscar",
+   "rotulo": "A piscar o olho",
+   "categoria": "emojis",
+   "palavras": "emoji piscar olho cumplicidade"
+  },
+  {
+   "nome": "emoji_apaixonado",
+   "classe": "e3s-i-emoji-apaixonado",
+   "rotulo": "Apaixonado",
+   "categoria": "emojis",
+   "palavras": "emoji corações amor adoro"
+  },
+  {
+   "nome": "emoji_neutro",
+   "classe": "e3s-i-emoji-neutro",
+   "rotulo": "Neutro",
+   "categoria": "emojis",
+   "palavras": "emoji neutro indiferente sem opinião"
+  },
+  {
+   "nome": "emoji_triste",
+   "classe": "e3s-i-emoji-triste",
+   "rotulo": "Triste",
+   "categoria": "emojis",
+   "palavras": "emoji triste descontente insatisfeito"
+  },
+  {
+   "nome": "emoji_surpresa",
+   "classe": "e3s-i-emoji-surpresa",
+   "rotulo": "Surpreendido",
+   "categoria": "emojis",
+   "palavras": "emoji surpresa espanto admirado"
+  },
+  {
+   "nome": "emoji_zangado",
+   "classe": "e3s-i-emoji-zangado",
+   "rotulo": "Zangado",
+   "categoria": "emojis",
+   "palavras": "emoji zangado irritado furioso"
+  },
+  {
+   "nome": "polegar_cima",
+   "classe": "e3s-i-polegar-cima",
+   "rotulo": "Gosto",
+   "categoria": "emojis",
+   "palavras": "polegar cima gosto aprovar like bom"
+  },
+  {
+   "nome": "polegar_baixo",
+   "classe": "e3s-i-polegar-baixo",
+   "rotulo": "Não gosto",
+   "categoria": "emojis",
+   "palavras": "polegar baixo não gosto desaprovar dislike mau"
+  },
+  {
+   "nome": "globo_mapa",
+   "classe": "e3s-i-globo-mapa",
+   "rotulo": "Globo (mapa-mundo)",
+   "categoria": "geral",
+   "palavras": "globo mundo mapa continentes terra planeta internacional"
+  },
+  {
+   "nome": "organigrama",
+   "classe": "e3s-i-organigrama",
+   "rotulo": "Organigrama",
+   "categoria": "geral",
+   "palavras": "organigrama organização chefias cargos estrutura equipa"
+  },
+  {
+   "nome": "hierarquia",
+   "classe": "e3s-i-hierarquia",
+   "rotulo": "Estrutura hierárquica",
+   "categoria": "geral",
+   "palavras": "hierarquia árvore níveis dependências estrutura nós"
+  },
+  {
+   "nome": "mapa",
+   "classe": "e3s-i-mapa",
+   "rotulo": "Mapa",
+   "categoria": "geral",
+   "palavras": "mapa roteiro planta dobrável localização"
+  },
+  {
+   "nome": "balao",
+   "classe": "e3s-i-balao",
+   "rotulo": "Balão de comentário",
+   "categoria": "comunicacao",
+   "palavras": "comentário balão conversa mensagem chat"
+  },
+  {
+   "nome": "balao_texto",
+   "classe": "e3s-i-balao-texto",
+   "rotulo": "Comentário com texto",
+   "categoria": "comunicacao",
+   "palavras": "comentário balão texto mensagem nota"
+  },
+  {
+   "nome": "balao_redondo",
+   "classe": "e3s-i-balao-redondo",
+   "rotulo": "Balão redondo",
+   "categoria": "comunicacao",
+   "palavras": "comentário balão conversa fala"
+  },
+  {
+   "nome": "baloes",
+   "classe": "e3s-i-baloes",
+   "rotulo": "Conversa",
+   "categoria": "comunicacao",
+   "palavras": "comentários balões conversa diálogo discussão fórum"
+  },
+  {
+   "nome": "balao_pergunta",
+   "classe": "e3s-i-balao-pergunta",
+   "rotulo": "Pergunta",
+   "categoria": "comunicacao",
+   "palavras": "comentário pergunta dúvida questão balão"
+  },
+  {
+   "nome": "balao_alerta",
+   "classe": "e3s-i-balao-alerta",
+   "rotulo": "Comentário importante",
+   "categoria": "comunicacao",
+   "palavras": "comentário alerta importante atenção balão"
+  },
+  {
+   "nome": "balao_pensamento",
+   "classe": "e3s-i-balao-pensamento",
+   "rotulo": "Pensamento",
+   "categoria": "comunicacao",
+   "palavras": "pensamento ideia nuvem balão pensar"
+  },
+  {
+   "nome": "caixa_correio",
+   "classe": "e3s-i-caixa-correio",
+   "rotulo": "Caixa do correio",
+   "categoria": "comunicacao",
+   "palavras": "caixa correio cartas receber marco"
+  },
+  {
+   "nome": "campainha",
+   "classe": "e3s-i-campainha",
+   "rotulo": "Campainha",
+   "categoria": "comunicacao",
+   "palavras": "campainha balcão chamar atendimento receção"
+  },
+  {
+   "nome": "qr_code",
+   "classe": "e3s-i-qr-code",
+   "rotulo": "Código QR",
+   "categoria": "comunicacao",
+   "palavras": "qr código ler telemóvel ligação"
+  },
+  {
+   "nome": "codigo_barras",
+   "classe": "e3s-i-codigo-barras",
+   "rotulo": "Código de barras",
+   "categoria": "comunicacao",
+   "palavras": "código barras produto leitor artigo"
+  },
+  {
+   "nome": "sinal_rede",
+   "classe": "e3s-i-sinal-rede",
+   "rotulo": "Rede móvel",
+   "categoria": "comunicacao",
+   "palavras": "sinal rede telemóvel barras cobertura 4g 5g"
+  },
+  {
+   "nome": "sinal_rede_fraco",
+   "classe": "e3s-i-sinal-rede-fraco",
+   "rotulo": "Rede móvel (fraca)",
+   "categoria": "comunicacao",
+   "palavras": "sinal rede telemóvel fraco pouca cobertura"
+  },
+  {
+   "nome": "wifi",
+   "classe": "e3s-i-wifi",
+   "rotulo": "Wi-Fi",
+   "categoria": "comunicacao",
+   "palavras": "wifi rede sem fios internet ligação"
+  },
+  {
+   "nome": "vista_grelha",
+   "classe": "e3s-i-vista-grelha",
+   "rotulo": "Vista em grelha",
+   "categoria": "vistas",
+   "palavras": "vista grelha mosaico blocos quadrados"
+  },
+  {
+   "nome": "vista_grelha_pequena",
+   "classe": "e3s-i-vista-grelha-pequena",
+   "rotulo": "Vista em grelha (pequena)",
+   "categoria": "vistas",
+   "palavras": "vista grelha pequena miniaturas"
+  },
+  {
+   "nome": "vista_lista",
+   "classe": "e3s-i-vista-lista",
+   "rotulo": "Vista em lista",
+   "categoria": "vistas",
+   "palavras": "vista lista linhas itens"
+  },
+  {
+   "nome": "vista_detalhes",
+   "classe": "e3s-i-vista-detalhes",
+   "rotulo": "Vista de detalhes",
+   "categoria": "vistas",
+   "palavras": "vista detalhes miniatura descrição"
+  },
+  {
+   "nome": "vista_cartoes",
+   "classe": "e3s-i-vista-cartoes",
+   "rotulo": "Vista em cartões",
+   "categoria": "vistas",
+   "palavras": "vista cartões blocos largos"
+  },
+  {
+   "nome": "vista_colunas",
+   "classe": "e3s-i-vista-colunas",
+   "rotulo": "Vista em colunas (quadro)",
+   "categoria": "vistas",
+   "palavras": "vista colunas quadro kanban tarefas estados"
+  },
+  {
+   "nome": "vista_galeria",
+   "classe": "e3s-i-vista-galeria",
+   "rotulo": "Vista de galeria",
+   "categoria": "vistas",
+   "palavras": "vista galeria mosaico imagens alvenaria"
+  },
+  {
+   "nome": "vista_arvore",
+   "classe": "e3s-i-vista-arvore",
+   "rotulo": "Vista em árvore",
+   "categoria": "vistas",
+   "palavras": "vista árvore hierarquia pastas níveis"
+  },
+  {
+   "nome": "vista_linha_tempo",
+   "classe": "e3s-i-vista-linha-tempo",
+   "rotulo": "Linha do tempo",
+   "categoria": "vistas",
+   "palavras": "vista cronologia linha tempo etapas marcos"
+  },
+  {
+   "nome": "janela",
+   "classe": "e3s-i-janela",
+   "rotulo": "Janela",
+   "categoria": "vistas",
+   "palavras": "janela aplicação navegador ecrã"
+  },
+  {
+   "nome": "janelas",
+   "classe": "e3s-i-janelas",
+   "rotulo": "Várias janelas",
+   "categoria": "vistas",
+   "palavras": "janelas cascata várias abrir nova"
+  },
+  {
+   "nome": "aplicacao",
+   "classe": "e3s-i-aplicacao",
+   "rotulo": "Aplicação",
+   "categoria": "vistas",
+   "palavras": "aplicação programa software app computador"
+  },
+  {
+   "nome": "grafico_colunas",
+   "classe": "e3s-i-grafico-colunas",
+   "rotulo": "Gráfico de colunas",
+   "categoria": "graficos",
+   "palavras": "gráfico colunas barras verticais"
+  },
+  {
+   "nome": "grafico_barras",
+   "classe": "e3s-i-grafico-barras",
+   "rotulo": "Gráfico de barras",
+   "categoria": "graficos",
+   "palavras": "gráfico barras horizontais"
+  },
+  {
+   "nome": "grafico_empilhado",
+   "classe": "e3s-i-grafico-empilhado",
+   "rotulo": "Gráfico empilhado",
+   "categoria": "graficos",
+   "palavras": "gráfico colunas empilhadas acumulado"
+  },
+  {
+   "nome": "grafico_linhas",
+   "classe": "e3s-i-grafico-linhas",
+   "rotulo": "Gráfico de linhas",
+   "categoria": "graficos",
+   "palavras": "gráfico linhas evolução série temporal"
+  },
+  {
+   "nome": "grafico_area",
+   "classe": "e3s-i-grafico-area",
+   "rotulo": "Gráfico de área",
+   "categoria": "graficos",
+   "palavras": "gráfico área preenchido evolução"
+  },
+  {
+   "nome": "grafico_circular",
+   "classe": "e3s-i-grafico-circular",
+   "rotulo": "Gráfico circular",
+   "categoria": "graficos",
+   "palavras": "gráfico circular tarte setores percentagens"
+  },
+  {
+   "nome": "grafico_anel",
+   "classe": "e3s-i-grafico-anel",
+   "rotulo": "Gráfico em anel",
+   "categoria": "graficos",
+   "palavras": "gráfico anel donut circular"
+  },
+  {
+   "nome": "grafico_dispersao",
+   "classe": "e3s-i-grafico-dispersao",
+   "rotulo": "Gráfico de dispersão",
+   "categoria": "graficos",
+   "palavras": "gráfico dispersão pontos correlação"
+  },
+  {
+   "nome": "grafico_bolhas",
+   "classe": "e3s-i-grafico-bolhas",
+   "rotulo": "Gráfico de bolhas",
+   "categoria": "graficos",
+   "palavras": "gráfico bolhas tamanho três variáveis"
+  },
+  {
+   "nome": "grafico_radar",
+   "classe": "e3s-i-grafico-radar",
+   "rotulo": "Gráfico radar",
+   "categoria": "graficos",
+   "palavras": "gráfico radar teia aranha competências"
+  },
+  {
+   "nome": "atividade",
+   "classe": "e3s-i-atividade",
+   "rotulo": "Atividade",
+   "categoria": "graficos",
+   "palavras": "atividade pulso estado monitorização saúde do sistema batimento"
+  },
+  {
+   "nome": "grafico_tendencia",
+   "classe": "e3s-i-grafico-tendencia",
+   "rotulo": "Tendência a subir",
+   "categoria": "graficos",
+   "palavras": "gráfico tendência subir crescimento aumento"
+  },
+  {
+   "nome": "grafico_tendencia_baixa",
+   "classe": "e3s-i-grafico-tendencia-baixa",
+   "rotulo": "Tendência a descer",
+   "categoria": "graficos",
+   "palavras": "gráfico tendência descer queda diminuição"
+  },
+  {
+   "nome": "grafico_gantt",
+   "classe": "e3s-i-grafico-gantt",
+   "rotulo": "Gráfico de Gantt",
+   "categoria": "graficos",
+   "palavras": "gráfico gantt cronograma planeamento tarefas"
+  },
+  {
+   "nome": "grafico_cascata",
+   "classe": "e3s-i-grafico-cascata",
+   "rotulo": "Gráfico em cascata",
+   "categoria": "graficos",
+   "palavras": "gráfico cascata variação acumulada"
+  },
+  {
+   "nome": "grafico_funil",
+   "classe": "e3s-i-grafico-funil",
+   "rotulo": "Gráfico de funil",
+   "categoria": "graficos",
+   "palavras": "gráfico funil conversão etapas"
+  },
+  {
+   "nome": "grafico_mapa_calor",
+   "classe": "e3s-i-grafico-mapa-calor",
+   "rotulo": "Mapa de calor",
+   "categoria": "graficos",
+   "palavras": "gráfico mapa de calor matriz intensidade"
+  },
+  {
+   "nome": "filtro_ativo",
+   "classe": "e3s-i-filtro-ativo",
+   "rotulo": "Filtro ativo",
+   "categoria": "dados",
+   "palavras": "filtro ativo aplicado funil cheio"
+  },
+  {
+   "nome": "filtro_mais",
+   "classe": "e3s-i-filtro-mais",
+   "rotulo": "Acrescentar filtro",
+   "categoria": "dados",
+   "palavras": "filtro adicionar novo critério mais"
+  },
+  {
+   "nome": "filtro_limpar",
+   "classe": "e3s-i-filtro-limpar",
+   "rotulo": "Limpar filtros",
+   "categoria": "dados",
+   "palavras": "filtro limpar remover retirar cruz"
+  },
+  {
+   "nome": "filtro_linhas",
+   "classe": "e3s-i-filtro-linhas",
+   "rotulo": "Filtro (linhas)",
+   "categoria": "dados",
+   "palavras": "filtro linhas refinar reduzir"
+  },
+  {
+   "nome": "filtro_opcoes",
+   "classe": "e3s-i-filtro-opcoes",
+   "rotulo": "Opções de filtro",
+   "categoria": "dados",
+   "palavras": "filtro opções critérios definições deslizadores"
+  },
+  {
+   "nome": "ordenar",
+   "classe": "e3s-i-ordenar",
+   "rotulo": "Ordenar",
+   "categoria": "dados",
+   "palavras": "ordenar ordem setas cima baixo"
+  },
+  {
+   "nome": "ordenar_az",
+   "classe": "e3s-i-ordenar-az",
+   "rotulo": "Ordenar de A a Z",
+   "categoria": "dados",
+   "palavras": "ordenar alfabética crescente a z nomes"
+  },
+  {
+   "nome": "ordenar_za",
+   "classe": "e3s-i-ordenar-za",
+   "rotulo": "Ordenar de Z a A",
+   "categoria": "dados",
+   "palavras": "ordenar alfabética decrescente z a nomes"
+  },
+  {
+   "nome": "ordenar_19",
+   "classe": "e3s-i-ordenar-19",
+   "rotulo": "Ordenar do menor para o maior",
+   "categoria": "dados",
+   "palavras": "ordenar números crescente 1 9"
+  },
+  {
+   "nome": "ordenar_91",
+   "classe": "e3s-i-ordenar-91",
+   "rotulo": "Ordenar do maior para o menor",
+   "categoria": "dados",
+   "palavras": "ordenar números decrescente 9 1"
+  },
+  {
+   "nome": "ordenar_crescente",
+   "classe": "e3s-i-ordenar-crescente",
+   "rotulo": "Ordem crescente",
+   "categoria": "dados",
+   "palavras": "ordenar crescente ascendente aumentar"
+  },
+  {
+   "nome": "ordenar_decrescente",
+   "classe": "e3s-i-ordenar-decrescente",
+   "rotulo": "Ordem decrescente",
+   "categoria": "dados",
+   "palavras": "ordenar decrescente descendente diminuir"
+  },
+  {
+   "nome": "varinha",
+   "classe": "e3s-i-varinha",
+   "rotulo": "Varinha mágica",
+   "categoria": "design",
+   "palavras": "varinha mágica automático magia preencher sugerir"
+  },
+  {
+   "nome": "camadas",
+   "classe": "e3s-i-camadas",
+   "rotulo": "Camadas",
+   "categoria": "design",
+   "palavras": "camadas níveis sobrepor empilhar"
+  },
+  {
+   "nome": "paleta_cores",
+   "classe": "e3s-i-paleta-cores",
+   "rotulo": "Paleta de cores",
+   "categoria": "design",
+   "palavras": "paleta cores amostras tema esquema"
+  },
+  {
+   "nome": "simetria_vertical",
+   "classe": "e3s-i-simetria-vertical",
+   "rotulo": "Simetria (eixo vertical)",
+   "categoria": "design",
+   "palavras": "simetria espelhar inverter horizontalmente eixo"
+  },
+  {
+   "nome": "simetria_horizontal",
+   "classe": "e3s-i-simetria-horizontal",
+   "rotulo": "Simetria (eixo horizontal)",
+   "categoria": "design",
+   "palavras": "simetria espelhar inverter verticalmente eixo"
+  },
+  {
+   "nome": "deslizadores",
+   "classe": "e3s-i-deslizadores",
+   "rotulo": "Deslizadores",
+   "categoria": "design",
+   "palavras": "deslizadores sliders ajustar regular controlo"
+  },
+  {
+   "nome": "deslizadores_verticais",
+   "classe": "e3s-i-deslizadores-verticais",
+   "rotulo": "Deslizadores verticais",
+   "categoria": "design",
+   "palavras": "deslizadores sliders mesa de mistura equalizador"
+  },
+  {
+   "nome": "lapis",
+   "classe": "e3s-i-lapis",
+   "rotulo": "Lápis",
+   "categoria": "design",
+   "palavras": "lápis escrever desenhar esboço"
+  },
+  {
+   "nome": "caneta",
+   "classe": "e3s-i-caneta",
+   "rotulo": "Caneta",
+   "categoria": "design",
+   "palavras": "caneta tinteiro escrever assinar aparo"
+  },
+  {
+   "nome": "marcador_texto",
+   "classe": "e3s-i-marcador-texto",
+   "rotulo": "Marcador de texto",
+   "categoria": "design",
+   "palavras": "marcador realçar sublinhar destacar fluorescente"
+  },
+  {
+   "nome": "tesoura",
+   "classe": "e3s-i-tesoura",
+   "rotulo": "Tesoura",
+   "categoria": "design",
+   "palavras": "tesoura cortar recortar"
+  },
+  {
+   "nome": "tocar",
+   "classe": "e3s-i-tocar",
+   "rotulo": "Tocar",
+   "categoria": "multimedia",
+   "palavras": "tocar reproduzir play iniciar música vídeo"
+  },
+  {
+   "nome": "pausar",
+   "classe": "e3s-i-pausar",
+   "rotulo": "Pausa",
+   "categoria": "multimedia",
+   "palavras": "pausa pausar suspender"
+  },
+  {
+   "nome": "parar",
+   "classe": "e3s-i-parar",
+   "rotulo": "Parar",
+   "categoria": "multimedia",
+   "palavras": "parar stop terminar"
+  },
+  {
+   "nome": "gravar",
+   "classe": "e3s-i-gravar",
+   "rotulo": "Gravar",
+   "categoria": "multimedia",
+   "palavras": "gravar gravação rec"
+  },
+  {
+   "nome": "avancar",
+   "classe": "e3s-i-avancar",
+   "rotulo": "Avançar",
+   "categoria": "multimedia",
+   "palavras": "avançar rápido para a frente"
+  },
+  {
+   "nome": "recuar",
+   "classe": "e3s-i-recuar",
+   "rotulo": "Recuar",
+   "categoria": "multimedia",
+   "palavras": "recuar rebobinar para trás"
+  },
+  {
+   "nome": "faixa_seguinte",
+   "classe": "e3s-i-faixa-seguinte",
+   "rotulo": "Faixa seguinte",
+   "categoria": "multimedia",
+   "palavras": "seguinte próxima faixa saltar"
+  },
+  {
+   "nome": "faixa_anterior",
+   "classe": "e3s-i-faixa-anterior",
+   "rotulo": "Faixa anterior",
+   "categoria": "multimedia",
+   "palavras": "anterior faixa voltar"
+  },
+  {
+   "nome": "repetir",
+   "classe": "e3s-i-repetir",
+   "rotulo": "Repetir",
+   "categoria": "multimedia",
+   "palavras": "repetir ciclo loop"
+  },
+  {
+   "nome": "aleatorio",
+   "classe": "e3s-i-aleatorio",
+   "rotulo": "Aleatório",
+   "categoria": "multimedia",
+   "palavras": "aleatório baralhar misturar shuffle"
+  },
+  {
+   "nome": "ejetar",
+   "classe": "e3s-i-ejetar",
+   "rotulo": "Ejetar",
+   "categoria": "multimedia",
+   "palavras": "ejetar retirar disco"
+  },
+  {
+   "nome": "volume",
+   "classe": "e3s-i-volume",
+   "rotulo": "Volume",
+   "categoria": "multimedia",
+   "palavras": "volume som áudio altifalante"
+  },
+  {
+   "nome": "volume_mais",
+   "classe": "e3s-i-volume-mais",
+   "rotulo": "Aumentar volume",
+   "categoria": "multimedia",
+   "palavras": "volume aumentar mais alto som"
+  },
+  {
+   "nome": "volume_menos",
+   "classe": "e3s-i-volume-menos",
+   "rotulo": "Diminuir volume",
+   "categoria": "multimedia",
+   "palavras": "volume diminuir menos baixo som"
+  },
+  {
+   "nome": "sem_som",
+   "classe": "e3s-i-sem-som",
+   "rotulo": "Sem som",
+   "categoria": "multimedia",
+   "palavras": "silêncio mudo sem som silenciar"
+  },
+  {
+   "nome": "microfone",
+   "classe": "e3s-i-microfone",
+   "rotulo": "Microfone",
+   "categoria": "multimedia",
+   "palavras": "microfone gravar voz áudio"
+  },
+  {
+   "nome": "auscultadores",
+   "classe": "e3s-i-auscultadores",
+   "rotulo": "Auscultadores",
+   "categoria": "multimedia",
+   "palavras": "auscultadores ouvir fones áudio"
+  },
+  {
+   "nome": "coluna_som",
+   "classe": "e3s-i-coluna-som",
+   "rotulo": "Coluna de som",
+   "categoria": "multimedia",
+   "palavras": "coluna som altifalante colunas áudio"
+  },
+  {
+   "nome": "camara_fotografica",
+   "classe": "e3s-i-camara-fotografica",
+   "rotulo": "Câmara fotográfica",
+   "categoria": "multimedia",
+   "palavras": "câmara máquina fotográfica fotografia foto"
+  },
+  {
+   "nome": "tripe",
+   "classe": "e3s-i-tripe",
+   "rotulo": "Tripé",
+   "categoria": "multimedia",
+   "palavras": "tripé câmara suporte filmar"
+  },
+  {
+   "nome": "webcam",
+   "classe": "e3s-i-webcam",
+   "rotulo": "Câmara web",
+   "categoria": "multimedia",
+   "palavras": "webcam câmara videochamada reunião"
+  },
+  {
+   "nome": "projetor",
+   "classe": "e3s-i-projetor",
+   "rotulo": "Projetor",
+   "categoria": "multimedia",
+   "palavras": "projetor videoprojetor datashow apresentação sala"
+  },
+  {
+   "nome": "ecra_projecao",
+   "classe": "e3s-i-ecra-projecao",
+   "rotulo": "Ecrã de projeção",
+   "categoria": "multimedia",
+   "palavras": "ecrã tela projeção apresentação sala"
+  },
+  {
+   "nome": "televisao",
+   "classe": "e3s-i-televisao",
+   "rotulo": "Televisão",
+   "categoria": "multimedia",
+   "palavras": "televisão tv ecrã canal"
+  },
+  {
+   "nome": "computador_tudo_em_um",
+   "classe": "e3s-i-computador-tudo-em-um",
+   "rotulo": "Computador tudo-em-um",
+   "categoria": "tecnologia",
+   "palavras": "computador all-in-one secretária monitor"
+  },
+  {
+   "nome": "telemovel",
+   "classe": "e3s-i-telemovel",
+   "rotulo": "Telemóvel",
+   "categoria": "tecnologia",
+   "palavras": "telemóvel smartphone telefone móvel aplicação autenticação 2fa"
+  },
+  {
+   "nome": "portatil",
+   "classe": "e3s-i-portatil",
+   "rotulo": "Portátil",
+   "categoria": "tecnologia",
+   "palavras": "portátil computador laptop"
+  },
+  {
+   "nome": "rato",
+   "classe": "e3s-i-rato",
+   "rotulo": "Rato",
+   "categoria": "tecnologia",
+   "palavras": "rato mouse clicar apontador"
+  },
+  {
+   "nome": "teclado",
+   "classe": "e3s-i-teclado",
+   "rotulo": "Teclado",
+   "categoria": "tecnologia",
+   "palavras": "teclado teclas escrever"
+  },
+  {
+   "nome": "processador",
+   "classe": "e3s-i-processador",
+   "rotulo": "Processador",
+   "categoria": "tecnologia",
+   "palavras": "processador cpu chip unidade central"
+  },
+  {
+   "nome": "memoria_ram",
+   "classe": "e3s-i-memoria-ram",
+   "rotulo": "Memória RAM",
+   "categoria": "tecnologia",
+   "palavras": "memória ram módulo pente dimm"
+  },
+  {
+   "nome": "placa_video",
+   "classe": "e3s-i-placa-video",
+   "rotulo": "Placa de vídeo",
+   "categoria": "tecnologia",
+   "palavras": "placa gráfica vídeo gpu"
+  },
+  {
+   "nome": "ventoinha",
+   "classe": "e3s-i-ventoinha",
+   "rotulo": "Ventoinha",
+   "categoria": "tecnologia",
+   "palavras": "ventoinha ventilador arrefecimento ar"
+  },
+  {
+   "nome": "porta_usb_a",
+   "classe": "e3s-i-porta-usb-a",
+   "rotulo": "USB-A",
+   "categoria": "portas",
+   "palavras": "porta usb a ficha ligação"
+  },
+  {
+   "nome": "porta_usb_c",
+   "classe": "e3s-i-porta-usb-c",
+   "rotulo": "USB-C",
+   "categoria": "portas",
+   "palavras": "porta usb c tipo c carregar"
+  },
+  {
+   "nome": "porta_hdmi",
+   "classe": "e3s-i-porta-hdmi",
+   "rotulo": "HDMI",
+   "categoria": "portas",
+   "palavras": "porta hdmi vídeo monitor televisão"
+  },
+  {
+   "nome": "porta_displayport",
+   "classe": "e3s-i-porta-displayport",
+   "rotulo": "DisplayPort",
+   "categoria": "portas",
+   "palavras": "porta displayport dp vídeo monitor"
+  },
+  {
+   "nome": "porta_vga",
+   "classe": "e3s-i-porta-vga",
+   "rotulo": "VGA",
+   "categoria": "portas",
+   "palavras": "porta vga vídeo analógico monitor projetor"
+  },
+  {
+   "nome": "porta_dvi",
+   "classe": "e3s-i-porta-dvi",
+   "rotulo": "DVI",
+   "categoria": "portas",
+   "palavras": "porta dvi vídeo digital monitor"
+  },
+  {
+   "nome": "porta_ethernet",
+   "classe": "e3s-i-porta-ethernet",
+   "rotulo": "Ethernet (RJ45)",
+   "categoria": "portas",
+   "palavras": "porta ethernet rj45 rede cabo lan"
+  },
+  {
+   "nome": "porta_audio",
+   "classe": "e3s-i-porta-audio",
+   "rotulo": "Áudio (jack)",
+   "categoria": "portas",
+   "palavras": "porta áudio jack 3.5 mm auscultadores"
+  },
+  {
+   "nome": "porta_serie",
+   "classe": "e3s-i-porta-serie",
+   "rotulo": "Porta série",
+   "categoria": "portas",
+   "palavras": "porta série serial rs232 db9 com"
+  },
+  {
+   "nome": "porta_thunderbolt",
+   "classe": "e3s-i-porta-thunderbolt",
+   "rotulo": "Thunderbolt",
+   "categoria": "portas",
+   "palavras": "porta thunderbolt raio alta velocidade"
+  },
+  {
+   "nome": "porta_alimentacao",
+   "classe": "e3s-i-porta-alimentacao",
+   "rotulo": "Alimentação",
+   "categoria": "portas",
+   "palavras": "porta alimentação energia corrente carregador transformador"
+  },
+  {
+   "nome": "res_hd",
+   "classe": "e3s-i-res-hd",
+   "rotulo": "HD (720p)",
+   "categoria": "resolucoes",
+   "palavras": "resolução hd 720p alta definição vídeo ecrã"
+  },
+  {
+   "nome": "res_full_hd",
+   "classe": "e3s-i-res-full-hd",
+   "rotulo": "Full HD (1080p)",
+   "categoria": "resolucoes",
+   "palavras": "resolução full hd fhd 1080p vídeo ecrã"
+  },
+  {
+   "nome": "res_2k",
+   "classe": "e3s-i-res-2k",
+   "rotulo": "2K",
+   "categoria": "resolucoes",
+   "palavras": "resolução 2k qhd 1440p vídeo ecrã"
+  },
+  {
+   "nome": "res_3k",
+   "classe": "e3s-i-res-3k",
+   "rotulo": "3K",
+   "categoria": "resolucoes",
+   "palavras": "resolução 3k vídeo ecrã"
+  },
+  {
+   "nome": "res_4k",
+   "classe": "e3s-i-res-4k",
+   "rotulo": "4K (UHD)",
+   "categoria": "resolucoes",
+   "palavras": "resolução 4k uhd 2160p ultra alta definição vídeo ecrã"
+  },
+  {
+   "nome": "res_6k",
+   "classe": "e3s-i-res-6k",
+   "rotulo": "6K",
+   "categoria": "resolucoes",
+   "palavras": "resolução 6k vídeo ecrã"
+  },
+  {
+   "nome": "res_8k",
+   "classe": "e3s-i-res-8k",
+   "rotulo": "8K",
+   "categoria": "resolucoes",
+   "palavras": "resolução 8k 4320p vídeo ecrã"
+  },
+  {
+   "nome": "andar_pe",
+   "classe": "e3s-i-andar-pe",
+   "rotulo": "A pé",
+   "categoria": "transportes",
+   "palavras": "andar a pé peão caminhar pessoa"
+  },
+  {
+   "nome": "bicicleta",
+   "classe": "e3s-i-bicicleta",
+   "rotulo": "Bicicleta",
+   "categoria": "transportes",
+   "palavras": "bicicleta bicla ciclismo ciclovia"
+  },
+  {
+   "nome": "carro",
+   "classe": "e3s-i-carro",
+   "rotulo": "Carro",
+   "categoria": "transportes",
+   "palavras": "carro automóvel viatura veículo"
+  },
+  {
+   "nome": "taxi",
+   "classe": "e3s-i-taxi",
+   "rotulo": "Táxi",
+   "categoria": "transportes",
+   "palavras": "táxi carro transporte praça"
+  },
+  {
+   "nome": "carro_tvde",
+   "classe": "e3s-i-carro-tvde",
+   "rotulo": "Carro TVDE",
+   "categoria": "transportes",
+   "palavras": "tvde transporte individual plataforma aplicação motorista viagem"
+  },
+  {
+   "nome": "roda",
+   "classe": "e3s-i-roda",
+   "rotulo": "Roda",
+   "categoria": "transportes",
+   "palavras": "roda pneu jante veículo"
+  },
+  {
+   "nome": "cone",
+   "classe": "e3s-i-cone",
+   "rotulo": "Pino de sinalização",
+   "categoria": "transportes",
+   "palavras": "pino cone estrada obras sinalização trânsito"
+  },
+  {
+   "nome": "placa_direcao",
+   "classe": "e3s-i-placa-direcao",
+   "rotulo": "Placa de indicação",
+   "categoria": "transportes",
+   "palavras": "placa indicação direção sinal caminho orientação"
+  },
+  {
+   "nome": "sinal_proibido",
+   "classe": "e3s-i-sinal-proibido",
+   "rotulo": "Sinal de proibição",
+   "categoria": "transportes",
+   "palavras": "sinal proibido proibição interdito sentido"
+  },
+  {
+   "nome": "sinal_stop",
+   "classe": "e3s-i-sinal-stop",
+   "rotulo": "Sinal de paragem",
+   "categoria": "transportes",
+   "palavras": "sinal stop paragem obrigatória octógono"
+  },
+  {
+   "nome": "semaforo",
+   "classe": "e3s-i-semaforo",
+   "rotulo": "Semáforo",
+   "categoria": "transportes",
+   "palavras": "semáforo sinal luminoso trânsito"
+  },
+  {
+   "nome": "acessibilidade",
+   "classe": "e3s-i-acessibilidade",
+   "rotulo": "Acessibilidade",
+   "categoria": "saude",
+   "palavras": "deficiente deficiência cadeira de rodas mobilidade reduzida inclusão"
+  },
+  {
+   "nome": "comprimido",
+   "classe": "e3s-i-comprimido",
+   "rotulo": "Comprimido",
+   "categoria": "saude",
+   "palavras": "comprimido cápsula medicamento remédio farmácia"
+  },
+  {
+   "nome": "penso",
+   "classe": "e3s-i-penso",
+   "rotulo": "Penso rápido",
+   "categoria": "saude",
+   "palavras": "penso rápido ferida curativo primeiros socorros"
+  },
+  {
+   "nome": "termometro",
+   "classe": "e3s-i-termometro",
+   "rotulo": "Termómetro",
+   "categoria": "saude",
+   "palavras": "termómetro temperatura febre graus"
+  },
+  {
+   "nome": "virus",
+   "classe": "e3s-i-virus",
+   "rotulo": "Vírus",
+   "categoria": "saude",
+   "palavras": "vírus infeção doença bactéria contágio"
+  },
+  {
+   "nome": "primeiros_socorros",
+   "classe": "e3s-i-primeiros-socorros",
+   "rotulo": "Primeiros socorros",
+   "categoria": "saude",
+   "palavras": "primeiros socorros saúde cruz enfermaria"
+  },
+  {
+   "nome": "privado",
+   "classe": "e3s-i-privado",
+   "rotulo": "Privado",
+   "categoria": "seguranca",
+   "palavras": "privado anónimo incógnito navegação privada"
+  },
+  {
+   "nome": "impressao_digital",
+   "classe": "e3s-i-impressao-digital",
+   "rotulo": "Impressão digital",
+   "categoria": "seguranca",
+   "palavras": "impressão digital biometria dedo identidade autenticação"
+  },
+  {
+   "nome": "radioatividade",
+   "classe": "e3s-i-radioatividade",
+   "rotulo": "Radioatividade",
+   "categoria": "seguranca",
+   "palavras": "radioatividade radiação perigo nuclear"
+  },
+  {
+   "nome": "yin_yang",
+   "classe": "e3s-i-yin-yang",
+   "rotulo": "Yin e yang",
+   "categoria": "geral",
+   "palavras": "yin yang equilíbrio harmonia dualidade"
+  },
+  {
+   "nome": "trofeu",
+   "classe": "e3s-i-trofeu",
+   "rotulo": "Troféu",
+   "categoria": "objetos",
+   "palavras": "troféu taça vencedor campeão conquista"
+  },
+  {
+   "nome": "bug",
+   "classe": "e3s-i-bug",
+   "rotulo": "Erro de programa (bug)",
+   "categoria": "objetos",
+   "palavras": "bug inseto bicho erro falha depurar"
+  },
+  {
+   "nome": "bolo_aniversario",
+   "classe": "e3s-i-bolo-aniversario",
+   "rotulo": "Bolo de aniversário",
+   "categoria": "objetos",
+   "palavras": "bolo aniversário festa velas parabéns"
+  },
+  {
+   "nome": "cartao_credito",
+   "classe": "e3s-i-cartao-credito",
+   "rotulo": "Cartão de crédito",
+   "categoria": "objetos",
+   "palavras": "cartão crédito pagamento compra chip"
+  },
+  {
+   "nome": "cartao_debito",
+   "classe": "e3s-i-cartao-debito",
+   "rotulo": "Cartão de débito",
+   "categoria": "objetos",
+   "palavras": "cartão débito multibanco pagamento sem contacto"
+  },
+  {
+   "nome": "carteira",
+   "classe": "e3s-i-carteira",
+   "rotulo": "Carteira",
+   "categoria": "objetos",
+   "palavras": "carteira dinheiro pagamento saldo"
+  },
+  {
+   "nome": "boia",
+   "classe": "e3s-i-boia",
+   "rotulo": "Boia salva-vidas",
+   "categoria": "objetos",
+   "palavras": "boia salva-vidas ajuda socorro suporte apoio"
+  },
+  {
+   "nome": "clipe",
+   "classe": "e3s-i-clipe",
+   "rotulo": "Clipe",
+   "categoria": "objetos",
+   "palavras": "clipe anexo anexar prender"
+  },
+  {
+   "nome": "pino",
+   "classe": "e3s-i-pino",
+   "rotulo": "Pino",
+   "categoria": "objetos",
+   "palavras": "pino pionés fixar afixar destacar pin"
+  },
+  {
+   "nome": "marcador",
+   "classe": "e3s-i-marcador",
+   "rotulo": "Marcador",
+   "categoria": "objetos",
+   "palavras": "marcador página guardar ler depois fita"
+  },
+  {
+   "nome": "bilhete",
+   "classe": "e3s-i-bilhete",
+   "rotulo": "Bilhete",
+   "categoria": "objetos",
+   "palavras": "bilhete senha entrada ingresso talão"
+  },
+  {
+   "nome": "marca_visa",
+   "classe": "e3s-i-marca-visa",
+   "rotulo": "Visa",
+   "categoria": "marcas",
+   "palavras": "visa cartão pagamento marca"
+  },
+  {
+   "nome": "marca_mastercard",
+   "classe": "e3s-i-marca-mastercard",
+   "rotulo": "Mastercard",
+   "categoria": "marcas",
+   "palavras": "mastercard cartão pagamento marca"
+  },
+  {
+   "nome": "marca_multibanco",
+   "classe": "e3s-i-marca-multibanco",
+   "rotulo": "Multibanco",
+   "categoria": "marcas",
+   "palavras": "multibanco mb referência pagamento cartão"
+  },
+  {
+   "nome": "marca_mbway",
+   "classe": "e3s-i-marca-mbway",
+   "rotulo": "MB WAY",
+   "categoria": "marcas",
+   "palavras": "mb way pagamento telemóvel transferência"
+  },
+  {
+   "nome": "marca_paypal",
+   "classe": "e3s-i-marca-paypal",
+   "rotulo": "PayPal",
+   "categoria": "marcas",
+   "palavras": "paypal pagamento online carteira digital"
+  },
+  {
+   "nome": "marca_amex",
+   "classe": "e3s-i-marca-amex",
+   "rotulo": "American Express",
+   "categoria": "marcas",
+   "palavras": "american express amex cartão pagamento"
+  },
+  {
+   "nome": "marca_sepa",
+   "classe": "e3s-i-marca-sepa",
+   "rotulo": "SEPA",
+   "categoria": "marcas",
+   "palavras": "sepa transferência débito direto pagamento europa"
+  },
+  {
+   "nome": "marca_iban",
+   "classe": "e3s-i-marca-iban",
+   "rotulo": "IBAN",
+   "categoria": "marcas",
+   "palavras": "iban transferência bancária conta banco"
+  },
+  {
+   "nome": "marca_bitcoin",
+   "classe": "e3s-i-marca-bitcoin",
+   "rotulo": "Bitcoin",
+   "categoria": "marcas",
+   "palavras": "bitcoin criptomoeda btc moeda digital"
+  },
+  {
+   "nome": "pagamento_sem_contacto",
+   "classe": "e3s-i-pagamento-sem-contacto",
+   "rotulo": "Pagamento sem contacto",
+   "categoria": "marcas",
+   "palavras": "sem contacto contactless nfc aproximar pagamento"
+  },
+  {
+   "nome": "ficheiro_docx",
+   "classe": "e3s-i-ficheiro-docx",
+   "rotulo": "Documento Word (DOCX)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro docx word documento processador de texto"
+  },
+  {
+   "nome": "ficheiro_xlsx",
+   "classe": "e3s-i-ficheiro-xlsx",
+   "rotulo": "Folha de cálculo (XLSX)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro xlsx excel folha de cálculo"
+  },
+  {
+   "nome": "ficheiro_pptx",
+   "classe": "e3s-i-ficheiro-pptx",
+   "rotulo": "Apresentação (PPTX)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro pptx powerpoint diapositivos apresentação"
+  },
+  {
+   "nome": "ficheiro_zip",
+   "classe": "e3s-i-ficheiro-zip",
+   "rotulo": "ZIP",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro zip comprimido arquivo"
+  },
+  {
+   "nome": "ficheiro_png",
+   "classe": "e3s-i-ficheiro-png",
+   "rotulo": "Imagem PNG",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro png imagem transparência"
+  },
+  {
+   "nome": "ficheiro_jpg",
+   "classe": "e3s-i-ficheiro-jpg",
+   "rotulo": "Imagem JPG",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro jpg jpeg imagem fotografia"
+  },
+  {
+   "nome": "ficheiro_svg",
+   "classe": "e3s-i-ficheiro-svg",
+   "rotulo": "Imagem SVG",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro svg vetorial imagem ícone"
+  },
+  {
+   "nome": "ficheiro_mp3",
+   "classe": "e3s-i-ficheiro-mp3",
+   "rotulo": "Áudio MP3",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro mp3 áudio música som"
+  },
+  {
+   "nome": "ficheiro_mp4",
+   "classe": "e3s-i-ficheiro-mp4",
+   "rotulo": "Vídeo MP4",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro mp4 vídeo filme"
+  },
+  {
+   "nome": "ficheiro_epub",
+   "classe": "e3s-i-ficheiro-epub",
+   "rotulo": "Livro digital (EPUB)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro epub livro digital ebook"
+  },
+  {
+   "nome": "ficheiro_python",
+   "classe": "e3s-i-ficheiro-python",
+   "rotulo": "Python",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro python py programação código"
+  },
+  {
+   "nome": "ficheiro_javascript",
+   "classe": "e3s-i-ficheiro-javascript",
+   "rotulo": "JavaScript",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro javascript js programação código web"
+  },
+  {
+   "nome": "ficheiro_typescript",
+   "classe": "e3s-i-ficheiro-typescript",
+   "rotulo": "TypeScript",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro typescript ts programação código"
+  },
+  {
+   "nome": "ficheiro_html",
+   "classe": "e3s-i-ficheiro-html",
+   "rotulo": "HTML",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro html página web marcação"
+  },
+  {
+   "nome": "ficheiro_css",
+   "classe": "e3s-i-ficheiro-css",
+   "rotulo": "CSS",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro css estilos folha de estilo web"
+  },
+  {
+   "nome": "ficheiro_php",
+   "classe": "e3s-i-ficheiro-php",
+   "rotulo": "PHP",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro php programação código web servidor"
+  },
+  {
+   "nome": "ficheiro_java",
+   "classe": "e3s-i-ficheiro-java",
+   "rotulo": "Java",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro java programação código"
+  },
+  {
+   "nome": "ficheiro_c",
+   "classe": "e3s-i-ficheiro-c",
+   "rotulo": "C",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro c linguagem programação código"
+  },
+  {
+   "nome": "ficheiro_cpp",
+   "classe": "e3s-i-ficheiro-cpp",
+   "rotulo": "C++",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro c++ cpp programação código"
+  },
+  {
+   "nome": "ficheiro_csharp",
+   "classe": "e3s-i-ficheiro-csharp",
+   "rotulo": "C#",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro c# csharp dotnet programação código"
+  },
+  {
+   "nome": "ficheiro_go",
+   "classe": "e3s-i-ficheiro-go",
+   "rotulo": "Go",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro go golang programação código"
+  },
+  {
+   "nome": "ficheiro_rust",
+   "classe": "e3s-i-ficheiro-rust",
+   "rotulo": "Rust",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro rust rs programação código"
+  },
+  {
+   "nome": "ficheiro_ruby",
+   "classe": "e3s-i-ficheiro-ruby",
+   "rotulo": "Ruby",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro ruby rb programação código"
+  },
+  {
+   "nome": "ficheiro_kotlin",
+   "classe": "e3s-i-ficheiro-kotlin",
+   "rotulo": "Kotlin",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro kotlin kt android programação código"
+  },
+  {
+   "nome": "ficheiro_shell",
+   "classe": "e3s-i-ficheiro-shell",
+   "rotulo": "Shell (bash)",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro shell bash sh script terminal"
+  },
+  {
+   "nome": "ficheiro_markdown",
+   "classe": "e3s-i-ficheiro-markdown",
+   "rotulo": "Markdown",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro markdown md documentação texto"
+  },
+  {
+   "nome": "ficheiro_yaml",
+   "classe": "e3s-i-ficheiro-yaml",
+   "rotulo": "YAML",
+   "categoria": "ficheiros",
+   "palavras": "ficheiro yaml yml configuração dados"
+  },
+  {
+   "nome": "rapaz",
+   "classe": "e3s-i-rapaz",
+   "rotulo": "Rapaz",
+   "categoria": "pessoas",
+   "palavras": "rapaz menino criança masculino sexo"
+  },
+  {
+   "nome": "rapariga",
+   "classe": "e3s-i-rapariga",
+   "rotulo": "Rapariga",
+   "categoria": "pessoas",
+   "palavras": "rapariga menina criança feminino sexo"
+  },
+  {
+   "nome": "bebe_masculino",
+   "classe": "e3s-i-bebe-masculino",
+   "rotulo": "Bebé (masculino)",
+   "categoria": "pessoas",
+   "palavras": "bebé menino recém-nascido masculino idade"
+  },
+  {
+   "nome": "bebe_feminino",
+   "classe": "e3s-i-bebe-feminino",
+   "rotulo": "Bebé (feminino)",
+   "categoria": "pessoas",
+   "palavras": "bebé menina recém-nascida feminino idade"
+  },
+  {
+   "nome": "adolescente_masculino",
+   "classe": "e3s-i-adolescente-masculino",
+   "rotulo": "Adolescente (masculino)",
+   "categoria": "pessoas",
+   "palavras": "adolescente jovem rapaz masculino idade"
+  },
+  {
+   "nome": "adolescente_feminino",
+   "classe": "e3s-i-adolescente-feminino",
+   "rotulo": "Adolescente (feminino)",
+   "categoria": "pessoas",
+   "palavras": "adolescente jovem rapariga feminino idade"
+  },
+  {
+   "nome": "adulto_masculino",
+   "classe": "e3s-i-adulto-masculino",
+   "rotulo": "Adulto (masculino)",
+   "categoria": "pessoas",
+   "palavras": "adulto homem masculino idade"
+  },
+  {
+   "nome": "adulto_feminino",
+   "classe": "e3s-i-adulto-feminino",
+   "rotulo": "Adulto (feminino)",
+   "categoria": "pessoas",
+   "palavras": "adulta mulher feminino idade"
+  },
+  {
+   "nome": "idoso_masculino",
+   "classe": "e3s-i-idoso-masculino",
+   "rotulo": "Idoso (masculino)",
+   "categoria": "pessoas",
+   "palavras": "idoso sénior avô reformado masculino idade"
+  },
+  {
+   "nome": "idoso_feminino",
+   "classe": "e3s-i-idoso-feminino",
+   "rotulo": "Idosa (feminino)",
+   "categoria": "pessoas",
+   "palavras": "idosa sénior avó reformada feminino idade"
+  },
+  {
+   "nome": "irmao",
+   "classe": "e3s-i-irmao",
+   "rotulo": "Irmão",
+   "categoria": "pessoas",
+   "palavras": "irmão irmãos família fratria agregado"
+  },
+  {
+   "nome": "irma",
+   "classe": "e3s-i-irma",
+   "rotulo": "Irmã",
+   "categoria": "pessoas",
+   "palavras": "irmã irmãs família fratria agregado"
+  },
+  {
+   "nome": "irmaos",
+   "classe": "e3s-i-irmaos",
+   "rotulo": "Irmãos",
+   "categoria": "pessoas",
+   "palavras": "irmãos irmão irmã família fratria agregado"
+  },
+  {
+   "nome": "sexo_outro",
+   "classe": "e3s-i-sexo-outro",
+   "rotulo": "Outro sexo",
+   "categoria": "geral",
+   "palavras": "outro sexo género não binário intersexo"
+  },
+  {
+   "nome": "perfil",
+   "classe": "e3s-i-perfil",
+   "rotulo": "Perfil",
+   "categoria": "utilizadores",
+   "palavras": "perfil utilizador conta ficha pessoal cartão dados"
+  },
+  {
+   "nome": "equipa",
+   "classe": "e3s-i-equipa",
+   "rotulo": "Equipa",
+   "categoria": "utilizadores",
+   "palavras": "equipa grupo pessoas colaboradores membros"
+  },
+  {
+   "nome": "permissoes",
+   "classe": "e3s-i-permissoes",
+   "rotulo": "Permissões",
+   "categoria": "utilizadores",
+   "palavras": "permissões acessos direitos autorizações matriz"
+  },
+  {
+   "nome": "papel",
+   "classe": "e3s-i-papel",
+   "rotulo": "Papel",
+   "categoria": "utilizadores",
+   "palavras": "papel função cargo perfil de acesso role"
+  },
+  {
+   "nome": "papeis",
+   "classe": "e3s-i-papeis",
+   "rotulo": "Papéis",
+   "categoria": "utilizadores",
+   "palavras": "papéis funções cargos perfis de acesso roles"
+  },
+  {
+   "nome": "credencial",
+   "classe": "e3s-i-credencial",
+   "rotulo": "Credencial",
+   "categoria": "utilizadores",
+   "palavras": "credencial cartão identificação crachá acesso"
+  },
+  {
+   "nome": "credenciais",
+   "classe": "e3s-i-credenciais",
+   "rotulo": "Credenciais",
+   "categoria": "utilizadores",
+   "palavras": "credenciais cartões identificação acessos palavras-passe"
+  },
+  {
+   "nome": "bloqueio",
+   "classe": "e3s-i-bloqueio",
+   "rotulo": "Bloqueio",
+   "categoria": "seguranca",
+   "palavras": "bloqueio bloqueado banido interdito impedido"
+  },
+  {
+   "nome": "campos_importacao",
+   "classe": "e3s-i-campos-importacao",
+   "rotulo": "Campos de importação",
+   "categoria": "dados",
+   "palavras": "importação campos colunas mapear correspondência ficheiro"
+  },
+  {
+   "nome": "verificacao",
+   "classe": "e3s-i-verificacao",
+   "rotulo": "Verificação",
+   "categoria": "dados",
+   "palavras": "verificação verificar inspecionar confirmar lupa visto"
+  },
+  {
+   "nome": "limites",
+   "classe": "e3s-i-limites",
+   "rotulo": "Limites",
+   "categoria": "dados",
+   "palavras": "limites limite quota máximo mínimo capacidade conta-rotações"
+  },
+  {
+   "nome": "lotacao",
+   "classe": "e3s-i-lotacao",
+   "rotulo": "Lotação",
+   "categoria": "dados",
+   "palavras": "lotação capacidade vagas ocupação lugares cheio"
+  },
+  {
+   "nome": "detecao",
+   "classe": "e3s-i-detecao",
+   "rotulo": "Deteção",
+   "categoria": "dados",
+   "palavras": "deteção detetar reconhecer leitura digitalizar alvo"
+  },
+  {
+   "nome": "detecao_automatica",
+   "classe": "e3s-i-detecao-automatica",
+   "rotulo": "Deteção automática",
+   "categoria": "dados",
+   "palavras": "deteção automática detetar automaticamente reconhecer"
+  },
+  {
+   "nome": "inteligencia_artificial",
+   "classe": "e3s-i-inteligencia-artificial",
+   "rotulo": "Inteligência artificial",
+   "categoria": "dados",
+   "palavras": "ia inteligência artificial ai modelo chip"
+  },
+  {
+   "nome": "ia_sugestao",
+   "classe": "e3s-i-ia-sugestao",
+   "rotulo": "Sugestão de IA",
+   "categoria": "dados",
+   "palavras": "ia inteligência artificial sugestão gerar brilho magia"
+  },
+  {
+   "nome": "inconsistencias",
+   "classe": "e3s-i-inconsistencias",
+   "rotulo": "Inconsistências",
+   "categoria": "dados",
+   "palavras": "inconsistência discrepância diferença comparar não coincide"
+  },
+  {
+   "nome": "recalcular",
+   "classe": "e3s-i-recalcular",
+   "rotulo": "Recalcular",
+   "categoria": "dados",
+   "palavras": "recalcular recalcular voltar a calcular atualizar contas"
+  },
+  {
+   "nome": "indefinido",
+   "classe": "e3s-i-indefinido",
+   "rotulo": "Não definido",
+   "categoria": "dados",
+   "palavras": "não definido indefinido sem valor vazio desconhecido"
+  },
+  {
+   "nome": "validacao_parcial",
+   "classe": "e3s-i-validacao-parcial",
+   "rotulo": "Validação parcial",
+   "categoria": "dados",
+   "palavras": "validação parcial meio incompleta em parte"
+  },
+  {
+   "nome": "por_validar",
+   "classe": "e3s-i-por-validar",
+   "rotulo": "Por validar",
+   "categoria": "dados",
+   "palavras": "por validar aguarda validação pendente revisão"
+  },
+  {
+   "nome": "quimica",
+   "classe": "e3s-i-quimica",
+   "rotulo": "Química",
+   "categoria": "educacao",
+   "palavras": "química frasco balão laboratório tubo de ensaio ciências"
+  },
+  {
+   "nome": "dolar",
+   "classe": "e3s-i-dolar",
+   "rotulo": "Dólar",
+   "categoria": "matematica",
+   "palavras": "dólar dinheiro moeda usd preço $"
+  },
+  {
+   "nome": "pont_interrogacao",
+   "classe": "e3s-i-pont-interrogacao",
+   "rotulo": "Ponto de interrogação",
+   "categoria": "matematica",
+   "palavras": "pontuação interrogação pergunta ?"
+  },
+  {
+   "nome": "pont_exclamacao",
+   "classe": "e3s-i-pont-exclamacao",
+   "rotulo": "Ponto de exclamação",
+   "categoria": "matematica",
+   "palavras": "pontuação exclamação atenção !"
+  },
+  {
+   "nome": "pont_aspas",
+   "classe": "e3s-i-pont-aspas",
+   "rotulo": "Aspas",
+   "categoria": "matematica",
+   "palavras": "pontuação aspas citação «»"
+  },
+  {
+   "nome": "pont_reticencias",
+   "classe": "e3s-i-pont-reticencias",
+   "rotulo": "Reticências",
+   "categoria": "matematica",
+   "palavras": "pontuação reticências três pontos …"
+  },
+  {
+   "nome": "pont_dois_pontos",
+   "classe": "e3s-i-pont-dois-pontos",
+   "rotulo": "Dois pontos",
+   "categoria": "matematica",
+   "palavras": "pontuação dois pontos :"
+  },
+  {
+   "nome": "pont_ponto_virgula",
+   "classe": "e3s-i-pont-ponto-virgula",
+   "rotulo": "Ponto e vírgula",
+   "categoria": "matematica",
+   "palavras": "pontuação ponto e vírgula ;"
+  },
+  {
+   "nome": "pont_virgula",
+   "classe": "e3s-i-pont-virgula",
+   "rotulo": "Vírgula",
+   "categoria": "matematica",
+   "palavras": "pontuação vírgula ,"
+  },
+  {
+   "nome": "noticia",
+   "classe": "e3s-i-noticia",
+   "rotulo": "Notícia",
+   "categoria": "comunicacao",
+   "palavras": "notícia jornal artigo novidade imprensa"
+  },
+  {
+   "nome": "noticias",
+   "classe": "e3s-i-noticias",
+   "rotulo": "Notícias",
+   "categoria": "comunicacao",
+   "palavras": "notícias jornais artigos novidades imprensa"
+  },
+  {
+   "nome": "etiquetas",
+   "classe": "e3s-i-etiquetas",
+   "rotulo": "Etiquetas",
+   "categoria": "geral",
+   "palavras": "etiquetas tags categorias marcadores"
+  },
+  {
+   "nome": "ligacoes",
+   "classe": "e3s-i-ligacoes",
+   "rotulo": "Ligações",
+   "categoria": "comunicacao",
+   "palavras": "ligações rede nós relações conexões"
+  },
+  {
+   "nome": "ligacao_curta",
+   "classe": "e3s-i-ligacao-curta",
+   "rotulo": "Ligação curta",
+   "categoria": "comunicacao",
+   "palavras": "ligação curta encurtar url curto short link redirecionar"
+  },
+  {
+   "nome": "area_influencia",
+   "classe": "e3s-i-area-influencia",
+   "rotulo": "Área de influência",
+   "categoria": "geral",
+   "palavras": "área de influência zona raio abrangência localização residência escola"
+  },
+  {
+   "nome": "codigo_postal",
+   "classe": "e3s-i-codigo-postal",
+   "rotulo": "Código postal",
+   "categoria": "geral",
+   "palavras": "código postal cp morada endereço localidade"
+  },
+  {
+   "nome": "distancia",
+   "classe": "e3s-i-distancia",
+   "rotulo": "Distância",
+   "categoria": "geral",
+   "palavras": "distância percurso entre dois pontos quilómetros medir"
+  },
+  {
+   "nome": "residencia",
+   "classe": "e3s-i-residencia",
+   "rotulo": "Residência",
+   "categoria": "geral",
+   "palavras": "residência morada casa habitação domicílio"
+  },
+  {
+   "nome": "emprego",
+   "classe": "e3s-i-emprego",
+   "rotulo": "Emprego",
+   "categoria": "geral",
+   "palavras": "emprego trabalho profissão pasta ocupação"
+  },
+  {
+   "nome": "tipo_email",
+   "classe": "e3s-i-tipo-email",
+   "rotulo": "Email",
+   "categoria": "tipos_dados",
+   "palavras": "campo email correio endereço"
+  },
+  {
+   "nome": "tipo_telefone",
+   "classe": "e3s-i-tipo-telefone",
+   "rotulo": "Telefone",
+   "categoria": "tipos_dados",
+   "palavras": "campo telefone telemóvel número"
+  },
+  {
+   "nome": "tipo_url",
+   "classe": "e3s-i-tipo-url",
+   "rotulo": "Endereço web",
+   "categoria": "tipos_dados",
+   "palavras": "campo url ligação site link"
+  },
+  {
+   "nome": "tipo_ficheiro",
+   "classe": "e3s-i-tipo-ficheiro",
+   "rotulo": "Ficheiro",
+   "categoria": "tipos_dados",
+   "palavras": "campo anexo documento blob"
+  },
+  {
+   "nome": "tipo_imagem",
+   "classe": "e3s-i-tipo-imagem",
+   "rotulo": "Imagem",
+   "categoria": "tipos_dados",
+   "palavras": "campo fotografia foto"
+  },
+  {
+   "nome": "tipo_hora",
+   "classe": "e3s-i-tipo-hora",
+   "rotulo": "Hora",
+   "categoria": "tipos_dados",
+   "palavras": "campo hora tempo time"
+  },
+  {
+   "nome": "tipo_coordenadas",
+   "classe": "e3s-i-tipo-coordenadas",
+   "rotulo": "Coordenadas",
+   "categoria": "tipos_dados",
+   "palavras": "campo gps latitude longitude"
+  },
+  {
+   "nome": "negrito",
+   "classe": "e3s-i-negrito",
+   "rotulo": "Negrito",
+   "categoria": "design",
+   "palavras": "negrito bold texto formatação"
+  },
+  {
+   "nome": "italico",
+   "classe": "e3s-i-italico",
+   "rotulo": "Itálico",
+   "categoria": "design",
+   "palavras": "itálico italic texto formatação inclinado"
+  },
+  {
+   "nome": "sublinhado",
+   "classe": "e3s-i-sublinhado",
+   "rotulo": "Sublinhado",
+   "categoria": "design",
+   "palavras": "sublinhado underline texto formatação"
+  },
+  {
+   "nome": "rasurado",
+   "classe": "e3s-i-rasurado",
+   "rotulo": "Rasurado",
+   "categoria": "design",
+   "palavras": "rasurado riscado strikethrough texto formatação"
+  },
+  {
+   "nome": "subscrito",
+   "classe": "e3s-i-subscrito",
+   "rotulo": "Subscrito",
+   "categoria": "design",
+   "palavras": "subscrito índice texto formatação"
+  },
+  {
+   "nome": "superscrito",
+   "classe": "e3s-i-superscrito",
+   "rotulo": "Superscrito",
+   "categoria": "design",
+   "palavras": "superscrito expoente texto formatação"
+  },
+  {
+   "nome": "alinhar_esquerda",
+   "classe": "e3s-i-alinhar-esquerda",
+   "rotulo": "Alinhar à esquerda",
+   "categoria": "design",
+   "palavras": "alinhar esquerda texto parágrafo"
+  },
+  {
+   "nome": "alinhar_centro",
+   "classe": "e3s-i-alinhar-centro",
+   "rotulo": "Centrar",
+   "categoria": "design",
+   "palavras": "alinhar centro centrar texto parágrafo"
+  },
+  {
+   "nome": "alinhar_direita",
+   "classe": "e3s-i-alinhar-direita",
+   "rotulo": "Alinhar à direita",
+   "categoria": "design",
+   "palavras": "alinhar direita texto parágrafo"
+  },
+  {
+   "nome": "paragrafo",
+   "classe": "e3s-i-paragrafo",
+   "rotulo": "Parágrafo",
+   "categoria": "design",
+   "palavras": "parágrafo texto pilcrow"
+  },
+  {
+   "nome": "indentar",
+   "classe": "e3s-i-indentar",
+   "rotulo": "Aumentar avanço",
+   "categoria": "design",
+   "palavras": "indentar avanço recuo tabulação lista"
+  },
+  {
+   "nome": "desindentar",
+   "classe": "e3s-i-desindentar",
+   "rotulo": "Diminuir avanço",
+   "categoria": "design",
+   "palavras": "desindentar avanço recuo tabulação lista"
+  },
+  {
+   "nome": "recortar",
+   "classe": "e3s-i-recortar",
+   "rotulo": "Recortar",
+   "categoria": "design",
+   "palavras": "recortar crop imagem enquadrar"
+  },
+  {
+   "nome": "arrastar",
+   "classe": "e3s-i-arrastar",
+   "rotulo": "Arrastar",
+   "categoria": "acoes",
+   "palavras": "arrastar pega reordenar mover grip"
+  },
+  {
+   "nome": "tema_claro",
+   "classe": "e3s-i-tema-claro",
+   "rotulo": "Tema claro",
+   "categoria": "geral",
+   "palavras": "tema claro sol dia luz"
+  },
+  {
+   "nome": "tema_escuro",
+   "classe": "e3s-i-tema-escuro",
+   "rotulo": "Tema escuro",
+   "categoria": "geral",
+   "palavras": "tema escuro lua noite"
+  },
+  {
+   "nome": "tema_auto",
+   "classe": "e3s-i-tema-auto",
+   "rotulo": "Tema automático",
+   "categoria": "geral",
+   "palavras": "tema automático sistema claro escuro metade"
+  },
+  {
+   "nome": "circulo",
+   "classe": "e3s-i-circulo",
+   "rotulo": "Círculo",
+   "categoria": "geral",
+   "palavras": "círculo vazio opção por marcar estado neutro"
+  },
+  {
+   "nome": "ponto",
+   "classe": "e3s-i-ponto",
+   "rotulo": "Ponto",
+   "categoria": "geral",
+   "palavras": "ponto círculo cheio marca legenda cor estado"
+  },
+  {
+   "nome": "estrela",
+   "classe": "e3s-i-estrela",
+   "rotulo": "Estrela",
+   "categoria": "geral",
+   "palavras": "estrela cheia destaque favorito classificação"
+  },
+  {
+   "nome": "estrela_meia",
+   "classe": "e3s-i-estrela-meia",
+   "rotulo": "Meia estrela",
+   "categoria": "geral",
+   "palavras": "meia estrela classificação avaliação metade"
+  },
+  {
+   "nome": "invisivel",
+   "classe": "e3s-i-invisivel",
+   "rotulo": "Invisível",
+   "categoria": "geral",
+   "palavras": "invisível oculto escondido olho riscado não mostrar"
+  },
+  {
+   "nome": "ligar_desligar",
+   "classe": "e3s-i-ligar-desligar",
+   "rotulo": "Ligar/desligar",
+   "categoria": "tecnologia",
+   "palavras": "ligar desligar energia power on off"
+  },
+  {
+   "nome": "interruptor_ligado",
+   "classe": "e3s-i-interruptor-ligado",
+   "rotulo": "Interruptor ligado",
+   "categoria": "tecnologia",
+   "palavras": "interruptor ligado ativo ativado ligado on toggle estado"
+  },
+  {
+   "nome": "interruptor_desligado",
+   "classe": "e3s-i-interruptor-desligado",
+   "rotulo": "Interruptor desligado",
+   "categoria": "tecnologia",
+   "palavras": "interruptor desligado inativo desativado off toggle estado"
+  },
+  {
+   "nome": "velocimetro",
+   "classe": "e3s-i-velocimetro",
+   "rotulo": "Velocímetro",
+   "categoria": "tecnologia",
+   "palavras": "velocímetro desempenho monitorização painel velocidade"
+  },
+  {
+   "nome": "raio",
+   "classe": "e3s-i-raio",
+   "rotulo": "Raio",
+   "categoria": "geral",
+   "palavras": "raio energia rapidez rápido elétrico relâmpago"
+  },
+  {
+   "nome": "ferramentas",
+   "classe": "e3s-i-ferramentas",
+   "rotulo": "Ferramentas",
+   "categoria": "objetos",
+   "palavras": "ferramentas chave inglesa reparar manutenção configurar"
+  },
+  {
+   "nome": "puzzle",
+   "classe": "e3s-i-puzzle",
+   "rotulo": "Peça de puzzle",
+   "categoria": "objetos",
+   "palavras": "puzzle peça extensão módulo encaixe"
+  },
+  {
+   "nome": "cofre",
+   "classe": "e3s-i-cofre",
+   "rotulo": "Cofre",
+   "categoria": "objetos",
+   "palavras": "cofre segurança guardado credenciais ligações seguras"
+  },
+  {
+   "nome": "presente",
+   "classe": "e3s-i-presente",
+   "rotulo": "Presente",
+   "categoria": "objetos",
+   "palavras": "presente oferta prenda gift"
+  },
+  {
+   "nome": "chavena",
+   "classe": "e3s-i-chavena",
+   "rotulo": "Chávena",
+   "categoria": "objetos",
+   "palavras": "chávena café chá pausa intervalo bebida quente"
+  },
+  {
+   "nome": "bandeira",
+   "classe": "e3s-i-bandeira",
+   "rotulo": "Bandeira",
+   "categoria": "objetos",
+   "palavras": "bandeira marco meta assinalar sinalizar"
+  },
+  {
+   "nome": "balao_festa",
+   "classe": "e3s-i-balao-festa",
+   "rotulo": "Balão de festa",
+   "categoria": "objetos",
+   "palavras": "balão festa aniversário celebração"
+  },
+  {
+   "nome": "bolacha",
+   "classe": "e3s-i-bolacha",
+   "rotulo": "Bolacha (cookie)",
+   "categoria": "objetos",
+   "palavras": "cookie bolacha navegador privacidade"
+  },
+  {
+   "nome": "foguete",
+   "classe": "e3s-i-foguete",
+   "rotulo": "Foguetão",
+   "categoria": "objetos",
+   "palavras": "foguetão foguete lançamento arranque início startup"
+  },
+  {
+   "nome": "arvore",
+   "classe": "e3s-i-arvore",
+   "rotulo": "Árvore",
+   "categoria": "objetos",
+   "palavras": "árvore natureza ambiente floresta"
+  },
+  {
+   "nome": "folha_planta",
+   "classe": "e3s-i-folha-planta",
+   "rotulo": "Folha",
+   "categoria": "objetos",
+   "palavras": "folha planta natureza ecologia ambiente"
+  },
+  {
+   "nome": "megafone",
+   "classe": "e3s-i-megafone",
+   "rotulo": "Megafone",
+   "categoria": "comunicacao",
+   "palavras": "megafone anúncio aviso divulgação campanha"
+  },
+  {
+   "nome": "responder",
+   "classe": "e3s-i-responder",
+   "rotulo": "Responder",
+   "categoria": "comunicacao",
+   "palavras": "responder resposta seta voltar mensagem"
+  },
+  {
+   "nome": "rss",
+   "classe": "e3s-i-rss",
+   "rotulo": "RSS",
+   "categoria": "comunicacao",
+   "palavras": "rss feed subscrição notícias"
+  },
+  {
+   "nome": "traduzir",
+   "classe": "e3s-i-traduzir",
+   "rotulo": "Traduzir",
+   "categoria": "comunicacao",
+   "palavras": "traduzir idioma língua tradução"
+  },
+  {
+   "nome": "loja",
+   "classe": "e3s-i-loja",
+   "rotulo": "Loja",
+   "categoria": "geral",
+   "palavras": "loja comércio venda montra"
+  },
+  {
+   "nome": "banco",
+   "classe": "e3s-i-banco",
+   "rotulo": "Banco",
+   "categoria": "geral",
+   "palavras": "banco instituição financeira pagamento transferência"
+  },
+  {
+   "nome": "fatura",
+   "classe": "e3s-i-fatura",
+   "rotulo": "Fatura",
+   "categoria": "geral",
+   "palavras": "fatura recibo talão documento faturação"
+  },
+  {
+   "nome": "caixa",
+   "classe": "e3s-i-caixa",
+   "rotulo": "Caixa (encomenda)",
+   "categoria": "geral",
+   "palavras": "caixa encomenda pacote produto stock envio"
+  },
+  {
+   "nome": "aviao",
+   "classe": "e3s-i-aviao",
+   "rotulo": "Avião",
+   "categoria": "transportes",
+   "palavras": "avião viagem voo aeroporto"
+  },
+  {
+   "nome": "camiao",
+   "classe": "e3s-i-camiao",
+   "rotulo": "Camião",
+   "categoria": "transportes",
+   "palavras": "camião entrega transporte envio portes"
+  },
+  {
+   "nome": "marca_facebook",
+   "classe": "e3s-i-marca-facebook",
+   "rotulo": "Facebook",
+   "categoria": "marcas",
+   "palavras": "facebook rede social partilhar"
+  },
+  {
+   "nome": "marca_linkedin",
+   "classe": "e3s-i-marca-linkedin",
+   "rotulo": "LinkedIn",
+   "categoria": "marcas",
+   "palavras": "linkedin rede social profissional partilhar"
+  },
+  {
+   "nome": "marca_x",
+   "classe": "e3s-i-marca-x",
+   "rotulo": "X (Twitter)",
+   "categoria": "marcas",
+   "palavras": "x twitter rede social partilhar"
+  },
+  {
+   "nome": "marca_microsoft",
+   "classe": "e3s-i-marca-microsoft",
+   "rotulo": "Microsoft",
+   "categoria": "marcas",
+   "palavras": "microsoft conta entrar office"
+  },
+  {
+   "nome": "marca_apple",
+   "classe": "e3s-i-marca-apple",
+   "rotulo": "Apple",
+   "categoria": "marcas",
+   "palavras": "apple conta entrar ios mac"
+  },
+  {
+   "nome": "git",
+   "classe": "e3s-i-git",
+   "rotulo": "Repositório (Git)",
+   "categoria": "tecnologia",
+   "palavras": "git repositório código ramos versões github gitlab"
+  },
+  {
+   "nome": "consola_base_dados",
+   "classe": "e3s-i-consola-base-dados",
+   "rotulo": "Consola da base de dados",
+   "categoria": "equipamentos",
+   "palavras": "consola sql base de dados terminal comandos query"
+  },
+  {
+   "nome": "firewall",
+   "classe": "e3s-i-firewall",
+   "rotulo": "Firewall",
+   "categoria": "equipamentos",
+   "palavras": "firewall parede corta-fogo proteção rede tráfego regras"
+  },
+  {
+   "nome": "router",
+   "classe": "e3s-i-router",
+   "rotulo": "Router",
+   "categoria": "equipamentos",
+   "palavras": "router encaminhador internet rede antenas gateway"
+  },
+  {
+   "nome": "switch_rede",
+   "classe": "e3s-i-switch-rede",
+   "rotulo": "Switch (rede)",
+   "categoria": "equipamentos",
+   "palavras": "switch comutador rede portas lan ethernet"
+  },
+  {
+   "nome": "rede",
+   "classe": "e3s-i-rede",
+   "rotulo": "Rede",
+   "categoria": "equipamentos",
+   "palavras": "rede network topologia nós ligações lan"
+  },
+  {
+   "nome": "ponto_acesso",
+   "classe": "e3s-i-ponto-acesso",
+   "rotulo": "Ponto de acesso",
+   "categoria": "equipamentos",
+   "palavras": "ponto de acesso access point ap wi-fi sem fios"
+  },
+  {
+   "nome": "nextcloud",
+   "classe": "e3s-i-nextcloud",
+   "rotulo": "Nextcloud (nuvem de ficheiros)",
+   "categoria": "equipamentos",
+   "palavras": "nextcloud nuvem ficheiros sincronização cloud aplicação"
+  },
+  {
+   "nome": "proxy_inverso",
+   "classe": "e3s-i-proxy-inverso",
+   "rotulo": "Proxy inverso (NPM)",
+   "categoria": "equipamentos",
+   "palavras": "proxy inverso reverse proxy nginx npm nginx proxy manager encaminhar domínios"
+  },
+  {
+   "nome": "virtualizacao",
+   "classe": "e3s-i-virtualizacao",
+   "rotulo": "Virtualização (Proxmox)",
+   "categoria": "equipamentos",
+   "palavras": "virtualização máquina virtual vm contentor hipervisor proxmox"
+  },
+  {
+   "nome": "endereco_ipv4",
+   "classe": "e3s-i-endereco-ipv4",
+   "rotulo": "Endereço IPv4",
+   "categoria": "equipamentos",
+   "palavras": "endereço ip ipv4 rede"
+  },
+  {
+   "nome": "endereco_ipv6",
+   "classe": "e3s-i-endereco-ipv6",
+   "rotulo": "Endereço IPv6",
+   "categoria": "equipamentos",
+   "palavras": "endereço ip ipv6 rede"
+  },
+  {
+   "nome": "endereco_mac",
+   "classe": "e3s-i-endereco-mac",
+   "rotulo": "Endereço MAC",
+   "categoria": "equipamentos",
+   "palavras": "endereço mac placa de rede físico hardware"
+  },
+  {
+   "nome": "ficha_ligacao",
+   "classe": "e3s-i-ficha-ligacao",
+   "rotulo": "Ficha de ligação",
+   "categoria": "equipamentos",
+   "palavras": "ficha ligação dados de acesso servidor ligação guardada"
+  },
+  {
+   "nome": "periodo_mensal",
+   "classe": "e3s-i-periodo-mensal",
+   "rotulo": "Mensal",
+   "categoria": "tempo",
+   "palavras": "mensal mês todos os meses duração período assinatura"
+  },
+  {
+   "nome": "periodo_anual",
+   "classe": "e3s-i-periodo-anual",
+   "rotulo": "Anual",
+   "categoria": "tempo",
+   "palavras": "anual ano todos os anos duração período assinatura"
+  },
+  {
+   "nome": "periodo_trienal",
+   "classe": "e3s-i-periodo-trienal",
+   "rotulo": "Trienal (3 anos)",
+   "categoria": "tempo",
+   "palavras": "trienal três anos 3 anos duração período assinatura"
+  },
+  {
+   "nome": "aprovado",
+   "classe": "e3s-i-aprovado",
+   "rotulo": "Aprovado",
+   "categoria": "estados",
+   "palavras": "aprovado aprovação aceite validado selo"
+  },
+  {
+   "nome": "desaprovado",
+   "classe": "e3s-i-desaprovado",
+   "rotulo": "Desaprovado",
+   "categoria": "estados",
+   "palavras": "desaprovado desaprovação recusado rejeitado selo"
+  },
+  {
+   "nome": "ambiente_desenvolvimento",
+   "classe": "e3s-i-ambiente-desenvolvimento",
+   "rotulo": "Desenvolvimento",
+   "categoria": "estados",
+   "palavras": "ambiente desenvolvimento dev código programação"
+  },
+  {
+   "nome": "ambiente_testes",
+   "classe": "e3s-i-ambiente-testes",
+   "rotulo": "Testes",
+   "categoria": "estados",
+   "palavras": "ambiente testes ensaio qa staging pré-produção"
+  },
+  {
+   "nome": "ambiente_producao",
+   "classe": "e3s-i-ambiente-producao",
+   "rotulo": "Produção",
+   "categoria": "estados",
+   "palavras": "ambiente produção ao vivo live em funcionamento"
+  },
+  {
+   "nome": "fase_alfa",
+   "classe": "e3s-i-fase-alfa",
+   "rotulo": "Versão alfa",
+   "categoria": "estados",
+   "palavras": "alfa fase testes internos versão alpha"
+  },
+  {
+   "nome": "fase_beta",
+   "classe": "e3s-i-fase-beta",
+   "rotulo": "Versão beta",
+   "categoria": "estados",
+   "palavras": "beta fase testes versão"
+  },
+  {
+   "nome": "fase_rc",
+   "classe": "e3s-i-fase-rc",
+   "rotulo": "Versão candidata (RC)",
+   "categoria": "estados",
+   "palavras": "rc release candidate versão candidata fase testes"
+  },
+  {
+   "nome": "comentario",
+   "classe": "e3s-i-comentario",
+   "rotulo": "Comentário",
+   "categoria": "comunicacao",
+   "palavras": "comentário opinião feedback resposta balão"
+  },
+  {
+   "nome": "site",
+   "classe": "e3s-i-site",
+   "rotulo": "Site",
+   "categoria": "geral",
+   "palavras": "site sítio web página navegador internet"
+  },
+  {
+   "nome": "filtro_contem",
+   "classe": "e3s-i-filtro-contem",
+   "rotulo": "Contém",
+   "categoria": "dados",
+   "palavras": "contém inclui texto filtro pesquisa operador"
+  },
+  {
+   "nome": "filtro_nao_contem",
+   "classe": "e3s-i-filtro-nao-contem",
+   "rotulo": "Não contém",
+   "categoria": "dados",
+   "palavras": "não contém exclui texto filtro operador"
+  },
+  {
+   "nome": "filtro_comeca_por",
+   "classe": "e3s-i-filtro-comeca-por",
+   "rotulo": "Começa por",
+   "categoria": "dados",
+   "palavras": "começa por inicia prefixo texto filtro operador"
+  },
+  {
+   "nome": "filtro_vazio",
+   "classe": "e3s-i-filtro-vazio",
+   "rotulo": "Está vazio",
+   "categoria": "dados",
+   "palavras": "está vazio vazio sem valor nulo filtro operador"
+  },
+  {
+   "nome": "filtro_preenchido",
+   "classe": "e3s-i-filtro-preenchido",
+   "rotulo": "Está preenchido",
+   "categoria": "dados",
+   "palavras": "está preenchido preenchido com valor não vazio filtro operador"
+  },
+  {
+   "nome": "valor_maximo",
+   "classe": "e3s-i-valor-maximo",
+   "rotulo": "Máximo",
+   "categoria": "dados",
+   "palavras": "máximo maior valor topo limite superior estatística"
+  },
+  {
+   "nome": "valor_minimo",
+   "classe": "e3s-i-valor-minimo",
+   "rotulo": "Mínimo",
+   "categoria": "dados",
+   "palavras": "mínimo menor valor fundo limite inferior estatística"
+  },
+  {
+   "nome": "valor_medio",
+   "classe": "e3s-i-valor-medio",
+   "rotulo": "Média",
+   "categoria": "dados",
+   "palavras": "média valor médio x barra estatística"
+  },
+  {
+   "nome": "valor_aproximado",
+   "classe": "e3s-i-valor-aproximado",
+   "rotulo": "Valor aproximado",
+   "categoria": "dados",
+   "palavras": "aproximado aproximadamente cerca de estimativa ≈"
+  },
+  {
+   "nome": "entre_valores",
+   "classe": "e3s-i-entre-valores",
+   "rotulo": "Entre dois valores",
+   "categoria": "dados",
+   "palavras": "entre intervalo de a mínimo máximo filtro operador"
+  },
+  {
+   "nome": "percurso",
+   "classe": "e3s-i-percurso",
+   "rotulo": "Percurso entre dois pontos",
+   "categoria": "percursos",
+   "palavras": "percurso trajeto rota caminho de a para b origem destino"
+  },
+  {
+   "nome": "altura",
+   "classe": "e3s-i-altura",
+   "rotulo": "Altura",
+   "categoria": "medidas",
+   "palavras": "altura alto medida vertical dimensão cota"
+  },
+  {
+   "nome": "largura",
+   "classe": "e3s-i-largura",
+   "rotulo": "Largura",
+   "categoria": "medidas",
+   "palavras": "largura largo medida horizontal dimensão cota"
+  },
+  {
+   "nome": "unidade_cm",
+   "classe": "e3s-i-unidade-cm",
+   "rotulo": "Centímetros (cm)",
+   "categoria": "medidas",
+   "palavras": "centímetros cm comprimento medida unidade"
+  },
+  {
+   "nome": "unidade_m",
+   "classe": "e3s-i-unidade-m",
+   "rotulo": "Metros (m)",
+   "categoria": "medidas",
+   "palavras": "metros m comprimento medida unidade"
+  },
+  {
+   "nome": "unidade_km",
+   "classe": "e3s-i-unidade-km",
+   "rotulo": "Quilómetros (km)",
+   "categoria": "medidas",
+   "palavras": "quilómetros km kilómetros distância medida unidade"
+  },
+  {
+   "nome": "unidade_g",
+   "classe": "e3s-i-unidade-g",
+   "rotulo": "Gramas (g)",
+   "categoria": "medidas",
+   "palavras": "gramas g peso massa unidade"
+  },
+  {
+   "nome": "unidade_kg",
+   "classe": "e3s-i-unidade-kg",
+   "rotulo": "Quilogramas (kg)",
+   "categoria": "medidas",
+   "palavras": "quilogramas kg kilogramas quilos peso massa unidade"
+  },
+  {
+   "nome": "unidade_t",
+   "classe": "e3s-i-unidade-t",
+   "rotulo": "Toneladas (t)",
+   "categoria": "medidas",
+   "palavras": "toneladas t peso massa unidade"
+  },
+  {
+   "nome": "bateria_vazia",
+   "classe": "e3s-i-bateria-vazia",
+   "rotulo": "Bateria vazia",
+   "categoria": "tecnologia",
+   "palavras": "bateria vazia descarregada sem carga 0%"
+  },
+  {
+   "nome": "bateria_fraca",
+   "classe": "e3s-i-bateria-fraca",
+   "rotulo": "Bateria fraca",
+   "categoria": "tecnologia",
+   "palavras": "bateria fraca pouca carga 25%"
+  },
+  {
+   "nome": "bateria_meia",
+   "classe": "e3s-i-bateria-meia",
+   "rotulo": "Bateria a meio",
+   "categoria": "tecnologia",
+   "palavras": "bateria meia metade carga 50%"
+  },
+  {
+   "nome": "bateria_alta",
+   "classe": "e3s-i-bateria-alta",
+   "rotulo": "Bateria quase cheia",
+   "categoria": "tecnologia",
+   "palavras": "bateria alta quase cheia carga 75%"
+  },
+  {
+   "nome": "bateria_cheia",
+   "classe": "e3s-i-bateria-cheia",
+   "rotulo": "Bateria cheia",
+   "categoria": "tecnologia",
+   "palavras": "bateria cheia carregada carga 100%"
+  },
+  {
+   "nome": "separadores",
+   "classe": "e3s-i-separadores",
+   "rotulo": "Separadores (fichas)",
+   "categoria": "vistas",
+   "palavras": "separadores fichas tabs organizador abas"
+  },
+  {
+   "nome": "spinner",
+   "classe": "e3s-i-spinner",
+   "rotulo": "Spinner (a carregar)",
+   "categoria": "vistas",
+   "palavras": "spinner a carregar carregamento espera loader"
+  },
+  {
+   "nome": "bateria_carregamento",
+   "classe": "e3s-i-bateria-carregamento",
+   "rotulo": "Bateria a carregar",
+   "categoria": "tecnologia",
+   "palavras": "bateria a carregar carregamento energia raio"
+  }
+ ]
+}

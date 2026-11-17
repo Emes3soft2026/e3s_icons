@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="favicon.svg" width="150">
+</p>
+
 # Ícones do e3s_painel 1.8.1 — pacote para páginas externas
 
 637 ícones desenhados de raiz para o e3s_painel (grelha 24×24, traço), mais 55 ações

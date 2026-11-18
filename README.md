@@ -1,8 +1,15 @@
 <p align="center">
-  <img src="favicon.svg" width="150">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="marca/logo-escuro.png">
+    <img src="marca/logo.png" alt="e3s_icones" height="64">
+  </picture>
+</p>
+<p align="center">
+  <a href="https://painel.emes3soft.com">e3s_painel</a> ·
+  <a href="https://emes3soft.com">emes3soft — site oficial</a>
 </p>
 
-# Ícones do e3s_painel 1.8.1 — pacote para páginas externas
+# Ícones do e3s_painel 1.8.0 — pacote para páginas externas
 
 637 ícones desenhados de raiz para o e3s_painel (grelha 24×24, traço), mais 55 ações
 que se juntam no canto de qualquer ícone. Não precisa de Flask, Python nem internet.
@@ -45,8 +52,14 @@ não os logótipos oficiais; as marcas pertencem aos seus titulares.
 
 ## Pela web (sem copiar ficheiros)
 
-Pelo jsDelivr, a partir deste repositório (fixar a versão com a tag, ex.: `@v1.8.1`):
+Pelo jsDelivr, a partir deste repositório (fixar a versão com a tag, ex.: `@v1.8.0`):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<conta>/e3s-icones@v1.8.1/css/e3s-icones.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/<conta>/e3s-icones@v1.8.0/css/e3s-icones.css">
 ```
+
+## Ligações (emes3soft)
+
+- **[e3s_painel](https://painel.emes3soft.com)** — a framework de interface de onde vêm estes ícones (catálogo,
+  componentes e documentação).
+- **[emes3soft](https://emes3soft.com)** — site oficial da empresa (marmensoft).

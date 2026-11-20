@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="marca/logo-escuro.png">
-    <img src="logo.png" alt="e3s_icones" height="64">
+    <img src="favicon.svg" alt="e3s_icones" height="64">
   </picture>
 </p>
 <p align="center">

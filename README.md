@@ -55,7 +55,7 @@ não os logótipos oficiais; as marcas pertencem aos seus titulares.
 Pelo jsDelivr, a partir deste repositório (fixar a versão com a tag, ex.: `@v1.8.0`):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Emes3soft2026/e3s-icones@v1.8.0/css/e3s-icones.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Emes3soft2026/e3s_icons@v1.8.0/css/e3s-icones.css">
 ```
 
 ## Ligações (emes3soft)

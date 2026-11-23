@@ -1,5 +1,5 @@
 {
- "versao": "1.17.0",
+ "versao": "1.18.0",
  "licenca": "GPL-3.0-only",
  "categorias": {
   "acoes": "Ações",
@@ -4871,20 +4871,11 @@
   {
    "nome": "bandeira_sh-ac",
    "classe": "e3s-i-bandeira-sh-ac",
-   "rotulo": "Ascension Island",
+   "rotulo": "Ilha de Ascensão",
    "categoria": "bandeiras",
-   "palavras": "bandeira país ascension island sh-ac",
+   "palavras": "bandeira país ilha de ascensão sh-ac",
    "codigo": "sh-ac",
    "svg": "bandeiras/sh-ac.svg"
-  },
-  {
-   "nome": "bandeira_asean",
-   "classe": "e3s-i-bandeira-asean",
-   "rotulo": "Association of Southeast Asian Nations",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país association of southeast asian nations asean",
-   "codigo": "asean",
-   "svg": "bandeiras/asean.svg"
   },
   {
    "nome": "bandeira_au",
@@ -4952,9 +4943,9 @@
   {
    "nome": "bandeira_es-pv",
    "classe": "e3s-i-bandeira-es-pv",
-   "rotulo": "Basque Country",
+   "rotulo": "País Basco",
    "categoria": "bandeiras",
-   "palavras": "bandeira país basque country es-pv",
+   "palavras": "bandeira país país basco es-pv",
    "codigo": "es-pv",
    "svg": "bandeiras/es-pv.svg"
   },
@@ -5150,18 +5141,18 @@
   {
    "nome": "bandeira_ic",
    "classe": "e3s-i-bandeira-ic",
-   "rotulo": "Canary Islands",
+   "rotulo": "Ilhas Canárias",
    "categoria": "bandeiras",
-   "palavras": "bandeira país canary islands ic",
+   "palavras": "bandeira país ilhas canárias ic",
    "codigo": "ic",
    "svg": "bandeiras/ic.svg"
   },
   {
    "nome": "bandeira_es-ct",
    "classe": "e3s-i-bandeira-es-ct",
-   "rotulo": "Catalonia",
+   "rotulo": "Catalunha",
    "categoria": "bandeiras",
-   "palavras": "bandeira país catalonia es-ct",
+   "palavras": "bandeira país catalunha es-ct",
    "codigo": "es-ct",
    "svg": "bandeiras/es-ct.svg"
   },
@@ -5182,15 +5173,6 @@
    "palavras": "bandeira país república centro-africana cf",
    "codigo": "cf",
    "svg": "bandeiras/cf.svg"
-  },
-  {
-   "nome": "bandeira_cefta",
-   "classe": "e3s-i-bandeira-cefta",
-   "rotulo": "Central European Free Trade Agreement",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país central european free trade agreement cefta",
-   "codigo": "cefta",
-   "svg": "bandeiras/cefta.svg"
   },
   {
    "nome": "bandeira_td",
@@ -5231,9 +5213,9 @@
   {
    "nome": "bandeira_cp",
    "classe": "e3s-i-bandeira-cp",
-   "rotulo": "Clipperton Island",
+   "rotulo": "Ilha de Clipperton",
    "categoria": "bandeiras",
-   "palavras": "bandeira país clipperton island cp",
+   "palavras": "bandeira país ilha de clipperton cp",
    "codigo": "cp",
    "svg": "bandeiras/cp.svg"
   },
@@ -5391,15 +5373,6 @@
    "svg": "bandeiras/do.svg"
   },
   {
-   "nome": "bandeira_eac",
-   "classe": "e3s-i-bandeira-eac",
-   "rotulo": "East African Community",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país east african community eac",
-   "codigo": "eac",
-   "svg": "bandeiras/eac.svg"
-  },
-  {
    "nome": "bandeira_ec",
    "classe": "e3s-i-bandeira-ec",
    "rotulo": "Equador",
@@ -5429,9 +5402,9 @@
   {
    "nome": "bandeira_gb-eng",
    "classe": "e3s-i-bandeira-gb-eng",
-   "rotulo": "England",
+   "rotulo": "Inglaterra",
    "categoria": "bandeiras",
-   "palavras": "bandeira país england gb-eng",
+   "palavras": "bandeira país inglaterra gb-eng",
    "codigo": "gb-eng",
    "svg": "bandeiras/gb-eng.svg"
   },
@@ -5479,15 +5452,6 @@
    "palavras": "bandeira país etiópia et",
    "codigo": "et",
    "svg": "bandeiras/et.svg"
-  },
-  {
-   "nome": "bandeira_eu",
-   "classe": "e3s-i-bandeira-eu",
-   "rotulo": "Europe",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país europe eu",
-   "codigo": "eu",
-   "svg": "bandeiras/eu.svg"
   },
   {
    "nome": "bandeira_fk",
@@ -5582,9 +5546,9 @@
   {
    "nome": "bandeira_es-ga",
    "classe": "e3s-i-bandeira-es-ga",
-   "rotulo": "Galicia",
+   "rotulo": "Galiza",
    "categoria": "bandeiras",
-   "palavras": "bandeira país galicia es-ga",
+   "palavras": "bandeira país galiza es-ga",
    "codigo": "es-ga",
    "svg": "bandeiras/es-ga.svg"
   },
@@ -5967,15 +5931,6 @@
    "svg": "bandeiras/lv.svg"
   },
   {
-   "nome": "bandeira_arab",
-   "classe": "e3s-i-bandeira-arab",
-   "rotulo": "League of Arab States",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país league of arab states arab",
-   "codigo": "arab",
-   "svg": "bandeiras/arab.svg"
-  },
-  {
    "nome": "bandeira_lb",
    "classe": "e3s-i-bandeira-lb",
    "rotulo": "Líbano",
@@ -6347,9 +6302,9 @@
   {
    "nome": "bandeira_gb-nir",
    "classe": "e3s-i-bandeira-gb-nir",
-   "rotulo": "Northern Ireland",
+   "rotulo": "Irlanda do Norte",
    "categoria": "bandeiras",
-   "palavras": "bandeira país northern ireland gb-nir",
+   "palavras": "bandeira país irlanda do norte gb-nir",
    "codigo": "gb-nir",
    "svg": "bandeiras/gb-nir.svg"
   },
@@ -6379,15 +6334,6 @@
    "palavras": "bandeira país omã om",
    "codigo": "om",
    "svg": "bandeiras/om.svg"
-  },
-  {
-   "nome": "bandeira_pc",
-   "classe": "e3s-i-bandeira-pc",
-   "rotulo": "Pacific Community",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país pacific community pc",
-   "codigo": "pc",
-   "svg": "bandeiras/pc.svg"
   },
   {
    "nome": "bandeira_pk",
@@ -6554,9 +6500,9 @@
   {
    "nome": "bandeira_sh-hl",
    "classe": "e3s-i-bandeira-sh-hl",
-   "rotulo": "Saint Helena",
+   "rotulo": "Santa Helena",
    "categoria": "bandeiras",
-   "palavras": "bandeira país saint helena sh-hl",
+   "palavras": "bandeira país santa helena sh-hl",
    "codigo": "sh-hl",
    "svg": "bandeiras/sh-hl.svg"
   },
@@ -6653,9 +6599,9 @@
   {
    "nome": "bandeira_gb-sct",
    "classe": "e3s-i-bandeira-gb-sct",
-   "rotulo": "Scotland",
+   "rotulo": "Escócia",
    "categoria": "bandeiras",
-   "palavras": "bandeira país scotland gb-sct",
+   "palavras": "bandeira país escócia gb-sct",
    "codigo": "gb-sct",
    "svg": "bandeiras/gb-sct.svg"
   },
@@ -6950,9 +6896,9 @@
   {
    "nome": "bandeira_sh-ta",
    "classe": "e3s-i-bandeira-sh-ta",
-   "rotulo": "Tristan da Cunha",
+   "rotulo": "Tristão da Cunha",
    "categoria": "bandeiras",
-   "palavras": "bandeira país tristan da cunha sh-ta",
+   "palavras": "bandeira país tristão da cunha sh-ta",
    "codigo": "sh-ta",
    "svg": "bandeiras/sh-ta.svg"
   },
@@ -7038,15 +6984,6 @@
    "svg": "bandeiras/gb.svg"
   },
   {
-   "nome": "bandeira_un",
-   "classe": "e3s-i-bandeira-un",
-   "rotulo": "United Nations",
-   "categoria": "bandeiras",
-   "palavras": "bandeira país united nations un",
-   "codigo": "un",
-   "svg": "bandeiras/un.svg"
-  },
-  {
    "nome": "bandeira_um",
    "classe": "e3s-i-bandeira-um",
    "rotulo": "Ilhas Menores Distantes dos Estados Unidos",
@@ -7067,9 +7004,9 @@
   {
    "nome": "bandeira_xx",
    "classe": "e3s-i-bandeira-xx",
-   "rotulo": "Unknown",
+   "rotulo": "Desconhecida",
    "categoria": "bandeiras",
-   "palavras": "bandeira país unknown xx",
+   "palavras": "bandeira país desconhecida xx",
    "codigo": "xx",
    "svg": "bandeiras/xx.svg"
   },
@@ -7139,9 +7076,9 @@
   {
    "nome": "bandeira_gb-wls",
    "classe": "e3s-i-bandeira-gb-wls",
-   "rotulo": "Wales",
+   "rotulo": "País de Gales",
    "categoria": "bandeiras",
-   "palavras": "bandeira país wales gb-wls",
+   "palavras": "bandeira país país de gales gb-wls",
    "codigo": "gb-wls",
    "svg": "bandeiras/gb-wls.svg"
   },
@@ -7272,15 +7209,9 @@
   },
   {
    "codigo": "sh-ac",
-   "nome": "Ascension Island",
+   "nome": "Ilha de Ascensão",
    "classe": "e3s-i-bandeira-sh-ac",
    "svg": "bandeiras/sh-ac.svg"
-  },
-  {
-   "codigo": "asean",
-   "nome": "Association of Southeast Asian Nations",
-   "classe": "e3s-i-bandeira-asean",
-   "svg": "bandeiras/asean.svg"
   },
   {
    "codigo": "au",
@@ -7326,7 +7257,7 @@
   },
   {
    "codigo": "es-pv",
-   "nome": "Basque Country",
+   "nome": "País Basco",
    "classe": "e3s-i-bandeira-es-pv",
    "svg": "bandeiras/es-pv.svg"
   },
@@ -7458,13 +7389,13 @@
   },
   {
    "codigo": "ic",
-   "nome": "Canary Islands",
+   "nome": "Ilhas Canárias",
    "classe": "e3s-i-bandeira-ic",
    "svg": "bandeiras/ic.svg"
   },
   {
    "codigo": "es-ct",
-   "nome": "Catalonia",
+   "nome": "Catalunha",
    "classe": "e3s-i-bandeira-es-ct",
    "svg": "bandeiras/es-ct.svg"
   },
@@ -7479,12 +7410,6 @@
    "nome": "República Centro-Africana",
    "classe": "e3s-i-bandeira-cf",
    "svg": "bandeiras/cf.svg"
-  },
-  {
-   "codigo": "cefta",
-   "nome": "Central European Free Trade Agreement",
-   "classe": "e3s-i-bandeira-cefta",
-   "svg": "bandeiras/cefta.svg"
   },
   {
    "codigo": "td",
@@ -7512,7 +7437,7 @@
   },
   {
    "codigo": "cp",
-   "nome": "Clipperton Island",
+   "nome": "Ilha de Clipperton",
    "classe": "e3s-i-bandeira-cp",
    "svg": "bandeiras/cp.svg"
   },
@@ -7619,12 +7544,6 @@
    "svg": "bandeiras/do.svg"
   },
   {
-   "codigo": "eac",
-   "nome": "East African Community",
-   "classe": "e3s-i-bandeira-eac",
-   "svg": "bandeiras/eac.svg"
-  },
-  {
    "codigo": "ec",
    "nome": "Equador",
    "classe": "e3s-i-bandeira-ec",
@@ -7644,7 +7563,7 @@
   },
   {
    "codigo": "gb-eng",
-   "nome": "England",
+   "nome": "Inglaterra",
    "classe": "e3s-i-bandeira-gb-eng",
    "svg": "bandeiras/gb-eng.svg"
   },
@@ -7677,12 +7596,6 @@
    "nome": "Etiópia",
    "classe": "e3s-i-bandeira-et",
    "svg": "bandeiras/et.svg"
-  },
-  {
-   "codigo": "eu",
-   "nome": "Europe",
-   "classe": "e3s-i-bandeira-eu",
-   "svg": "bandeiras/eu.svg"
   },
   {
    "codigo": "fk",
@@ -7746,7 +7659,7 @@
   },
   {
    "codigo": "es-ga",
-   "nome": "Galicia",
+   "nome": "Galiza",
    "classe": "e3s-i-bandeira-es-ga",
    "svg": "bandeiras/es-ga.svg"
   },
@@ -8003,12 +7916,6 @@
    "svg": "bandeiras/lv.svg"
   },
   {
-   "codigo": "arab",
-   "nome": "League of Arab States",
-   "classe": "e3s-i-bandeira-arab",
-   "svg": "bandeiras/arab.svg"
-  },
-  {
    "codigo": "lb",
    "nome": "Líbano",
    "classe": "e3s-i-bandeira-lb",
@@ -8256,7 +8163,7 @@
   },
   {
    "codigo": "gb-nir",
-   "nome": "Northern Ireland",
+   "nome": "Irlanda do Norte",
    "classe": "e3s-i-bandeira-gb-nir",
    "svg": "bandeiras/gb-nir.svg"
   },
@@ -8277,12 +8184,6 @@
    "nome": "Omã",
    "classe": "e3s-i-bandeira-om",
    "svg": "bandeiras/om.svg"
-  },
-  {
-   "codigo": "pc",
-   "nome": "Pacific Community",
-   "classe": "e3s-i-bandeira-pc",
-   "svg": "bandeiras/pc.svg"
   },
   {
    "codigo": "pk",
@@ -8394,7 +8295,7 @@
   },
   {
    "codigo": "sh-hl",
-   "nome": "Saint Helena",
+   "nome": "Santa Helena",
    "classe": "e3s-i-bandeira-sh-hl",
    "svg": "bandeiras/sh-hl.svg"
   },
@@ -8460,7 +8361,7 @@
   },
   {
    "codigo": "gb-sct",
-   "nome": "Scotland",
+   "nome": "Escócia",
    "classe": "e3s-i-bandeira-gb-sct",
    "svg": "bandeiras/gb-sct.svg"
   },
@@ -8658,7 +8559,7 @@
   },
   {
    "codigo": "sh-ta",
-   "nome": "Tristan da Cunha",
+   "nome": "Tristão da Cunha",
    "classe": "e3s-i-bandeira-sh-ta",
    "svg": "bandeiras/sh-ta.svg"
   },
@@ -8717,12 +8618,6 @@
    "svg": "bandeiras/gb.svg"
   },
   {
-   "codigo": "un",
-   "nome": "United Nations",
-   "classe": "e3s-i-bandeira-un",
-   "svg": "bandeiras/un.svg"
-  },
-  {
    "codigo": "um",
    "nome": "Ilhas Menores Distantes dos Estados Unidos",
    "classe": "e3s-i-bandeira-um",
@@ -8736,7 +8631,7 @@
   },
   {
    "codigo": "xx",
-   "nome": "Unknown",
+   "nome": "Desconhecida",
    "classe": "e3s-i-bandeira-xx",
    "svg": "bandeiras/xx.svg"
   },
@@ -8784,7 +8679,7 @@
   },
   {
    "codigo": "gb-wls",
-   "nome": "Wales",
+   "nome": "País de Gales",
    "classe": "e3s-i-bandeira-gb-wls",
    "svg": "bandeiras/gb-wls.svg"
   },

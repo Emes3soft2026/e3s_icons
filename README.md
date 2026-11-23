@@ -9,16 +9,17 @@
   <a href="https://emes3soft.com">emes3soft — site oficial</a>
 </p>
 
-# Ícones do e3s_painel 1.17.0 — pacote para páginas externas
+# Ícones do e3s_painel 1.18.0 — pacote para páginas externas
 
-910 ícones desenhados de raiz para o e3s_painel (grelha 24×24, traço), mais 55 ações
-que se juntam no canto de qualquer ícone. Não precisa de Flask, Python nem internet.
+639 ícones desenhados de raiz para o e3s_painel (grelha 24×24, traço), mais 55 ações
+que se juntam no canto de qualquer ícone, e 264 bandeiras de países e territórios (flag-icons, MIT).
+Não precisa de Flask, Python nem internet.
 
 ## Conteúdo
 
 - `css/e3s-icones.css` — todos os ícones por classe (os desenhos vão dentro do ficheiro). É o único ficheiro necessário.
 - `svg/<nome>.svg` — cada ícone num SVG solto (24×24, `currentColor`), para `<img>`, editores gráficos ou SVG em linha.
-- `bandeiras/<código>.svg` — 271 bandeiras vetoriais a cores, 4:3 (códigos ISO alpha-2 e territórios); `bandeiras/LICENSE` preserva a licença da fonte.
+- `bandeiras/<código>.svg` — 264 bandeiras vetoriais a cores, 4:3 (códigos ISO alpha-2 e territórios); `bandeiras/LICENSE` preserva a licença da fonte.
 - `icones.json` — lista dos ícones (nome, classe, rótulo, categoria, palavras de pesquisa), das ações e das cores.
 - `exemplo.html` — abrir no navegador: todos os ícones com o nome da classe.
 
@@ -54,10 +55,10 @@ Os ícones da categoria «Marcas» são representações genéricas, não os log
 
 ## Pela web (sem copiar ficheiros)
 
-Pelo jsDelivr, a partir deste repositório (v1.17.0):
+Pelo jsDelivr, a partir deste repositório (v1.18.0):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Emes3soft2026/e3s_icons@v1.17.0/css/e3s-icones.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Emes3soft2026/e3s_icons@v1.18.0/css/e3s-icones.css">
 ```
 
 ## Ligações (emes3soft)

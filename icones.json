@@ -1,5 +1,5 @@
 {
- "versao": "1.8.1",
+ "versao": "1.17.0",
  "licenca": "GPL-3.0-only",
  "categorias": {
   "acoes": "Ações",
@@ -31,7 +31,8 @@
   "marcas": "Marcas e pagamentos",
   "tipos_dados": "Tipos de dados",
   "ficheiros": "Ficheiros e pastas",
-  "equipamentos": "Discos, rede e servidores"
+  "equipamentos": "Discos, rede e servidores",
+  "bandeiras": "Bandeiras de países e territórios"
  },
  "acoes": {
   "adicionar": {
@@ -318,6 +319,13 @@
    "rotulo": "Limpar",
    "categoria": "acoes",
    "palavras": "borracha apagar texto"
+  },
+  {
+   "nome": "gerar",
+   "classe": "e3s-i-gerar",
+   "rotulo": "Gerar",
+   "categoria": "acoes",
+   "palavras": "gerar proposta sugerir automático criar varinha magia"
   },
   {
    "nome": "guardar",
@@ -661,6 +669,13 @@
    "rotulo": "Sair",
    "categoria": "geral",
    "palavras": "terminar sessão logout"
+  },
+  {
+   "nome": "sair_esquerda",
+   "classe": "e3s-i-sair-esquerda",
+   "rotulo": "Sair (seta para a esquerda)",
+   "categoria": "geral",
+   "palavras": "saída saiu retirar sair da turma oposto de entrar"
   },
   {
    "nome": "aviso",
@@ -4735,6 +4750,4076 @@
    "rotulo": "Bateria a carregar",
    "categoria": "tecnologia",
    "palavras": "bateria a carregar carregamento energia raio"
+  },
+  {
+   "nome": "bandeira_af",
+   "classe": "e3s-i-bandeira-af",
+   "rotulo": "Afeganistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país afeganistão af",
+   "codigo": "af",
+   "svg": "bandeiras/af.svg"
+  },
+  {
+   "nome": "bandeira_ax",
+   "classe": "e3s-i-bandeira-ax",
+   "rotulo": "Ilhas Åland",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas åland ax",
+   "codigo": "ax",
+   "svg": "bandeiras/ax.svg"
+  },
+  {
+   "nome": "bandeira_al",
+   "classe": "e3s-i-bandeira-al",
+   "rotulo": "Albânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país albânia al",
+   "codigo": "al",
+   "svg": "bandeiras/al.svg"
+  },
+  {
+   "nome": "bandeira_dz",
+   "classe": "e3s-i-bandeira-dz",
+   "rotulo": "Argélia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país argélia dz",
+   "codigo": "dz",
+   "svg": "bandeiras/dz.svg"
+  },
+  {
+   "nome": "bandeira_as",
+   "classe": "e3s-i-bandeira-as",
+   "rotulo": "Samoa Americana",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país samoa americana as",
+   "codigo": "as",
+   "svg": "bandeiras/as.svg"
+  },
+  {
+   "nome": "bandeira_ad",
+   "classe": "e3s-i-bandeira-ad",
+   "rotulo": "Andorra",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país andorra ad",
+   "codigo": "ad",
+   "svg": "bandeiras/ad.svg"
+  },
+  {
+   "nome": "bandeira_ao",
+   "classe": "e3s-i-bandeira-ao",
+   "rotulo": "Angola",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país angola ao",
+   "codigo": "ao",
+   "svg": "bandeiras/ao.svg"
+  },
+  {
+   "nome": "bandeira_ai",
+   "classe": "e3s-i-bandeira-ai",
+   "rotulo": "Anguilla",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país anguilla ai",
+   "codigo": "ai",
+   "svg": "bandeiras/ai.svg"
+  },
+  {
+   "nome": "bandeira_aq",
+   "classe": "e3s-i-bandeira-aq",
+   "rotulo": "Antártida",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país antártida aq",
+   "codigo": "aq",
+   "svg": "bandeiras/aq.svg"
+  },
+  {
+   "nome": "bandeira_ag",
+   "classe": "e3s-i-bandeira-ag",
+   "rotulo": "Antígua e Barbuda",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país antígua e barbuda ag",
+   "codigo": "ag",
+   "svg": "bandeiras/ag.svg"
+  },
+  {
+   "nome": "bandeira_ar",
+   "classe": "e3s-i-bandeira-ar",
+   "rotulo": "Argentina",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país argentina ar",
+   "codigo": "ar",
+   "svg": "bandeiras/ar.svg"
+  },
+  {
+   "nome": "bandeira_am",
+   "classe": "e3s-i-bandeira-am",
+   "rotulo": "Arménia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país arménia am",
+   "codigo": "am",
+   "svg": "bandeiras/am.svg"
+  },
+  {
+   "nome": "bandeira_aw",
+   "classe": "e3s-i-bandeira-aw",
+   "rotulo": "Aruba",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país aruba aw",
+   "codigo": "aw",
+   "svg": "bandeiras/aw.svg"
+  },
+  {
+   "nome": "bandeira_sh-ac",
+   "classe": "e3s-i-bandeira-sh-ac",
+   "rotulo": "Ascension Island",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ascension island sh-ac",
+   "codigo": "sh-ac",
+   "svg": "bandeiras/sh-ac.svg"
+  },
+  {
+   "nome": "bandeira_asean",
+   "classe": "e3s-i-bandeira-asean",
+   "rotulo": "Association of Southeast Asian Nations",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país association of southeast asian nations asean",
+   "codigo": "asean",
+   "svg": "bandeiras/asean.svg"
+  },
+  {
+   "nome": "bandeira_au",
+   "classe": "e3s-i-bandeira-au",
+   "rotulo": "Austrália",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país austrália au",
+   "codigo": "au",
+   "svg": "bandeiras/au.svg"
+  },
+  {
+   "nome": "bandeira_at",
+   "classe": "e3s-i-bandeira-at",
+   "rotulo": "Áustria",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país áustria at",
+   "codigo": "at",
+   "svg": "bandeiras/at.svg"
+  },
+  {
+   "nome": "bandeira_az",
+   "classe": "e3s-i-bandeira-az",
+   "rotulo": "Azerbaijão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país azerbaijão az",
+   "codigo": "az",
+   "svg": "bandeiras/az.svg"
+  },
+  {
+   "nome": "bandeira_bs",
+   "classe": "e3s-i-bandeira-bs",
+   "rotulo": "Bahamas",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bahamas bs",
+   "codigo": "bs",
+   "svg": "bandeiras/bs.svg"
+  },
+  {
+   "nome": "bandeira_bh",
+   "classe": "e3s-i-bandeira-bh",
+   "rotulo": "Barém",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país barém bh",
+   "codigo": "bh",
+   "svg": "bandeiras/bh.svg"
+  },
+  {
+   "nome": "bandeira_bd",
+   "classe": "e3s-i-bandeira-bd",
+   "rotulo": "Bangladeche",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bangladeche bd",
+   "codigo": "bd",
+   "svg": "bandeiras/bd.svg"
+  },
+  {
+   "nome": "bandeira_bb",
+   "classe": "e3s-i-bandeira-bb",
+   "rotulo": "Barbados",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país barbados bb",
+   "codigo": "bb",
+   "svg": "bandeiras/bb.svg"
+  },
+  {
+   "nome": "bandeira_es-pv",
+   "classe": "e3s-i-bandeira-es-pv",
+   "rotulo": "Basque Country",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país basque country es-pv",
+   "codigo": "es-pv",
+   "svg": "bandeiras/es-pv.svg"
+  },
+  {
+   "nome": "bandeira_by",
+   "classe": "e3s-i-bandeira-by",
+   "rotulo": "Bielorússia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bielorússia by",
+   "codigo": "by",
+   "svg": "bandeiras/by.svg"
+  },
+  {
+   "nome": "bandeira_be",
+   "classe": "e3s-i-bandeira-be",
+   "rotulo": "Bélgica",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bélgica be",
+   "codigo": "be",
+   "svg": "bandeiras/be.svg"
+  },
+  {
+   "nome": "bandeira_bz",
+   "classe": "e3s-i-bandeira-bz",
+   "rotulo": "Belize",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país belize bz",
+   "codigo": "bz",
+   "svg": "bandeiras/bz.svg"
+  },
+  {
+   "nome": "bandeira_bj",
+   "classe": "e3s-i-bandeira-bj",
+   "rotulo": "Benim",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país benim bj",
+   "codigo": "bj",
+   "svg": "bandeiras/bj.svg"
+  },
+  {
+   "nome": "bandeira_bm",
+   "classe": "e3s-i-bandeira-bm",
+   "rotulo": "Bermudas",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bermudas bm",
+   "codigo": "bm",
+   "svg": "bandeiras/bm.svg"
+  },
+  {
+   "nome": "bandeira_bt",
+   "classe": "e3s-i-bandeira-bt",
+   "rotulo": "Butão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país butão bt",
+   "codigo": "bt",
+   "svg": "bandeiras/bt.svg"
+  },
+  {
+   "nome": "bandeira_bo",
+   "classe": "e3s-i-bandeira-bo",
+   "rotulo": "Bolívia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bolívia bo",
+   "codigo": "bo",
+   "svg": "bandeiras/bo.svg"
+  },
+  {
+   "nome": "bandeira_bq",
+   "classe": "e3s-i-bandeira-bq",
+   "rotulo": "Bonaire, Santo Eustáquio e Saba",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bonaire, santo eustáquio e saba bq",
+   "codigo": "bq",
+   "svg": "bandeiras/bq.svg"
+  },
+  {
+   "nome": "bandeira_ba",
+   "classe": "e3s-i-bandeira-ba",
+   "rotulo": "Bósnia e Herzegovina",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bósnia e herzegovina ba",
+   "codigo": "ba",
+   "svg": "bandeiras/ba.svg"
+  },
+  {
+   "nome": "bandeira_bw",
+   "classe": "e3s-i-bandeira-bw",
+   "rotulo": "Botsuana",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país botsuana bw",
+   "codigo": "bw",
+   "svg": "bandeiras/bw.svg"
+  },
+  {
+   "nome": "bandeira_bv",
+   "classe": "e3s-i-bandeira-bv",
+   "rotulo": "Ilha Bouvet",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilha bouvet bv",
+   "codigo": "bv",
+   "svg": "bandeiras/bv.svg"
+  },
+  {
+   "nome": "bandeira_br",
+   "classe": "e3s-i-bandeira-br",
+   "rotulo": "Brasil",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país brasil br",
+   "codigo": "br",
+   "svg": "bandeiras/br.svg"
+  },
+  {
+   "nome": "bandeira_io",
+   "classe": "e3s-i-bandeira-io",
+   "rotulo": "Território Britânico do Oceano Índico",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país território britânico do oceano índico io",
+   "codigo": "io",
+   "svg": "bandeiras/io.svg"
+  },
+  {
+   "nome": "bandeira_bn",
+   "classe": "e3s-i-bandeira-bn",
+   "rotulo": "Brunei",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país brunei bn",
+   "codigo": "bn",
+   "svg": "bandeiras/bn.svg"
+  },
+  {
+   "nome": "bandeira_bg",
+   "classe": "e3s-i-bandeira-bg",
+   "rotulo": "Bulgária",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país bulgária bg",
+   "codigo": "bg",
+   "svg": "bandeiras/bg.svg"
+  },
+  {
+   "nome": "bandeira_bf",
+   "classe": "e3s-i-bandeira-bf",
+   "rotulo": "Burkina Faso",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país burkina faso bf",
+   "codigo": "bf",
+   "svg": "bandeiras/bf.svg"
+  },
+  {
+   "nome": "bandeira_bi",
+   "classe": "e3s-i-bandeira-bi",
+   "rotulo": "Burundi",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país burundi bi",
+   "codigo": "bi",
+   "svg": "bandeiras/bi.svg"
+  },
+  {
+   "nome": "bandeira_cv",
+   "classe": "e3s-i-bandeira-cv",
+   "rotulo": "Cabo Verde",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país cabo verde cv",
+   "codigo": "cv",
+   "svg": "bandeiras/cv.svg"
+  },
+  {
+   "nome": "bandeira_kh",
+   "classe": "e3s-i-bandeira-kh",
+   "rotulo": "Camboja",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país camboja kh",
+   "codigo": "kh",
+   "svg": "bandeiras/kh.svg"
+  },
+  {
+   "nome": "bandeira_cm",
+   "classe": "e3s-i-bandeira-cm",
+   "rotulo": "Camarões",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país camarões cm",
+   "codigo": "cm",
+   "svg": "bandeiras/cm.svg"
+  },
+  {
+   "nome": "bandeira_ca",
+   "classe": "e3s-i-bandeira-ca",
+   "rotulo": "Canadá",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país canadá ca",
+   "codigo": "ca",
+   "svg": "bandeiras/ca.svg"
+  },
+  {
+   "nome": "bandeira_ic",
+   "classe": "e3s-i-bandeira-ic",
+   "rotulo": "Canary Islands",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país canary islands ic",
+   "codigo": "ic",
+   "svg": "bandeiras/ic.svg"
+  },
+  {
+   "nome": "bandeira_es-ct",
+   "classe": "e3s-i-bandeira-es-ct",
+   "rotulo": "Catalonia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país catalonia es-ct",
+   "codigo": "es-ct",
+   "svg": "bandeiras/es-ct.svg"
+  },
+  {
+   "nome": "bandeira_ky",
+   "classe": "e3s-i-bandeira-ky",
+   "rotulo": "Ilhas Caimão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas caimão ky",
+   "codigo": "ky",
+   "svg": "bandeiras/ky.svg"
+  },
+  {
+   "nome": "bandeira_cf",
+   "classe": "e3s-i-bandeira-cf",
+   "rotulo": "República Centro-Africana",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país república centro-africana cf",
+   "codigo": "cf",
+   "svg": "bandeiras/cf.svg"
+  },
+  {
+   "nome": "bandeira_cefta",
+   "classe": "e3s-i-bandeira-cefta",
+   "rotulo": "Central European Free Trade Agreement",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país central european free trade agreement cefta",
+   "codigo": "cefta",
+   "svg": "bandeiras/cefta.svg"
+  },
+  {
+   "nome": "bandeira_td",
+   "classe": "e3s-i-bandeira-td",
+   "rotulo": "Chade",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país chade td",
+   "codigo": "td",
+   "svg": "bandeiras/td.svg"
+  },
+  {
+   "nome": "bandeira_cl",
+   "classe": "e3s-i-bandeira-cl",
+   "rotulo": "Chile",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país chile cl",
+   "codigo": "cl",
+   "svg": "bandeiras/cl.svg"
+  },
+  {
+   "nome": "bandeira_cn",
+   "classe": "e3s-i-bandeira-cn",
+   "rotulo": "China",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país china cn",
+   "codigo": "cn",
+   "svg": "bandeiras/cn.svg"
+  },
+  {
+   "nome": "bandeira_cx",
+   "classe": "e3s-i-bandeira-cx",
+   "rotulo": "Ilha Natal",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilha natal cx",
+   "codigo": "cx",
+   "svg": "bandeiras/cx.svg"
+  },
+  {
+   "nome": "bandeira_cp",
+   "classe": "e3s-i-bandeira-cp",
+   "rotulo": "Clipperton Island",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país clipperton island cp",
+   "codigo": "cp",
+   "svg": "bandeiras/cp.svg"
+  },
+  {
+   "nome": "bandeira_cc",
+   "classe": "e3s-i-bandeira-cc",
+   "rotulo": "Ilhas Cocos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas cocos cc",
+   "codigo": "cc",
+   "svg": "bandeiras/cc.svg"
+  },
+  {
+   "nome": "bandeira_co",
+   "classe": "e3s-i-bandeira-co",
+   "rotulo": "Colômbia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país colômbia co",
+   "codigo": "co",
+   "svg": "bandeiras/co.svg"
+  },
+  {
+   "nome": "bandeira_km",
+   "classe": "e3s-i-bandeira-km",
+   "rotulo": "Comores",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país comores km",
+   "codigo": "km",
+   "svg": "bandeiras/km.svg"
+  },
+  {
+   "nome": "bandeira_ck",
+   "classe": "e3s-i-bandeira-ck",
+   "rotulo": "Ilhas Cook",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas cook ck",
+   "codigo": "ck",
+   "svg": "bandeiras/ck.svg"
+  },
+  {
+   "nome": "bandeira_cr",
+   "classe": "e3s-i-bandeira-cr",
+   "rotulo": "Costa Rica",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país costa rica cr",
+   "codigo": "cr",
+   "svg": "bandeiras/cr.svg"
+  },
+  {
+   "nome": "bandeira_hr",
+   "classe": "e3s-i-bandeira-hr",
+   "rotulo": "Croácia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país croácia hr",
+   "codigo": "hr",
+   "svg": "bandeiras/hr.svg"
+  },
+  {
+   "nome": "bandeira_cu",
+   "classe": "e3s-i-bandeira-cu",
+   "rotulo": "Cuba",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país cuba cu",
+   "codigo": "cu",
+   "svg": "bandeiras/cu.svg"
+  },
+  {
+   "nome": "bandeira_cw",
+   "classe": "e3s-i-bandeira-cw",
+   "rotulo": "Curaçau",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país curaçau cw",
+   "codigo": "cw",
+   "svg": "bandeiras/cw.svg"
+  },
+  {
+   "nome": "bandeira_cy",
+   "classe": "e3s-i-bandeira-cy",
+   "rotulo": "Chipre",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país chipre cy",
+   "codigo": "cy",
+   "svg": "bandeiras/cy.svg"
+  },
+  {
+   "nome": "bandeira_cz",
+   "classe": "e3s-i-bandeira-cz",
+   "rotulo": "República Checa",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país república checa cz",
+   "codigo": "cz",
+   "svg": "bandeiras/cz.svg"
+  },
+  {
+   "nome": "bandeira_ci",
+   "classe": "e3s-i-bandeira-ci",
+   "rotulo": "Costa do Marfim",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país costa do marfim ci",
+   "codigo": "ci",
+   "svg": "bandeiras/ci.svg"
+  },
+  {
+   "nome": "bandeira_cd",
+   "classe": "e3s-i-bandeira-cd",
+   "rotulo": "Democratic Republic of the Congo",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país democratic republic of the congo cd",
+   "codigo": "cd",
+   "svg": "bandeiras/cd.svg"
+  },
+  {
+   "nome": "bandeira_dk",
+   "classe": "e3s-i-bandeira-dk",
+   "rotulo": "Dinamarca",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país dinamarca dk",
+   "codigo": "dk",
+   "svg": "bandeiras/dk.svg"
+  },
+  {
+   "nome": "bandeira_dg",
+   "classe": "e3s-i-bandeira-dg",
+   "rotulo": "Diego Garcia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país diego garcia dg",
+   "codigo": "dg",
+   "svg": "bandeiras/dg.svg"
+  },
+  {
+   "nome": "bandeira_dj",
+   "classe": "e3s-i-bandeira-dj",
+   "rotulo": "Djibouti",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país djibouti dj",
+   "codigo": "dj",
+   "svg": "bandeiras/dj.svg"
+  },
+  {
+   "nome": "bandeira_dm",
+   "classe": "e3s-i-bandeira-dm",
+   "rotulo": "Dominica",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país dominica dm",
+   "codigo": "dm",
+   "svg": "bandeiras/dm.svg"
+  },
+  {
+   "nome": "bandeira_do",
+   "classe": "e3s-i-bandeira-do",
+   "rotulo": "República Dominicana",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país república dominicana do",
+   "codigo": "do",
+   "svg": "bandeiras/do.svg"
+  },
+  {
+   "nome": "bandeira_eac",
+   "classe": "e3s-i-bandeira-eac",
+   "rotulo": "East African Community",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país east african community eac",
+   "codigo": "eac",
+   "svg": "bandeiras/eac.svg"
+  },
+  {
+   "nome": "bandeira_ec",
+   "classe": "e3s-i-bandeira-ec",
+   "rotulo": "Equador",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país equador ec",
+   "codigo": "ec",
+   "svg": "bandeiras/ec.svg"
+  },
+  {
+   "nome": "bandeira_eg",
+   "classe": "e3s-i-bandeira-eg",
+   "rotulo": "Egito",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país egito eg",
+   "codigo": "eg",
+   "svg": "bandeiras/eg.svg"
+  },
+  {
+   "nome": "bandeira_sv",
+   "classe": "e3s-i-bandeira-sv",
+   "rotulo": "El Salvador",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país el salvador sv",
+   "codigo": "sv",
+   "svg": "bandeiras/sv.svg"
+  },
+  {
+   "nome": "bandeira_gb-eng",
+   "classe": "e3s-i-bandeira-gb-eng",
+   "rotulo": "England",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país england gb-eng",
+   "codigo": "gb-eng",
+   "svg": "bandeiras/gb-eng.svg"
+  },
+  {
+   "nome": "bandeira_gq",
+   "classe": "e3s-i-bandeira-gq",
+   "rotulo": "Guiné Equatorial",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guiné equatorial gq",
+   "codigo": "gq",
+   "svg": "bandeiras/gq.svg"
+  },
+  {
+   "nome": "bandeira_er",
+   "classe": "e3s-i-bandeira-er",
+   "rotulo": "Eritreia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país eritreia er",
+   "codigo": "er",
+   "svg": "bandeiras/er.svg"
+  },
+  {
+   "nome": "bandeira_ee",
+   "classe": "e3s-i-bandeira-ee",
+   "rotulo": "Estónia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país estónia ee",
+   "codigo": "ee",
+   "svg": "bandeiras/ee.svg"
+  },
+  {
+   "nome": "bandeira_sz",
+   "classe": "e3s-i-bandeira-sz",
+   "rotulo": "Essuatíni",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país essuatíni sz",
+   "codigo": "sz",
+   "svg": "bandeiras/sz.svg"
+  },
+  {
+   "nome": "bandeira_et",
+   "classe": "e3s-i-bandeira-et",
+   "rotulo": "Etiópia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país etiópia et",
+   "codigo": "et",
+   "svg": "bandeiras/et.svg"
+  },
+  {
+   "nome": "bandeira_eu",
+   "classe": "e3s-i-bandeira-eu",
+   "rotulo": "Europe",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país europe eu",
+   "codigo": "eu",
+   "svg": "bandeiras/eu.svg"
+  },
+  {
+   "nome": "bandeira_fk",
+   "classe": "e3s-i-bandeira-fk",
+   "rotulo": "Falkland Islands",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país falkland islands fk",
+   "codigo": "fk",
+   "svg": "bandeiras/fk.svg"
+  },
+  {
+   "nome": "bandeira_fo",
+   "classe": "e3s-i-bandeira-fo",
+   "rotulo": "Ilhas Faroé",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas faroé fo",
+   "codigo": "fo",
+   "svg": "bandeiras/fo.svg"
+  },
+  {
+   "nome": "bandeira_fm",
+   "classe": "e3s-i-bandeira-fm",
+   "rotulo": "Estados Federados da Micronésia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país estados federados da micronésia fm",
+   "codigo": "fm",
+   "svg": "bandeiras/fm.svg"
+  },
+  {
+   "nome": "bandeira_fj",
+   "classe": "e3s-i-bandeira-fj",
+   "rotulo": "Fiji",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país fiji fj",
+   "codigo": "fj",
+   "svg": "bandeiras/fj.svg"
+  },
+  {
+   "nome": "bandeira_fi",
+   "classe": "e3s-i-bandeira-fi",
+   "rotulo": "Finlândia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país finlândia fi",
+   "codigo": "fi",
+   "svg": "bandeiras/fi.svg"
+  },
+  {
+   "nome": "bandeira_fr",
+   "classe": "e3s-i-bandeira-fr",
+   "rotulo": "França",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país frança fr",
+   "codigo": "fr",
+   "svg": "bandeiras/fr.svg"
+  },
+  {
+   "nome": "bandeira_gf",
+   "classe": "e3s-i-bandeira-gf",
+   "rotulo": "Guiana Francesa",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guiana francesa gf",
+   "codigo": "gf",
+   "svg": "bandeiras/gf.svg"
+  },
+  {
+   "nome": "bandeira_pf",
+   "classe": "e3s-i-bandeira-pf",
+   "rotulo": "Polinésia Francesa",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país polinésia francesa pf",
+   "codigo": "pf",
+   "svg": "bandeiras/pf.svg"
+  },
+  {
+   "nome": "bandeira_tf",
+   "classe": "e3s-i-bandeira-tf",
+   "rotulo": "Territórios Franceses do Sul",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país territórios franceses do sul tf",
+   "codigo": "tf",
+   "svg": "bandeiras/tf.svg"
+  },
+  {
+   "nome": "bandeira_ga",
+   "classe": "e3s-i-bandeira-ga",
+   "rotulo": "Gabão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país gabão ga",
+   "codigo": "ga",
+   "svg": "bandeiras/ga.svg"
+  },
+  {
+   "nome": "bandeira_es-ga",
+   "classe": "e3s-i-bandeira-es-ga",
+   "rotulo": "Galicia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país galicia es-ga",
+   "codigo": "es-ga",
+   "svg": "bandeiras/es-ga.svg"
+  },
+  {
+   "nome": "bandeira_gm",
+   "classe": "e3s-i-bandeira-gm",
+   "rotulo": "Gâmbia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país gâmbia gm",
+   "codigo": "gm",
+   "svg": "bandeiras/gm.svg"
+  },
+  {
+   "nome": "bandeira_ge",
+   "classe": "e3s-i-bandeira-ge",
+   "rotulo": "Geórgia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país geórgia ge",
+   "codigo": "ge",
+   "svg": "bandeiras/ge.svg"
+  },
+  {
+   "nome": "bandeira_de",
+   "classe": "e3s-i-bandeira-de",
+   "rotulo": "Alemanha",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país alemanha de",
+   "codigo": "de",
+   "svg": "bandeiras/de.svg"
+  },
+  {
+   "nome": "bandeira_gh",
+   "classe": "e3s-i-bandeira-gh",
+   "rotulo": "Gana",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país gana gh",
+   "codigo": "gh",
+   "svg": "bandeiras/gh.svg"
+  },
+  {
+   "nome": "bandeira_gi",
+   "classe": "e3s-i-bandeira-gi",
+   "rotulo": "Gibraltar",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país gibraltar gi",
+   "codigo": "gi",
+   "svg": "bandeiras/gi.svg"
+  },
+  {
+   "nome": "bandeira_gr",
+   "classe": "e3s-i-bandeira-gr",
+   "rotulo": "Grécia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país grécia gr",
+   "codigo": "gr",
+   "svg": "bandeiras/gr.svg"
+  },
+  {
+   "nome": "bandeira_gl",
+   "classe": "e3s-i-bandeira-gl",
+   "rotulo": "Gronelândia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país gronelândia gl",
+   "codigo": "gl",
+   "svg": "bandeiras/gl.svg"
+  },
+  {
+   "nome": "bandeira_gd",
+   "classe": "e3s-i-bandeira-gd",
+   "rotulo": "Granada",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país granada gd",
+   "codigo": "gd",
+   "svg": "bandeiras/gd.svg"
+  },
+  {
+   "nome": "bandeira_gp",
+   "classe": "e3s-i-bandeira-gp",
+   "rotulo": "Guadalupe",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guadalupe gp",
+   "codigo": "gp",
+   "svg": "bandeiras/gp.svg"
+  },
+  {
+   "nome": "bandeira_gu",
+   "classe": "e3s-i-bandeira-gu",
+   "rotulo": "Guam",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guam gu",
+   "codigo": "gu",
+   "svg": "bandeiras/gu.svg"
+  },
+  {
+   "nome": "bandeira_gt",
+   "classe": "e3s-i-bandeira-gt",
+   "rotulo": "Guatemala",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guatemala gt",
+   "codigo": "gt",
+   "svg": "bandeiras/gt.svg"
+  },
+  {
+   "nome": "bandeira_gg",
+   "classe": "e3s-i-bandeira-gg",
+   "rotulo": "Guernsey",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guernsey gg",
+   "codigo": "gg",
+   "svg": "bandeiras/gg.svg"
+  },
+  {
+   "nome": "bandeira_gn",
+   "classe": "e3s-i-bandeira-gn",
+   "rotulo": "Guiné",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guiné gn",
+   "codigo": "gn",
+   "svg": "bandeiras/gn.svg"
+  },
+  {
+   "nome": "bandeira_gw",
+   "classe": "e3s-i-bandeira-gw",
+   "rotulo": "Guiné-Bissáu",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guiné-bissáu gw",
+   "codigo": "gw",
+   "svg": "bandeiras/gw.svg"
+  },
+  {
+   "nome": "bandeira_gy",
+   "classe": "e3s-i-bandeira-gy",
+   "rotulo": "Guiana",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país guiana gy",
+   "codigo": "gy",
+   "svg": "bandeiras/gy.svg"
+  },
+  {
+   "nome": "bandeira_ht",
+   "classe": "e3s-i-bandeira-ht",
+   "rotulo": "Haiti",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país haiti ht",
+   "codigo": "ht",
+   "svg": "bandeiras/ht.svg"
+  },
+  {
+   "nome": "bandeira_hm",
+   "classe": "e3s-i-bandeira-hm",
+   "rotulo": "Ilha Heard e Ilhas McDonald",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilha heard e ilhas mcdonald hm",
+   "codigo": "hm",
+   "svg": "bandeiras/hm.svg"
+  },
+  {
+   "nome": "bandeira_va",
+   "classe": "e3s-i-bandeira-va",
+   "rotulo": "Holy See",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país holy see va",
+   "codigo": "va",
+   "svg": "bandeiras/va.svg"
+  },
+  {
+   "nome": "bandeira_hn",
+   "classe": "e3s-i-bandeira-hn",
+   "rotulo": "Honduras",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país honduras hn",
+   "codigo": "hn",
+   "svg": "bandeiras/hn.svg"
+  },
+  {
+   "nome": "bandeira_hk",
+   "classe": "e3s-i-bandeira-hk",
+   "rotulo": "Hong Kong",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país hong kong hk",
+   "codigo": "hk",
+   "svg": "bandeiras/hk.svg"
+  },
+  {
+   "nome": "bandeira_hu",
+   "classe": "e3s-i-bandeira-hu",
+   "rotulo": "Hungria",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país hungria hu",
+   "codigo": "hu",
+   "svg": "bandeiras/hu.svg"
+  },
+  {
+   "nome": "bandeira_is",
+   "classe": "e3s-i-bandeira-is",
+   "rotulo": "Islândia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país islândia is",
+   "codigo": "is",
+   "svg": "bandeiras/is.svg"
+  },
+  {
+   "nome": "bandeira_in",
+   "classe": "e3s-i-bandeira-in",
+   "rotulo": "Índia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país índia in",
+   "codigo": "in",
+   "svg": "bandeiras/in.svg"
+  },
+  {
+   "nome": "bandeira_id",
+   "classe": "e3s-i-bandeira-id",
+   "rotulo": "Indonésia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país indonésia id",
+   "codigo": "id",
+   "svg": "bandeiras/id.svg"
+  },
+  {
+   "nome": "bandeira_ir",
+   "classe": "e3s-i-bandeira-ir",
+   "rotulo": "Irão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país irão ir",
+   "codigo": "ir",
+   "svg": "bandeiras/ir.svg"
+  },
+  {
+   "nome": "bandeira_iq",
+   "classe": "e3s-i-bandeira-iq",
+   "rotulo": "Iraque",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país iraque iq",
+   "codigo": "iq",
+   "svg": "bandeiras/iq.svg"
+  },
+  {
+   "nome": "bandeira_ie",
+   "classe": "e3s-i-bandeira-ie",
+   "rotulo": "Irlanda",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país irlanda ie",
+   "codigo": "ie",
+   "svg": "bandeiras/ie.svg"
+  },
+  {
+   "nome": "bandeira_im",
+   "classe": "e3s-i-bandeira-im",
+   "rotulo": "Ilha de Man",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilha de man im",
+   "codigo": "im",
+   "svg": "bandeiras/im.svg"
+  },
+  {
+   "nome": "bandeira_il",
+   "classe": "e3s-i-bandeira-il",
+   "rotulo": "Israel",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país israel il",
+   "codigo": "il",
+   "svg": "bandeiras/il.svg"
+  },
+  {
+   "nome": "bandeira_it",
+   "classe": "e3s-i-bandeira-it",
+   "rotulo": "Itália",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país itália it",
+   "codigo": "it",
+   "svg": "bandeiras/it.svg"
+  },
+  {
+   "nome": "bandeira_jm",
+   "classe": "e3s-i-bandeira-jm",
+   "rotulo": "Jamaica",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país jamaica jm",
+   "codigo": "jm",
+   "svg": "bandeiras/jm.svg"
+  },
+  {
+   "nome": "bandeira_jp",
+   "classe": "e3s-i-bandeira-jp",
+   "rotulo": "Japão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país japão jp",
+   "codigo": "jp",
+   "svg": "bandeiras/jp.svg"
+  },
+  {
+   "nome": "bandeira_je",
+   "classe": "e3s-i-bandeira-je",
+   "rotulo": "Jersey",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país jersey je",
+   "codigo": "je",
+   "svg": "bandeiras/je.svg"
+  },
+  {
+   "nome": "bandeira_jo",
+   "classe": "e3s-i-bandeira-jo",
+   "rotulo": "Jordânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país jordânia jo",
+   "codigo": "jo",
+   "svg": "bandeiras/jo.svg"
+  },
+  {
+   "nome": "bandeira_kz",
+   "classe": "e3s-i-bandeira-kz",
+   "rotulo": "Cazaquistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país cazaquistão kz",
+   "codigo": "kz",
+   "svg": "bandeiras/kz.svg"
+  },
+  {
+   "nome": "bandeira_ke",
+   "classe": "e3s-i-bandeira-ke",
+   "rotulo": "Quénia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país quénia ke",
+   "codigo": "ke",
+   "svg": "bandeiras/ke.svg"
+  },
+  {
+   "nome": "bandeira_ki",
+   "classe": "e3s-i-bandeira-ki",
+   "rotulo": "Kiribati",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país kiribati ki",
+   "codigo": "ki",
+   "svg": "bandeiras/ki.svg"
+  },
+  {
+   "nome": "bandeira_xk",
+   "classe": "e3s-i-bandeira-xk",
+   "rotulo": "Kosovo",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país kosovo xk",
+   "codigo": "xk",
+   "svg": "bandeiras/xk.svg"
+  },
+  {
+   "nome": "bandeira_kw",
+   "classe": "e3s-i-bandeira-kw",
+   "rotulo": "Kuwait",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país kuwait kw",
+   "codigo": "kw",
+   "svg": "bandeiras/kw.svg"
+  },
+  {
+   "nome": "bandeira_kg",
+   "classe": "e3s-i-bandeira-kg",
+   "rotulo": "Quirguistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país quirguistão kg",
+   "codigo": "kg",
+   "svg": "bandeiras/kg.svg"
+  },
+  {
+   "nome": "bandeira_la",
+   "classe": "e3s-i-bandeira-la",
+   "rotulo": "Laos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país laos la",
+   "codigo": "la",
+   "svg": "bandeiras/la.svg"
+  },
+  {
+   "nome": "bandeira_lv",
+   "classe": "e3s-i-bandeira-lv",
+   "rotulo": "Letónia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país letónia lv",
+   "codigo": "lv",
+   "svg": "bandeiras/lv.svg"
+  },
+  {
+   "nome": "bandeira_arab",
+   "classe": "e3s-i-bandeira-arab",
+   "rotulo": "League of Arab States",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país league of arab states arab",
+   "codigo": "arab",
+   "svg": "bandeiras/arab.svg"
+  },
+  {
+   "nome": "bandeira_lb",
+   "classe": "e3s-i-bandeira-lb",
+   "rotulo": "Líbano",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país líbano lb",
+   "codigo": "lb",
+   "svg": "bandeiras/lb.svg"
+  },
+  {
+   "nome": "bandeira_ls",
+   "classe": "e3s-i-bandeira-ls",
+   "rotulo": "Lesoto",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país lesoto ls",
+   "codigo": "ls",
+   "svg": "bandeiras/ls.svg"
+  },
+  {
+   "nome": "bandeira_lr",
+   "classe": "e3s-i-bandeira-lr",
+   "rotulo": "Libéria",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país libéria lr",
+   "codigo": "lr",
+   "svg": "bandeiras/lr.svg"
+  },
+  {
+   "nome": "bandeira_ly",
+   "classe": "e3s-i-bandeira-ly",
+   "rotulo": "Líbia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país líbia ly",
+   "codigo": "ly",
+   "svg": "bandeiras/ly.svg"
+  },
+  {
+   "nome": "bandeira_li",
+   "classe": "e3s-i-bandeira-li",
+   "rotulo": "Liechtenstein",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país liechtenstein li",
+   "codigo": "li",
+   "svg": "bandeiras/li.svg"
+  },
+  {
+   "nome": "bandeira_lt",
+   "classe": "e3s-i-bandeira-lt",
+   "rotulo": "Lituânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país lituânia lt",
+   "codigo": "lt",
+   "svg": "bandeiras/lt.svg"
+  },
+  {
+   "nome": "bandeira_lu",
+   "classe": "e3s-i-bandeira-lu",
+   "rotulo": "Luxemburgo",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país luxemburgo lu",
+   "codigo": "lu",
+   "svg": "bandeiras/lu.svg"
+  },
+  {
+   "nome": "bandeira_mo",
+   "classe": "e3s-i-bandeira-mo",
+   "rotulo": "Macau",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país macau mo",
+   "codigo": "mo",
+   "svg": "bandeiras/mo.svg"
+  },
+  {
+   "nome": "bandeira_mg",
+   "classe": "e3s-i-bandeira-mg",
+   "rotulo": "Madagáscar",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país madagáscar mg",
+   "codigo": "mg",
+   "svg": "bandeiras/mg.svg"
+  },
+  {
+   "nome": "bandeira_mw",
+   "classe": "e3s-i-bandeira-mw",
+   "rotulo": "Malawi",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país malawi mw",
+   "codigo": "mw",
+   "svg": "bandeiras/mw.svg"
+  },
+  {
+   "nome": "bandeira_my",
+   "classe": "e3s-i-bandeira-my",
+   "rotulo": "Malásia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país malásia my",
+   "codigo": "my",
+   "svg": "bandeiras/my.svg"
+  },
+  {
+   "nome": "bandeira_mv",
+   "classe": "e3s-i-bandeira-mv",
+   "rotulo": "Maldivas",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país maldivas mv",
+   "codigo": "mv",
+   "svg": "bandeiras/mv.svg"
+  },
+  {
+   "nome": "bandeira_ml",
+   "classe": "e3s-i-bandeira-ml",
+   "rotulo": "Mali",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país mali ml",
+   "codigo": "ml",
+   "svg": "bandeiras/ml.svg"
+  },
+  {
+   "nome": "bandeira_mt",
+   "classe": "e3s-i-bandeira-mt",
+   "rotulo": "Malta",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país malta mt",
+   "codigo": "mt",
+   "svg": "bandeiras/mt.svg"
+  },
+  {
+   "nome": "bandeira_mh",
+   "classe": "e3s-i-bandeira-mh",
+   "rotulo": "Ilhas Marshall",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas marshall mh",
+   "codigo": "mh",
+   "svg": "bandeiras/mh.svg"
+  },
+  {
+   "nome": "bandeira_mq",
+   "classe": "e3s-i-bandeira-mq",
+   "rotulo": "Martinica",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país martinica mq",
+   "codigo": "mq",
+   "svg": "bandeiras/mq.svg"
+  },
+  {
+   "nome": "bandeira_mr",
+   "classe": "e3s-i-bandeira-mr",
+   "rotulo": "Mauritânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país mauritânia mr",
+   "codigo": "mr",
+   "svg": "bandeiras/mr.svg"
+  },
+  {
+   "nome": "bandeira_mu",
+   "classe": "e3s-i-bandeira-mu",
+   "rotulo": "Maurícia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país maurícia mu",
+   "codigo": "mu",
+   "svg": "bandeiras/mu.svg"
+  },
+  {
+   "nome": "bandeira_yt",
+   "classe": "e3s-i-bandeira-yt",
+   "rotulo": "Mayotte",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país mayotte yt",
+   "codigo": "yt",
+   "svg": "bandeiras/yt.svg"
+  },
+  {
+   "nome": "bandeira_mx",
+   "classe": "e3s-i-bandeira-mx",
+   "rotulo": "México",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país méxico mx",
+   "codigo": "mx",
+   "svg": "bandeiras/mx.svg"
+  },
+  {
+   "nome": "bandeira_md",
+   "classe": "e3s-i-bandeira-md",
+   "rotulo": "Moldávia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país moldávia md",
+   "codigo": "md",
+   "svg": "bandeiras/md.svg"
+  },
+  {
+   "nome": "bandeira_mc",
+   "classe": "e3s-i-bandeira-mc",
+   "rotulo": "Mónaco",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país mónaco mc",
+   "codigo": "mc",
+   "svg": "bandeiras/mc.svg"
+  },
+  {
+   "nome": "bandeira_mn",
+   "classe": "e3s-i-bandeira-mn",
+   "rotulo": "Mongólia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país mongólia mn",
+   "codigo": "mn",
+   "svg": "bandeiras/mn.svg"
+  },
+  {
+   "nome": "bandeira_me",
+   "classe": "e3s-i-bandeira-me",
+   "rotulo": "Montenegro",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país montenegro me",
+   "codigo": "me",
+   "svg": "bandeiras/me.svg"
+  },
+  {
+   "nome": "bandeira_ms",
+   "classe": "e3s-i-bandeira-ms",
+   "rotulo": "Monserrate",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país monserrate ms",
+   "codigo": "ms",
+   "svg": "bandeiras/ms.svg"
+  },
+  {
+   "nome": "bandeira_ma",
+   "classe": "e3s-i-bandeira-ma",
+   "rotulo": "Marrocos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país marrocos ma",
+   "codigo": "ma",
+   "svg": "bandeiras/ma.svg"
+  },
+  {
+   "nome": "bandeira_mz",
+   "classe": "e3s-i-bandeira-mz",
+   "rotulo": "Moçambique",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país moçambique mz",
+   "codigo": "mz",
+   "svg": "bandeiras/mz.svg"
+  },
+  {
+   "nome": "bandeira_mm",
+   "classe": "e3s-i-bandeira-mm",
+   "rotulo": "Birmânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país birmânia mm",
+   "codigo": "mm",
+   "svg": "bandeiras/mm.svg"
+  },
+  {
+   "nome": "bandeira_na",
+   "classe": "e3s-i-bandeira-na",
+   "rotulo": "Namíbia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país namíbia na",
+   "codigo": "na",
+   "svg": "bandeiras/na.svg"
+  },
+  {
+   "nome": "bandeira_nr",
+   "classe": "e3s-i-bandeira-nr",
+   "rotulo": "Nauru",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país nauru nr",
+   "codigo": "nr",
+   "svg": "bandeiras/nr.svg"
+  },
+  {
+   "nome": "bandeira_np",
+   "classe": "e3s-i-bandeira-np",
+   "rotulo": "Nepal",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país nepal np",
+   "codigo": "np",
+   "svg": "bandeiras/np.svg"
+  },
+  {
+   "nome": "bandeira_nl",
+   "classe": "e3s-i-bandeira-nl",
+   "rotulo": "Países Baixos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país países baixos nl",
+   "codigo": "nl",
+   "svg": "bandeiras/nl.svg"
+  },
+  {
+   "nome": "bandeira_nc",
+   "classe": "e3s-i-bandeira-nc",
+   "rotulo": "Nova Caledónia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país nova caledónia nc",
+   "codigo": "nc",
+   "svg": "bandeiras/nc.svg"
+  },
+  {
+   "nome": "bandeira_nz",
+   "classe": "e3s-i-bandeira-nz",
+   "rotulo": "Nova Zelândia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país nova zelândia nz",
+   "codigo": "nz",
+   "svg": "bandeiras/nz.svg"
+  },
+  {
+   "nome": "bandeira_ni",
+   "classe": "e3s-i-bandeira-ni",
+   "rotulo": "Nicarágua",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país nicarágua ni",
+   "codigo": "ni",
+   "svg": "bandeiras/ni.svg"
+  },
+  {
+   "nome": "bandeira_ne",
+   "classe": "e3s-i-bandeira-ne",
+   "rotulo": "Níger",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país níger ne",
+   "codigo": "ne",
+   "svg": "bandeiras/ne.svg"
+  },
+  {
+   "nome": "bandeira_ng",
+   "classe": "e3s-i-bandeira-ng",
+   "rotulo": "Nigéria",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país nigéria ng",
+   "codigo": "ng",
+   "svg": "bandeiras/ng.svg"
+  },
+  {
+   "nome": "bandeira_nu",
+   "classe": "e3s-i-bandeira-nu",
+   "rotulo": "Niue",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país niue nu",
+   "codigo": "nu",
+   "svg": "bandeiras/nu.svg"
+  },
+  {
+   "nome": "bandeira_nf",
+   "classe": "e3s-i-bandeira-nf",
+   "rotulo": "Ilha Norfolk",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilha norfolk nf",
+   "codigo": "nf",
+   "svg": "bandeiras/nf.svg"
+  },
+  {
+   "nome": "bandeira_kp",
+   "classe": "e3s-i-bandeira-kp",
+   "rotulo": "Coreia do Norte",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país coreia do norte kp",
+   "codigo": "kp",
+   "svg": "bandeiras/kp.svg"
+  },
+  {
+   "nome": "bandeira_mk",
+   "classe": "e3s-i-bandeira-mk",
+   "rotulo": "Macedónia do Norte",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país macedónia do norte mk",
+   "codigo": "mk",
+   "svg": "bandeiras/mk.svg"
+  },
+  {
+   "nome": "bandeira_gb-nir",
+   "classe": "e3s-i-bandeira-gb-nir",
+   "rotulo": "Northern Ireland",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país northern ireland gb-nir",
+   "codigo": "gb-nir",
+   "svg": "bandeiras/gb-nir.svg"
+  },
+  {
+   "nome": "bandeira_mp",
+   "classe": "e3s-i-bandeira-mp",
+   "rotulo": "Ilhas Marianas do Norte",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas marianas do norte mp",
+   "codigo": "mp",
+   "svg": "bandeiras/mp.svg"
+  },
+  {
+   "nome": "bandeira_no",
+   "classe": "e3s-i-bandeira-no",
+   "rotulo": "Noruega",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país noruega no",
+   "codigo": "no",
+   "svg": "bandeiras/no.svg"
+  },
+  {
+   "nome": "bandeira_om",
+   "classe": "e3s-i-bandeira-om",
+   "rotulo": "Omã",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país omã om",
+   "codigo": "om",
+   "svg": "bandeiras/om.svg"
+  },
+  {
+   "nome": "bandeira_pc",
+   "classe": "e3s-i-bandeira-pc",
+   "rotulo": "Pacific Community",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país pacific community pc",
+   "codigo": "pc",
+   "svg": "bandeiras/pc.svg"
+  },
+  {
+   "nome": "bandeira_pk",
+   "classe": "e3s-i-bandeira-pk",
+   "rotulo": "Paquistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país paquistão pk",
+   "codigo": "pk",
+   "svg": "bandeiras/pk.svg"
+  },
+  {
+   "nome": "bandeira_pw",
+   "classe": "e3s-i-bandeira-pw",
+   "rotulo": "Palau",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país palau pw",
+   "codigo": "pw",
+   "svg": "bandeiras/pw.svg"
+  },
+  {
+   "nome": "bandeira_pa",
+   "classe": "e3s-i-bandeira-pa",
+   "rotulo": "Panamá",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país panamá pa",
+   "codigo": "pa",
+   "svg": "bandeiras/pa.svg"
+  },
+  {
+   "nome": "bandeira_pg",
+   "classe": "e3s-i-bandeira-pg",
+   "rotulo": "Papua Nova Guiné",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país papua nova guiné pg",
+   "codigo": "pg",
+   "svg": "bandeiras/pg.svg"
+  },
+  {
+   "nome": "bandeira_py",
+   "classe": "e3s-i-bandeira-py",
+   "rotulo": "Paraguai",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país paraguai py",
+   "codigo": "py",
+   "svg": "bandeiras/py.svg"
+  },
+  {
+   "nome": "bandeira_pe",
+   "classe": "e3s-i-bandeira-pe",
+   "rotulo": "Peru",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país peru pe",
+   "codigo": "pe",
+   "svg": "bandeiras/pe.svg"
+  },
+  {
+   "nome": "bandeira_ph",
+   "classe": "e3s-i-bandeira-ph",
+   "rotulo": "Filipinas",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país filipinas ph",
+   "codigo": "ph",
+   "svg": "bandeiras/ph.svg"
+  },
+  {
+   "nome": "bandeira_pn",
+   "classe": "e3s-i-bandeira-pn",
+   "rotulo": "Pitcairn",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país pitcairn pn",
+   "codigo": "pn",
+   "svg": "bandeiras/pn.svg"
+  },
+  {
+   "nome": "bandeira_pl",
+   "classe": "e3s-i-bandeira-pl",
+   "rotulo": "Polónia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país polónia pl",
+   "codigo": "pl",
+   "svg": "bandeiras/pl.svg"
+  },
+  {
+   "nome": "bandeira_pt",
+   "classe": "e3s-i-bandeira-pt",
+   "rotulo": "Portugal",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país portugal pt",
+   "codigo": "pt",
+   "svg": "bandeiras/pt.svg"
+  },
+  {
+   "nome": "bandeira_pr",
+   "classe": "e3s-i-bandeira-pr",
+   "rotulo": "Porto Rico",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país porto rico pr",
+   "codigo": "pr",
+   "svg": "bandeiras/pr.svg"
+  },
+  {
+   "nome": "bandeira_qa",
+   "classe": "e3s-i-bandeira-qa",
+   "rotulo": "Catar",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país catar qa",
+   "codigo": "qa",
+   "svg": "bandeiras/qa.svg"
+  },
+  {
+   "nome": "bandeira_cg",
+   "classe": "e3s-i-bandeira-cg",
+   "rotulo": "República do Congo",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país república do congo cg",
+   "codigo": "cg",
+   "svg": "bandeiras/cg.svg"
+  },
+  {
+   "nome": "bandeira_ro",
+   "classe": "e3s-i-bandeira-ro",
+   "rotulo": "Roménia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país roménia ro",
+   "codigo": "ro",
+   "svg": "bandeiras/ro.svg"
+  },
+  {
+   "nome": "bandeira_ru",
+   "classe": "e3s-i-bandeira-ru",
+   "rotulo": "Russia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país russia ru",
+   "codigo": "ru",
+   "svg": "bandeiras/ru.svg"
+  },
+  {
+   "nome": "bandeira_rw",
+   "classe": "e3s-i-bandeira-rw",
+   "rotulo": "Ruanda",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ruanda rw",
+   "codigo": "rw",
+   "svg": "bandeiras/rw.svg"
+  },
+  {
+   "nome": "bandeira_re",
+   "classe": "e3s-i-bandeira-re",
+   "rotulo": "Ilha Reunião",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilha reunião re",
+   "codigo": "re",
+   "svg": "bandeiras/re.svg"
+  },
+  {
+   "nome": "bandeira_bl",
+   "classe": "e3s-i-bandeira-bl",
+   "rotulo": "Saint Barthélemy",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país saint barthélemy bl",
+   "codigo": "bl",
+   "svg": "bandeiras/bl.svg"
+  },
+  {
+   "nome": "bandeira_sh-hl",
+   "classe": "e3s-i-bandeira-sh-hl",
+   "rotulo": "Saint Helena",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país saint helena sh-hl",
+   "codigo": "sh-hl",
+   "svg": "bandeiras/sh-hl.svg"
+  },
+  {
+   "nome": "bandeira_sh",
+   "classe": "e3s-i-bandeira-sh",
+   "rotulo": "Santa Helena, Ascensão e Tristão da Cunha",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país santa helena, ascensão e tristão da cunha sh",
+   "codigo": "sh",
+   "svg": "bandeiras/sh.svg"
+  },
+  {
+   "nome": "bandeira_kn",
+   "classe": "e3s-i-bandeira-kn",
+   "rotulo": "São Cristóvão e Nevis",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país são cristóvão e nevis kn",
+   "codigo": "kn",
+   "svg": "bandeiras/kn.svg"
+  },
+  {
+   "nome": "bandeira_lc",
+   "classe": "e3s-i-bandeira-lc",
+   "rotulo": "Santa Lúcia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país santa lúcia lc",
+   "codigo": "lc",
+   "svg": "bandeiras/lc.svg"
+  },
+  {
+   "nome": "bandeira_mf",
+   "classe": "e3s-i-bandeira-mf",
+   "rotulo": "Saint Martin",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país saint martin mf",
+   "codigo": "mf",
+   "svg": "bandeiras/mf.svg"
+  },
+  {
+   "nome": "bandeira_pm",
+   "classe": "e3s-i-bandeira-pm",
+   "rotulo": "Saint Pierre e Miquelon",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país saint pierre e miquelon pm",
+   "codigo": "pm",
+   "svg": "bandeiras/pm.svg"
+  },
+  {
+   "nome": "bandeira_vc",
+   "classe": "e3s-i-bandeira-vc",
+   "rotulo": "São Vicente e Granadinas",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país são vicente e granadinas vc",
+   "codigo": "vc",
+   "svg": "bandeiras/vc.svg"
+  },
+  {
+   "nome": "bandeira_ws",
+   "classe": "e3s-i-bandeira-ws",
+   "rotulo": "Samoa",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país samoa ws",
+   "codigo": "ws",
+   "svg": "bandeiras/ws.svg"
+  },
+  {
+   "nome": "bandeira_sm",
+   "classe": "e3s-i-bandeira-sm",
+   "rotulo": "San Marino",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país san marino sm",
+   "codigo": "sm",
+   "svg": "bandeiras/sm.svg"
+  },
+  {
+   "nome": "bandeira_st",
+   "classe": "e3s-i-bandeira-st",
+   "rotulo": "São Tomé e Príncipe",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país são tomé e príncipe st",
+   "codigo": "st",
+   "svg": "bandeiras/st.svg"
+  },
+  {
+   "nome": "bandeira_sa",
+   "classe": "e3s-i-bandeira-sa",
+   "rotulo": "Arábia Saudita",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país arábia saudita sa",
+   "codigo": "sa",
+   "svg": "bandeiras/sa.svg"
+  },
+  {
+   "nome": "bandeira_gb-sct",
+   "classe": "e3s-i-bandeira-gb-sct",
+   "rotulo": "Scotland",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país scotland gb-sct",
+   "codigo": "gb-sct",
+   "svg": "bandeiras/gb-sct.svg"
+  },
+  {
+   "nome": "bandeira_sn",
+   "classe": "e3s-i-bandeira-sn",
+   "rotulo": "Senegal",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país senegal sn",
+   "codigo": "sn",
+   "svg": "bandeiras/sn.svg"
+  },
+  {
+   "nome": "bandeira_rs",
+   "classe": "e3s-i-bandeira-rs",
+   "rotulo": "Sérvia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país sérvia rs",
+   "codigo": "rs",
+   "svg": "bandeiras/rs.svg"
+  },
+  {
+   "nome": "bandeira_sc",
+   "classe": "e3s-i-bandeira-sc",
+   "rotulo": "Seychelles",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país seychelles sc",
+   "codigo": "sc",
+   "svg": "bandeiras/sc.svg"
+  },
+  {
+   "nome": "bandeira_sl",
+   "classe": "e3s-i-bandeira-sl",
+   "rotulo": "Serra Leoa",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país serra leoa sl",
+   "codigo": "sl",
+   "svg": "bandeiras/sl.svg"
+  },
+  {
+   "nome": "bandeira_sg",
+   "classe": "e3s-i-bandeira-sg",
+   "rotulo": "Singapura",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país singapura sg",
+   "codigo": "sg",
+   "svg": "bandeiras/sg.svg"
+  },
+  {
+   "nome": "bandeira_sx",
+   "classe": "e3s-i-bandeira-sx",
+   "rotulo": "Sint Maarten",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país sint maarten sx",
+   "codigo": "sx",
+   "svg": "bandeiras/sx.svg"
+  },
+  {
+   "nome": "bandeira_sk",
+   "classe": "e3s-i-bandeira-sk",
+   "rotulo": "Eslováquia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país eslováquia sk",
+   "codigo": "sk",
+   "svg": "bandeiras/sk.svg"
+  },
+  {
+   "nome": "bandeira_si",
+   "classe": "e3s-i-bandeira-si",
+   "rotulo": "Eslovénia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país eslovénia si",
+   "codigo": "si",
+   "svg": "bandeiras/si.svg"
+  },
+  {
+   "nome": "bandeira_sb",
+   "classe": "e3s-i-bandeira-sb",
+   "rotulo": "Ilhas Salomão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas salomão sb",
+   "codigo": "sb",
+   "svg": "bandeiras/sb.svg"
+  },
+  {
+   "nome": "bandeira_so",
+   "classe": "e3s-i-bandeira-so",
+   "rotulo": "Somália",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país somália so",
+   "codigo": "so",
+   "svg": "bandeiras/so.svg"
+  },
+  {
+   "nome": "bandeira_za",
+   "classe": "e3s-i-bandeira-za",
+   "rotulo": "África do Sul",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país áfrica do sul za",
+   "codigo": "za",
+   "svg": "bandeiras/za.svg"
+  },
+  {
+   "nome": "bandeira_gs",
+   "classe": "e3s-i-bandeira-gs",
+   "rotulo": "Ilhas Geórgia do Sul e Sandwich do Sul",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas geórgia do sul e sandwich do sul gs",
+   "codigo": "gs",
+   "svg": "bandeiras/gs.svg"
+  },
+  {
+   "nome": "bandeira_kr",
+   "classe": "e3s-i-bandeira-kr",
+   "rotulo": "Coreia do Sul",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país coreia do sul kr",
+   "codigo": "kr",
+   "svg": "bandeiras/kr.svg"
+  },
+  {
+   "nome": "bandeira_ss",
+   "classe": "e3s-i-bandeira-ss",
+   "rotulo": "Sudão do Sul",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país sudão do sul ss",
+   "codigo": "ss",
+   "svg": "bandeiras/ss.svg"
+  },
+  {
+   "nome": "bandeira_es",
+   "classe": "e3s-i-bandeira-es",
+   "rotulo": "Espanha",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país espanha es",
+   "codigo": "es",
+   "svg": "bandeiras/es.svg"
+  },
+  {
+   "nome": "bandeira_lk",
+   "classe": "e3s-i-bandeira-lk",
+   "rotulo": "Sri Lanka",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país sri lanka lk",
+   "codigo": "lk",
+   "svg": "bandeiras/lk.svg"
+  },
+  {
+   "nome": "bandeira_ps",
+   "classe": "e3s-i-bandeira-ps",
+   "rotulo": "State of Palestine",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país state of palestine ps",
+   "codigo": "ps",
+   "svg": "bandeiras/ps.svg"
+  },
+  {
+   "nome": "bandeira_sd",
+   "classe": "e3s-i-bandeira-sd",
+   "rotulo": "Sudão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país sudão sd",
+   "codigo": "sd",
+   "svg": "bandeiras/sd.svg"
+  },
+  {
+   "nome": "bandeira_sr",
+   "classe": "e3s-i-bandeira-sr",
+   "rotulo": "Suriname",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país suriname sr",
+   "codigo": "sr",
+   "svg": "bandeiras/sr.svg"
+  },
+  {
+   "nome": "bandeira_sj",
+   "classe": "e3s-i-bandeira-sj",
+   "rotulo": "Svalbard e Jan Mayen",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país svalbard e jan mayen sj",
+   "codigo": "sj",
+   "svg": "bandeiras/sj.svg"
+  },
+  {
+   "nome": "bandeira_se",
+   "classe": "e3s-i-bandeira-se",
+   "rotulo": "Suécia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país suécia se",
+   "codigo": "se",
+   "svg": "bandeiras/se.svg"
+  },
+  {
+   "nome": "bandeira_ch",
+   "classe": "e3s-i-bandeira-ch",
+   "rotulo": "Suíça",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país suíça ch",
+   "codigo": "ch",
+   "svg": "bandeiras/ch.svg"
+  },
+  {
+   "nome": "bandeira_sy",
+   "classe": "e3s-i-bandeira-sy",
+   "rotulo": "Síria",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país síria sy",
+   "codigo": "sy",
+   "svg": "bandeiras/sy.svg"
+  },
+  {
+   "nome": "bandeira_tw",
+   "classe": "e3s-i-bandeira-tw",
+   "rotulo": "Taiwan",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país taiwan tw",
+   "codigo": "tw",
+   "svg": "bandeiras/tw.svg"
+  },
+  {
+   "nome": "bandeira_tj",
+   "classe": "e3s-i-bandeira-tj",
+   "rotulo": "Tajiquistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tajiquistão tj",
+   "codigo": "tj",
+   "svg": "bandeiras/tj.svg"
+  },
+  {
+   "nome": "bandeira_tz",
+   "classe": "e3s-i-bandeira-tz",
+   "rotulo": "Tanzânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tanzânia tz",
+   "codigo": "tz",
+   "svg": "bandeiras/tz.svg"
+  },
+  {
+   "nome": "bandeira_th",
+   "classe": "e3s-i-bandeira-th",
+   "rotulo": "Tailândia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tailândia th",
+   "codigo": "th",
+   "svg": "bandeiras/th.svg"
+  },
+  {
+   "nome": "bandeira_tl",
+   "classe": "e3s-i-bandeira-tl",
+   "rotulo": "Timor-Leste",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país timor-leste tl",
+   "codigo": "tl",
+   "svg": "bandeiras/tl.svg"
+  },
+  {
+   "nome": "bandeira_tg",
+   "classe": "e3s-i-bandeira-tg",
+   "rotulo": "Togo",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país togo tg",
+   "codigo": "tg",
+   "svg": "bandeiras/tg.svg"
+  },
+  {
+   "nome": "bandeira_tk",
+   "classe": "e3s-i-bandeira-tk",
+   "rotulo": "Tokelau",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tokelau tk",
+   "codigo": "tk",
+   "svg": "bandeiras/tk.svg"
+  },
+  {
+   "nome": "bandeira_to",
+   "classe": "e3s-i-bandeira-to",
+   "rotulo": "Tonga",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tonga to",
+   "codigo": "to",
+   "svg": "bandeiras/to.svg"
+  },
+  {
+   "nome": "bandeira_tt",
+   "classe": "e3s-i-bandeira-tt",
+   "rotulo": "Trindade e Tobago",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país trindade e tobago tt",
+   "codigo": "tt",
+   "svg": "bandeiras/tt.svg"
+  },
+  {
+   "nome": "bandeira_sh-ta",
+   "classe": "e3s-i-bandeira-sh-ta",
+   "rotulo": "Tristan da Cunha",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tristan da cunha sh-ta",
+   "codigo": "sh-ta",
+   "svg": "bandeiras/sh-ta.svg"
+  },
+  {
+   "nome": "bandeira_tn",
+   "classe": "e3s-i-bandeira-tn",
+   "rotulo": "Tunísia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tunísia tn",
+   "codigo": "tn",
+   "svg": "bandeiras/tn.svg"
+  },
+  {
+   "nome": "bandeira_tm",
+   "classe": "e3s-i-bandeira-tm",
+   "rotulo": "Turquemenistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país turquemenistão tm",
+   "codigo": "tm",
+   "svg": "bandeiras/tm.svg"
+  },
+  {
+   "nome": "bandeira_tc",
+   "classe": "e3s-i-bandeira-tc",
+   "rotulo": "Ilhas Turcas e Caicos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas turcas e caicos tc",
+   "codigo": "tc",
+   "svg": "bandeiras/tc.svg"
+  },
+  {
+   "nome": "bandeira_tv",
+   "classe": "e3s-i-bandeira-tv",
+   "rotulo": "Tuvalu",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país tuvalu tv",
+   "codigo": "tv",
+   "svg": "bandeiras/tv.svg"
+  },
+  {
+   "nome": "bandeira_tr",
+   "classe": "e3s-i-bandeira-tr",
+   "rotulo": "Turquia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país turquia tr",
+   "codigo": "tr",
+   "svg": "bandeiras/tr.svg"
+  },
+  {
+   "nome": "bandeira_ug",
+   "classe": "e3s-i-bandeira-ug",
+   "rotulo": "Uganda",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país uganda ug",
+   "codigo": "ug",
+   "svg": "bandeiras/ug.svg"
+  },
+  {
+   "nome": "bandeira_ua",
+   "classe": "e3s-i-bandeira-ua",
+   "rotulo": "Ucrânia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ucrânia ua",
+   "codigo": "ua",
+   "svg": "bandeiras/ua.svg"
+  },
+  {
+   "nome": "bandeira_ae",
+   "classe": "e3s-i-bandeira-ae",
+   "rotulo": "Emirados Árabes Unidos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país emirados árabes unidos ae",
+   "codigo": "ae",
+   "svg": "bandeiras/ae.svg"
+  },
+  {
+   "nome": "bandeira_gb",
+   "classe": "e3s-i-bandeira-gb",
+   "rotulo": "Reino Unido",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país reino unido gb",
+   "codigo": "gb",
+   "svg": "bandeiras/gb.svg"
+  },
+  {
+   "nome": "bandeira_un",
+   "classe": "e3s-i-bandeira-un",
+   "rotulo": "United Nations",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país united nations un",
+   "codigo": "un",
+   "svg": "bandeiras/un.svg"
+  },
+  {
+   "nome": "bandeira_um",
+   "classe": "e3s-i-bandeira-um",
+   "rotulo": "Ilhas Menores Distantes dos Estados Unidos",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país ilhas menores distantes dos estados unidos um",
+   "codigo": "um",
+   "svg": "bandeiras/um.svg"
+  },
+  {
+   "nome": "bandeira_us",
+   "classe": "e3s-i-bandeira-us",
+   "rotulo": "Estados Unidos da América",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país estados unidos da américa us",
+   "codigo": "us",
+   "svg": "bandeiras/us.svg"
+  },
+  {
+   "nome": "bandeira_xx",
+   "classe": "e3s-i-bandeira-xx",
+   "rotulo": "Unknown",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país unknown xx",
+   "codigo": "xx",
+   "svg": "bandeiras/xx.svg"
+  },
+  {
+   "nome": "bandeira_uy",
+   "classe": "e3s-i-bandeira-uy",
+   "rotulo": "Uruguai",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país uruguai uy",
+   "codigo": "uy",
+   "svg": "bandeiras/uy.svg"
+  },
+  {
+   "nome": "bandeira_uz",
+   "classe": "e3s-i-bandeira-uz",
+   "rotulo": "Uzbequistão",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país uzbequistão uz",
+   "codigo": "uz",
+   "svg": "bandeiras/uz.svg"
+  },
+  {
+   "nome": "bandeira_vu",
+   "classe": "e3s-i-bandeira-vu",
+   "rotulo": "Vanuatu",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país vanuatu vu",
+   "codigo": "vu",
+   "svg": "bandeiras/vu.svg"
+  },
+  {
+   "nome": "bandeira_ve",
+   "classe": "e3s-i-bandeira-ve",
+   "rotulo": "Venezuela",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país venezuela ve",
+   "codigo": "ve",
+   "svg": "bandeiras/ve.svg"
+  },
+  {
+   "nome": "bandeira_vn",
+   "classe": "e3s-i-bandeira-vn",
+   "rotulo": "Vietname",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país vietname vn",
+   "codigo": "vn",
+   "svg": "bandeiras/vn.svg"
+  },
+  {
+   "nome": "bandeira_vg",
+   "classe": "e3s-i-bandeira-vg",
+   "rotulo": "Virgin Islands (British)",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país virgin islands (british) vg",
+   "codigo": "vg",
+   "svg": "bandeiras/vg.svg"
+  },
+  {
+   "nome": "bandeira_vi",
+   "classe": "e3s-i-bandeira-vi",
+   "rotulo": "Virgin Islands (U.S.)",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país virgin islands (u.s.) vi",
+   "codigo": "vi",
+   "svg": "bandeiras/vi.svg"
+  },
+  {
+   "nome": "bandeira_gb-wls",
+   "classe": "e3s-i-bandeira-gb-wls",
+   "rotulo": "Wales",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país wales gb-wls",
+   "codigo": "gb-wls",
+   "svg": "bandeiras/gb-wls.svg"
+  },
+  {
+   "nome": "bandeira_wf",
+   "classe": "e3s-i-bandeira-wf",
+   "rotulo": "Wallis e Futuna",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país wallis e futuna wf",
+   "codigo": "wf",
+   "svg": "bandeiras/wf.svg"
+  },
+  {
+   "nome": "bandeira_eh",
+   "classe": "e3s-i-bandeira-eh",
+   "rotulo": "Saara Ocidental",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país saara ocidental eh",
+   "codigo": "eh",
+   "svg": "bandeiras/eh.svg"
+  },
+  {
+   "nome": "bandeira_ye",
+   "classe": "e3s-i-bandeira-ye",
+   "rotulo": "Iémen",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país iémen ye",
+   "codigo": "ye",
+   "svg": "bandeiras/ye.svg"
+  },
+  {
+   "nome": "bandeira_zm",
+   "classe": "e3s-i-bandeira-zm",
+   "rotulo": "Zâmbia",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país zâmbia zm",
+   "codigo": "zm",
+   "svg": "bandeiras/zm.svg"
+  },
+  {
+   "nome": "bandeira_zw",
+   "classe": "e3s-i-bandeira-zw",
+   "rotulo": "Zimbábue",
+   "categoria": "bandeiras",
+   "palavras": "bandeira país zimbábue zw",
+   "codigo": "zw",
+   "svg": "bandeiras/zw.svg"
   }
- ]
+ ],
+ "bandeiras": [
+  {
+   "codigo": "af",
+   "nome": "Afeganistão",
+   "classe": "e3s-i-bandeira-af",
+   "svg": "bandeiras/af.svg"
+  },
+  {
+   "codigo": "ax",
+   "nome": "Ilhas Åland",
+   "classe": "e3s-i-bandeira-ax",
+   "svg": "bandeiras/ax.svg"
+  },
+  {
+   "codigo": "al",
+   "nome": "Albânia",
+   "classe": "e3s-i-bandeira-al",
+   "svg": "bandeiras/al.svg"
+  },
+  {
+   "codigo": "dz",
+   "nome": "Argélia",
+   "classe": "e3s-i-bandeira-dz",
+   "svg": "bandeiras/dz.svg"
+  },
+  {
+   "codigo": "as",
+   "nome": "Samoa Americana",
+   "classe": "e3s-i-bandeira-as",
+   "svg": "bandeiras/as.svg"
+  },
+  {
+   "codigo": "ad",
+   "nome": "Andorra",
+   "classe": "e3s-i-bandeira-ad",
+   "svg": "bandeiras/ad.svg"
+  },
+  {
+   "codigo": "ao",
+   "nome": "Angola",
+   "classe": "e3s-i-bandeira-ao",
+   "svg": "bandeiras/ao.svg"
+  },
+  {
+   "codigo": "ai",
+   "nome": "Anguilla",
+   "classe": "e3s-i-bandeira-ai",
+   "svg": "bandeiras/ai.svg"
+  },
+  {
+   "codigo": "aq",
+   "nome": "Antártida",
+   "classe": "e3s-i-bandeira-aq",
+   "svg": "bandeiras/aq.svg"
+  },
+  {
+   "codigo": "ag",
+   "nome": "Antígua e Barbuda",
+   "classe": "e3s-i-bandeira-ag",
+   "svg": "bandeiras/ag.svg"
+  },
+  {
+   "codigo": "ar",
+   "nome": "Argentina",
+   "classe": "e3s-i-bandeira-ar",
+   "svg": "bandeiras/ar.svg"
+  },
+  {
+   "codigo": "am",
+   "nome": "Arménia",
+   "classe": "e3s-i-bandeira-am",
+   "svg": "bandeiras/am.svg"
+  },
+  {
+   "codigo": "aw",
+   "nome": "Aruba",
+   "classe": "e3s-i-bandeira-aw",
+   "svg": "bandeiras/aw.svg"
+  },
+  {
+   "codigo": "sh-ac",
+   "nome": "Ascension Island",
+   "classe": "e3s-i-bandeira-sh-ac",
+   "svg": "bandeiras/sh-ac.svg"
+  },
+  {
+   "codigo": "asean",
+   "nome": "Association of Southeast Asian Nations",
+   "classe": "e3s-i-bandeira-asean",
+   "svg": "bandeiras/asean.svg"
+  },
+  {
+   "codigo": "au",
+   "nome": "Austrália",
+   "classe": "e3s-i-bandeira-au",
+   "svg": "bandeiras/au.svg"
+  },
+  {
+   "codigo": "at",
+   "nome": "Áustria",
+   "classe": "e3s-i-bandeira-at",
+   "svg": "bandeiras/at.svg"
+  },
+  {
+   "codigo": "az",
+   "nome": "Azerbaijão",
+   "classe": "e3s-i-bandeira-az",
+   "svg": "bandeiras/az.svg"
+  },
+  {
+   "codigo": "bs",
+   "nome": "Bahamas",
+   "classe": "e3s-i-bandeira-bs",
+   "svg": "bandeiras/bs.svg"
+  },
+  {
+   "codigo": "bh",
+   "nome": "Barém",
+   "classe": "e3s-i-bandeira-bh",
+   "svg": "bandeiras/bh.svg"
+  },
+  {
+   "codigo": "bd",
+   "nome": "Bangladeche",
+   "classe": "e3s-i-bandeira-bd",
+   "svg": "bandeiras/bd.svg"
+  },
+  {
+   "codigo": "bb",
+   "nome": "Barbados",
+   "classe": "e3s-i-bandeira-bb",
+   "svg": "bandeiras/bb.svg"
+  },
+  {
+   "codigo": "es-pv",
+   "nome": "Basque Country",
+   "classe": "e3s-i-bandeira-es-pv",
+   "svg": "bandeiras/es-pv.svg"
+  },
+  {
+   "codigo": "by",
+   "nome": "Bielorússia",
+   "classe": "e3s-i-bandeira-by",
+   "svg": "bandeiras/by.svg"
+  },
+  {
+   "codigo": "be",
+   "nome": "Bélgica",
+   "classe": "e3s-i-bandeira-be",
+   "svg": "bandeiras/be.svg"
+  },
+  {
+   "codigo": "bz",
+   "nome": "Belize",
+   "classe": "e3s-i-bandeira-bz",
+   "svg": "bandeiras/bz.svg"
+  },
+  {
+   "codigo": "bj",
+   "nome": "Benim",
+   "classe": "e3s-i-bandeira-bj",
+   "svg": "bandeiras/bj.svg"
+  },
+  {
+   "codigo": "bm",
+   "nome": "Bermudas",
+   "classe": "e3s-i-bandeira-bm",
+   "svg": "bandeiras/bm.svg"
+  },
+  {
+   "codigo": "bt",
+   "nome": "Butão",
+   "classe": "e3s-i-bandeira-bt",
+   "svg": "bandeiras/bt.svg"
+  },
+  {
+   "codigo": "bo",
+   "nome": "Bolívia",
+   "classe": "e3s-i-bandeira-bo",
+   "svg": "bandeiras/bo.svg"
+  },
+  {
+   "codigo": "bq",
+   "nome": "Bonaire, Santo Eustáquio e Saba",
+   "classe": "e3s-i-bandeira-bq",
+   "svg": "bandeiras/bq.svg"
+  },
+  {
+   "codigo": "ba",
+   "nome": "Bósnia e Herzegovina",
+   "classe": "e3s-i-bandeira-ba",
+   "svg": "bandeiras/ba.svg"
+  },
+  {
+   "codigo": "bw",
+   "nome": "Botsuana",
+   "classe": "e3s-i-bandeira-bw",
+   "svg": "bandeiras/bw.svg"
+  },
+  {
+   "codigo": "bv",
+   "nome": "Ilha Bouvet",
+   "classe": "e3s-i-bandeira-bv",
+   "svg": "bandeiras/bv.svg"
+  },
+  {
+   "codigo": "br",
+   "nome": "Brasil",
+   "classe": "e3s-i-bandeira-br",
+   "svg": "bandeiras/br.svg"
+  },
+  {
+   "codigo": "io",
+   "nome": "Território Britânico do Oceano Índico",
+   "classe": "e3s-i-bandeira-io",
+   "svg": "bandeiras/io.svg"
+  },
+  {
+   "codigo": "bn",
+   "nome": "Brunei",
+   "classe": "e3s-i-bandeira-bn",
+   "svg": "bandeiras/bn.svg"
+  },
+  {
+   "codigo": "bg",
+   "nome": "Bulgária",
+   "classe": "e3s-i-bandeira-bg",
+   "svg": "bandeiras/bg.svg"
+  },
+  {
+   "codigo": "bf",
+   "nome": "Burkina Faso",
+   "classe": "e3s-i-bandeira-bf",
+   "svg": "bandeiras/bf.svg"
+  },
+  {
+   "codigo": "bi",
+   "nome": "Burundi",
+   "classe": "e3s-i-bandeira-bi",
+   "svg": "bandeiras/bi.svg"
+  },
+  {
+   "codigo": "cv",
+   "nome": "Cabo Verde",
+   "classe": "e3s-i-bandeira-cv",
+   "svg": "bandeiras/cv.svg"
+  },
+  {
+   "codigo": "kh",
+   "nome": "Camboja",
+   "classe": "e3s-i-bandeira-kh",
+   "svg": "bandeiras/kh.svg"
+  },
+  {
+   "codigo": "cm",
+   "nome": "Camarões",
+   "classe": "e3s-i-bandeira-cm",
+   "svg": "bandeiras/cm.svg"
+  },
+  {
+   "codigo": "ca",
+   "nome": "Canadá",
+   "classe": "e3s-i-bandeira-ca",
+   "svg": "bandeiras/ca.svg"
+  },
+  {
+   "codigo": "ic",
+   "nome": "Canary Islands",
+   "classe": "e3s-i-bandeira-ic",
+   "svg": "bandeiras/ic.svg"
+  },
+  {
+   "codigo": "es-ct",
+   "nome": "Catalonia",
+   "classe": "e3s-i-bandeira-es-ct",
+   "svg": "bandeiras/es-ct.svg"
+  },
+  {
+   "codigo": "ky",
+   "nome": "Ilhas Caimão",
+   "classe": "e3s-i-bandeira-ky",
+   "svg": "bandeiras/ky.svg"
+  },
+  {
+   "codigo": "cf",
+   "nome": "República Centro-Africana",
+   "classe": "e3s-i-bandeira-cf",
+   "svg": "bandeiras/cf.svg"
+  },
+  {
+   "codigo": "cefta",
+   "nome": "Central European Free Trade Agreement",
+   "classe": "e3s-i-bandeira-cefta",
+   "svg": "bandeiras/cefta.svg"
+  },
+  {
+   "codigo": "td",
+   "nome": "Chade",
+   "classe": "e3s-i-bandeira-td",
+   "svg": "bandeiras/td.svg"
+  },
+  {
+   "codigo": "cl",
+   "nome": "Chile",
+   "classe": "e3s-i-bandeira-cl",
+   "svg": "bandeiras/cl.svg"
+  },
+  {
+   "codigo": "cn",
+   "nome": "China",
+   "classe": "e3s-i-bandeira-cn",
+   "svg": "bandeiras/cn.svg"
+  },
+  {
+   "codigo": "cx",
+   "nome": "Ilha Natal",
+   "classe": "e3s-i-bandeira-cx",
+   "svg": "bandeiras/cx.svg"
+  },
+  {
+   "codigo": "cp",
+   "nome": "Clipperton Island",
+   "classe": "e3s-i-bandeira-cp",
+   "svg": "bandeiras/cp.svg"
+  },
+  {
+   "codigo": "cc",
+   "nome": "Ilhas Cocos",
+   "classe": "e3s-i-bandeira-cc",
+   "svg": "bandeiras/cc.svg"
+  },
+  {
+   "codigo": "co",
+   "nome": "Colômbia",
+   "classe": "e3s-i-bandeira-co",
+   "svg": "bandeiras/co.svg"
+  },
+  {
+   "codigo": "km",
+   "nome": "Comores",
+   "classe": "e3s-i-bandeira-km",
+   "svg": "bandeiras/km.svg"
+  },
+  {
+   "codigo": "ck",
+   "nome": "Ilhas Cook",
+   "classe": "e3s-i-bandeira-ck",
+   "svg": "bandeiras/ck.svg"
+  },
+  {
+   "codigo": "cr",
+   "nome": "Costa Rica",
+   "classe": "e3s-i-bandeira-cr",
+   "svg": "bandeiras/cr.svg"
+  },
+  {
+   "codigo": "hr",
+   "nome": "Croácia",
+   "classe": "e3s-i-bandeira-hr",
+   "svg": "bandeiras/hr.svg"
+  },
+  {
+   "codigo": "cu",
+   "nome": "Cuba",
+   "classe": "e3s-i-bandeira-cu",
+   "svg": "bandeiras/cu.svg"
+  },
+  {
+   "codigo": "cw",
+   "nome": "Curaçau",
+   "classe": "e3s-i-bandeira-cw",
+   "svg": "bandeiras/cw.svg"
+  },
+  {
+   "codigo": "cy",
+   "nome": "Chipre",
+   "classe": "e3s-i-bandeira-cy",
+   "svg": "bandeiras/cy.svg"
+  },
+  {
+   "codigo": "cz",
+   "nome": "República Checa",
+   "classe": "e3s-i-bandeira-cz",
+   "svg": "bandeiras/cz.svg"
+  },
+  {
+   "codigo": "ci",
+   "nome": "Costa do Marfim",
+   "classe": "e3s-i-bandeira-ci",
+   "svg": "bandeiras/ci.svg"
+  },
+  {
+   "codigo": "cd",
+   "nome": "Democratic Republic of the Congo",
+   "classe": "e3s-i-bandeira-cd",
+   "svg": "bandeiras/cd.svg"
+  },
+  {
+   "codigo": "dk",
+   "nome": "Dinamarca",
+   "classe": "e3s-i-bandeira-dk",
+   "svg": "bandeiras/dk.svg"
+  },
+  {
+   "codigo": "dg",
+   "nome": "Diego Garcia",
+   "classe": "e3s-i-bandeira-dg",
+   "svg": "bandeiras/dg.svg"
+  },
+  {
+   "codigo": "dj",
+   "nome": "Djibouti",
+   "classe": "e3s-i-bandeira-dj",
+   "svg": "bandeiras/dj.svg"
+  },
+  {
+   "codigo": "dm",
+   "nome": "Dominica",
+   "classe": "e3s-i-bandeira-dm",
+   "svg": "bandeiras/dm.svg"
+  },
+  {
+   "codigo": "do",
+   "nome": "República Dominicana",
+   "classe": "e3s-i-bandeira-do",
+   "svg": "bandeiras/do.svg"
+  },
+  {
+   "codigo": "eac",
+   "nome": "East African Community",
+   "classe": "e3s-i-bandeira-eac",
+   "svg": "bandeiras/eac.svg"
+  },
+  {
+   "codigo": "ec",
+   "nome": "Equador",
+   "classe": "e3s-i-bandeira-ec",
+   "svg": "bandeiras/ec.svg"
+  },
+  {
+   "codigo": "eg",
+   "nome": "Egito",
+   "classe": "e3s-i-bandeira-eg",
+   "svg": "bandeiras/eg.svg"
+  },
+  {
+   "codigo": "sv",
+   "nome": "El Salvador",
+   "classe": "e3s-i-bandeira-sv",
+   "svg": "bandeiras/sv.svg"
+  },
+  {
+   "codigo": "gb-eng",
+   "nome": "England",
+   "classe": "e3s-i-bandeira-gb-eng",
+   "svg": "bandeiras/gb-eng.svg"
+  },
+  {
+   "codigo": "gq",
+   "nome": "Guiné Equatorial",
+   "classe": "e3s-i-bandeira-gq",
+   "svg": "bandeiras/gq.svg"
+  },
+  {
+   "codigo": "er",
+   "nome": "Eritreia",
+   "classe": "e3s-i-bandeira-er",
+   "svg": "bandeiras/er.svg"
+  },
+  {
+   "codigo": "ee",
+   "nome": "Estónia",
+   "classe": "e3s-i-bandeira-ee",
+   "svg": "bandeiras/ee.svg"
+  },
+  {
+   "codigo": "sz",
+   "nome": "Essuatíni",
+   "classe": "e3s-i-bandeira-sz",
+   "svg": "bandeiras/sz.svg"
+  },
+  {
+   "codigo": "et",
+   "nome": "Etiópia",
+   "classe": "e3s-i-bandeira-et",
+   "svg": "bandeiras/et.svg"
+  },
+  {
+   "codigo": "eu",
+   "nome": "Europe",
+   "classe": "e3s-i-bandeira-eu",
+   "svg": "bandeiras/eu.svg"
+  },
+  {
+   "codigo": "fk",
+   "nome": "Falkland Islands",
+   "classe": "e3s-i-bandeira-fk",
+   "svg": "bandeiras/fk.svg"
+  },
+  {
+   "codigo": "fo",
+   "nome": "Ilhas Faroé",
+   "classe": "e3s-i-bandeira-fo",
+   "svg": "bandeiras/fo.svg"
+  },
+  {
+   "codigo": "fm",
+   "nome": "Estados Federados da Micronésia",
+   "classe": "e3s-i-bandeira-fm",
+   "svg": "bandeiras/fm.svg"
+  },
+  {
+   "codigo": "fj",
+   "nome": "Fiji",
+   "classe": "e3s-i-bandeira-fj",
+   "svg": "bandeiras/fj.svg"
+  },
+  {
+   "codigo": "fi",
+   "nome": "Finlândia",
+   "classe": "e3s-i-bandeira-fi",
+   "svg": "bandeiras/fi.svg"
+  },
+  {
+   "codigo": "fr",
+   "nome": "França",
+   "classe": "e3s-i-bandeira-fr",
+   "svg": "bandeiras/fr.svg"
+  },
+  {
+   "codigo": "gf",
+   "nome": "Guiana Francesa",
+   "classe": "e3s-i-bandeira-gf",
+   "svg": "bandeiras/gf.svg"
+  },
+  {
+   "codigo": "pf",
+   "nome": "Polinésia Francesa",
+   "classe": "e3s-i-bandeira-pf",
+   "svg": "bandeiras/pf.svg"
+  },
+  {
+   "codigo": "tf",
+   "nome": "Territórios Franceses do Sul",
+   "classe": "e3s-i-bandeira-tf",
+   "svg": "bandeiras/tf.svg"
+  },
+  {
+   "codigo": "ga",
+   "nome": "Gabão",
+   "classe": "e3s-i-bandeira-ga",
+   "svg": "bandeiras/ga.svg"
+  },
+  {
+   "codigo": "es-ga",
+   "nome": "Galicia",
+   "classe": "e3s-i-bandeira-es-ga",
+   "svg": "bandeiras/es-ga.svg"
+  },
+  {
+   "codigo": "gm",
+   "nome": "Gâmbia",
+   "classe": "e3s-i-bandeira-gm",
+   "svg": "bandeiras/gm.svg"
+  },
+  {
+   "codigo": "ge",
+   "nome": "Geórgia",
+   "classe": "e3s-i-bandeira-ge",
+   "svg": "bandeiras/ge.svg"
+  },
+  {
+   "codigo": "de",
+   "nome": "Alemanha",
+   "classe": "e3s-i-bandeira-de",
+   "svg": "bandeiras/de.svg"
+  },
+  {
+   "codigo": "gh",
+   "nome": "Gana",
+   "classe": "e3s-i-bandeira-gh",
+   "svg": "bandeiras/gh.svg"
+  },
+  {
+   "codigo": "gi",
+   "nome": "Gibraltar",
+   "classe": "e3s-i-bandeira-gi",
+   "svg": "bandeiras/gi.svg"
+  },
+  {
+   "codigo": "gr",
+   "nome": "Grécia",
+   "classe": "e3s-i-bandeira-gr",
+   "svg": "bandeiras/gr.svg"
+  },
+  {
+   "codigo": "gl",
+   "nome": "Gronelândia",
+   "classe": "e3s-i-bandeira-gl",
+   "svg": "bandeiras/gl.svg"
+  },
+  {
+   "codigo": "gd",
+   "nome": "Granada",
+   "classe": "e3s-i-bandeira-gd",
+   "svg": "bandeiras/gd.svg"
+  },
+  {
+   "codigo": "gp",
+   "nome": "Guadalupe",
+   "classe": "e3s-i-bandeira-gp",
+   "svg": "bandeiras/gp.svg"
+  },
+  {
+   "codigo": "gu",
+   "nome": "Guam",
+   "classe": "e3s-i-bandeira-gu",
+   "svg": "bandeiras/gu.svg"
+  },
+  {
+   "codigo": "gt",
+   "nome": "Guatemala",
+   "classe": "e3s-i-bandeira-gt",
+   "svg": "bandeiras/gt.svg"
+  },
+  {
+   "codigo": "gg",
+   "nome": "Guernsey",
+   "classe": "e3s-i-bandeira-gg",
+   "svg": "bandeiras/gg.svg"
+  },
+  {
+   "codigo": "gn",
+   "nome": "Guiné",
+   "classe": "e3s-i-bandeira-gn",
+   "svg": "bandeiras/gn.svg"
+  },
+  {
+   "codigo": "gw",
+   "nome": "Guiné-Bissáu",
+   "classe": "e3s-i-bandeira-gw",
+   "svg": "bandeiras/gw.svg"
+  },
+  {
+   "codigo": "gy",
+   "nome": "Guiana",
+   "classe": "e3s-i-bandeira-gy",
+   "svg": "bandeiras/gy.svg"
+  },
+  {
+   "codigo": "ht",
+   "nome": "Haiti",
+   "classe": "e3s-i-bandeira-ht",
+   "svg": "bandeiras/ht.svg"
+  },
+  {
+   "codigo": "hm",
+   "nome": "Ilha Heard e Ilhas McDonald",
+   "classe": "e3s-i-bandeira-hm",
+   "svg": "bandeiras/hm.svg"
+  },
+  {
+   "codigo": "va",
+   "nome": "Holy See",
+   "classe": "e3s-i-bandeira-va",
+   "svg": "bandeiras/va.svg"
+  },
+  {
+   "codigo": "hn",
+   "nome": "Honduras",
+   "classe": "e3s-i-bandeira-hn",
+   "svg": "bandeiras/hn.svg"
+  },
+  {
+   "codigo": "hk",
+   "nome": "Hong Kong",
+   "classe": "e3s-i-bandeira-hk",
+   "svg": "bandeiras/hk.svg"
+  },
+  {
+   "codigo": "hu",
+   "nome": "Hungria",
+   "classe": "e3s-i-bandeira-hu",
+   "svg": "bandeiras/hu.svg"
+  },
+  {
+   "codigo": "is",
+   "nome": "Islândia",
+   "classe": "e3s-i-bandeira-is",
+   "svg": "bandeiras/is.svg"
+  },
+  {
+   "codigo": "in",
+   "nome": "Índia",
+   "classe": "e3s-i-bandeira-in",
+   "svg": "bandeiras/in.svg"
+  },
+  {
+   "codigo": "id",
+   "nome": "Indonésia",
+   "classe": "e3s-i-bandeira-id",
+   "svg": "bandeiras/id.svg"
+  },
+  {
+   "codigo": "ir",
+   "nome": "Irão",
+   "classe": "e3s-i-bandeira-ir",
+   "svg": "bandeiras/ir.svg"
+  },
+  {
+   "codigo": "iq",
+   "nome": "Iraque",
+   "classe": "e3s-i-bandeira-iq",
+   "svg": "bandeiras/iq.svg"
+  },
+  {
+   "codigo": "ie",
+   "nome": "Irlanda",
+   "classe": "e3s-i-bandeira-ie",
+   "svg": "bandeiras/ie.svg"
+  },
+  {
+   "codigo": "im",
+   "nome": "Ilha de Man",
+   "classe": "e3s-i-bandeira-im",
+   "svg": "bandeiras/im.svg"
+  },
+  {
+   "codigo": "il",
+   "nome": "Israel",
+   "classe": "e3s-i-bandeira-il",
+   "svg": "bandeiras/il.svg"
+  },
+  {
+   "codigo": "it",
+   "nome": "Itália",
+   "classe": "e3s-i-bandeira-it",
+   "svg": "bandeiras/it.svg"
+  },
+  {
+   "codigo": "jm",
+   "nome": "Jamaica",
+   "classe": "e3s-i-bandeira-jm",
+   "svg": "bandeiras/jm.svg"
+  },
+  {
+   "codigo": "jp",
+   "nome": "Japão",
+   "classe": "e3s-i-bandeira-jp",
+   "svg": "bandeiras/jp.svg"
+  },
+  {
+   "codigo": "je",
+   "nome": "Jersey",
+   "classe": "e3s-i-bandeira-je",
+   "svg": "bandeiras/je.svg"
+  },
+  {
+   "codigo": "jo",
+   "nome": "Jordânia",
+   "classe": "e3s-i-bandeira-jo",
+   "svg": "bandeiras/jo.svg"
+  },
+  {
+   "codigo": "kz",
+   "nome": "Cazaquistão",
+   "classe": "e3s-i-bandeira-kz",
+   "svg": "bandeiras/kz.svg"
+  },
+  {
+   "codigo": "ke",
+   "nome": "Quénia",
+   "classe": "e3s-i-bandeira-ke",
+   "svg": "bandeiras/ke.svg"
+  },
+  {
+   "codigo": "ki",
+   "nome": "Kiribati",
+   "classe": "e3s-i-bandeira-ki",
+   "svg": "bandeiras/ki.svg"
+  },
+  {
+   "codigo": "xk",
+   "nome": "Kosovo",
+   "classe": "e3s-i-bandeira-xk",
+   "svg": "bandeiras/xk.svg"
+  },
+  {
+   "codigo": "kw",
+   "nome": "Kuwait",
+   "classe": "e3s-i-bandeira-kw",
+   "svg": "bandeiras/kw.svg"
+  },
+  {
+   "codigo": "kg",
+   "nome": "Quirguistão",
+   "classe": "e3s-i-bandeira-kg",
+   "svg": "bandeiras/kg.svg"
+  },
+  {
+   "codigo": "la",
+   "nome": "Laos",
+   "classe": "e3s-i-bandeira-la",
+   "svg": "bandeiras/la.svg"
+  },
+  {
+   "codigo": "lv",
+   "nome": "Letónia",
+   "classe": "e3s-i-bandeira-lv",
+   "svg": "bandeiras/lv.svg"
+  },
+  {
+   "codigo": "arab",
+   "nome": "League of Arab States",
+   "classe": "e3s-i-bandeira-arab",
+   "svg": "bandeiras/arab.svg"
+  },
+  {
+   "codigo": "lb",
+   "nome": "Líbano",
+   "classe": "e3s-i-bandeira-lb",
+   "svg": "bandeiras/lb.svg"
+  },
+  {
+   "codigo": "ls",
+   "nome": "Lesoto",
+   "classe": "e3s-i-bandeira-ls",
+   "svg": "bandeiras/ls.svg"
+  },
+  {
+   "codigo": "lr",
+   "nome": "Libéria",
+   "classe": "e3s-i-bandeira-lr",
+   "svg": "bandeiras/lr.svg"
+  },
+  {
+   "codigo": "ly",
+   "nome": "Líbia",
+   "classe": "e3s-i-bandeira-ly",
+   "svg": "bandeiras/ly.svg"
+  },
+  {
+   "codigo": "li",
+   "nome": "Liechtenstein",
+   "classe": "e3s-i-bandeira-li",
+   "svg": "bandeiras/li.svg"
+  },
+  {
+   "codigo": "lt",
+   "nome": "Lituânia",
+   "classe": "e3s-i-bandeira-lt",
+   "svg": "bandeiras/lt.svg"
+  },
+  {
+   "codigo": "lu",
+   "nome": "Luxemburgo",
+   "classe": "e3s-i-bandeira-lu",
+   "svg": "bandeiras/lu.svg"
+  },
+  {
+   "codigo": "mo",
+   "nome": "Macau",
+   "classe": "e3s-i-bandeira-mo",
+   "svg": "bandeiras/mo.svg"
+  },
+  {
+   "codigo": "mg",
+   "nome": "Madagáscar",
+   "classe": "e3s-i-bandeira-mg",
+   "svg": "bandeiras/mg.svg"
+  },
+  {
+   "codigo": "mw",
+   "nome": "Malawi",
+   "classe": "e3s-i-bandeira-mw",
+   "svg": "bandeiras/mw.svg"
+  },
+  {
+   "codigo": "my",
+   "nome": "Malásia",
+   "classe": "e3s-i-bandeira-my",
+   "svg": "bandeiras/my.svg"
+  },
+  {
+   "codigo": "mv",
+   "nome": "Maldivas",
+   "classe": "e3s-i-bandeira-mv",
+   "svg": "bandeiras/mv.svg"
+  },
+  {
+   "codigo": "ml",
+   "nome": "Mali",
+   "classe": "e3s-i-bandeira-ml",
+   "svg": "bandeiras/ml.svg"
+  },
+  {
+   "codigo": "mt",
+   "nome": "Malta",
+   "classe": "e3s-i-bandeira-mt",
+   "svg": "bandeiras/mt.svg"
+  },
+  {
+   "codigo": "mh",
+   "nome": "Ilhas Marshall",
+   "classe": "e3s-i-bandeira-mh",
+   "svg": "bandeiras/mh.svg"
+  },
+  {
+   "codigo": "mq",
+   "nome": "Martinica",
+   "classe": "e3s-i-bandeira-mq",
+   "svg": "bandeiras/mq.svg"
+  },
+  {
+   "codigo": "mr",
+   "nome": "Mauritânia",
+   "classe": "e3s-i-bandeira-mr",
+   "svg": "bandeiras/mr.svg"
+  },
+  {
+   "codigo": "mu",
+   "nome": "Maurícia",
+   "classe": "e3s-i-bandeira-mu",
+   "svg": "bandeiras/mu.svg"
+  },
+  {
+   "codigo": "yt",
+   "nome": "Mayotte",
+   "classe": "e3s-i-bandeira-yt",
+   "svg": "bandeiras/yt.svg"
+  },
+  {
+   "codigo": "mx",
+   "nome": "México",
+   "classe": "e3s-i-bandeira-mx",
+   "svg": "bandeiras/mx.svg"
+  },
+  {
+   "codigo": "md",
+   "nome": "Moldávia",
+   "classe": "e3s-i-bandeira-md",
+   "svg": "bandeiras/md.svg"
+  },
+  {
+   "codigo": "mc",
+   "nome": "Mónaco",
+   "classe": "e3s-i-bandeira-mc",
+   "svg": "bandeiras/mc.svg"
+  },
+  {
+   "codigo": "mn",
+   "nome": "Mongólia",
+   "classe": "e3s-i-bandeira-mn",
+   "svg": "bandeiras/mn.svg"
+  },
+  {
+   "codigo": "me",
+   "nome": "Montenegro",
+   "classe": "e3s-i-bandeira-me",
+   "svg": "bandeiras/me.svg"
+  },
+  {
+   "codigo": "ms",
+   "nome": "Monserrate",
+   "classe": "e3s-i-bandeira-ms",
+   "svg": "bandeiras/ms.svg"
+  },
+  {
+   "codigo": "ma",
+   "nome": "Marrocos",
+   "classe": "e3s-i-bandeira-ma",
+   "svg": "bandeiras/ma.svg"
+  },
+  {
+   "codigo": "mz",
+   "nome": "Moçambique",
+   "classe": "e3s-i-bandeira-mz",
+   "svg": "bandeiras/mz.svg"
+  },
+  {
+   "codigo": "mm",
+   "nome": "Birmânia",
+   "classe": "e3s-i-bandeira-mm",
+   "svg": "bandeiras/mm.svg"
+  },
+  {
+   "codigo": "na",
+   "nome": "Namíbia",
+   "classe": "e3s-i-bandeira-na",
+   "svg": "bandeiras/na.svg"
+  },
+  {
+   "codigo": "nr",
+   "nome": "Nauru",
+   "classe": "e3s-i-bandeira-nr",
+   "svg": "bandeiras/nr.svg"
+  },
+  {
+   "codigo": "np",
+   "nome": "Nepal",
+   "classe": "e3s-i-bandeira-np",
+   "svg": "bandeiras/np.svg"
+  },
+  {
+   "codigo": "nl",
+   "nome": "Países Baixos",
+   "classe": "e3s-i-bandeira-nl",
+   "svg": "bandeiras/nl.svg"
+  },
+  {
+   "codigo": "nc",
+   "nome": "Nova Caledónia",
+   "classe": "e3s-i-bandeira-nc",
+   "svg": "bandeiras/nc.svg"
+  },
+  {
+   "codigo": "nz",
+   "nome": "Nova Zelândia",
+   "classe": "e3s-i-bandeira-nz",
+   "svg": "bandeiras/nz.svg"
+  },
+  {
+   "codigo": "ni",
+   "nome": "Nicarágua",
+   "classe": "e3s-i-bandeira-ni",
+   "svg": "bandeiras/ni.svg"
+  },
+  {
+   "codigo": "ne",
+   "nome": "Níger",
+   "classe": "e3s-i-bandeira-ne",
+   "svg": "bandeiras/ne.svg"
+  },
+  {
+   "codigo": "ng",
+   "nome": "Nigéria",
+   "classe": "e3s-i-bandeira-ng",
+   "svg": "bandeiras/ng.svg"
+  },
+  {
+   "codigo": "nu",
+   "nome": "Niue",
+   "classe": "e3s-i-bandeira-nu",
+   "svg": "bandeiras/nu.svg"
+  },
+  {
+   "codigo": "nf",
+   "nome": "Ilha Norfolk",
+   "classe": "e3s-i-bandeira-nf",
+   "svg": "bandeiras/nf.svg"
+  },
+  {
+   "codigo": "kp",
+   "nome": "Coreia do Norte",
+   "classe": "e3s-i-bandeira-kp",
+   "svg": "bandeiras/kp.svg"
+  },
+  {
+   "codigo": "mk",
+   "nome": "Macedónia do Norte",
+   "classe": "e3s-i-bandeira-mk",
+   "svg": "bandeiras/mk.svg"
+  },
+  {
+   "codigo": "gb-nir",
+   "nome": "Northern Ireland",
+   "classe": "e3s-i-bandeira-gb-nir",
+   "svg": "bandeiras/gb-nir.svg"
+  },
+  {
+   "codigo": "mp",
+   "nome": "Ilhas Marianas do Norte",
+   "classe": "e3s-i-bandeira-mp",
+   "svg": "bandeiras/mp.svg"
+  },
+  {
+   "codigo": "no",
+   "nome": "Noruega",
+   "classe": "e3s-i-bandeira-no",
+   "svg": "bandeiras/no.svg"
+  },
+  {
+   "codigo": "om",
+   "nome": "Omã",
+   "classe": "e3s-i-bandeira-om",
+   "svg": "bandeiras/om.svg"
+  },
+  {
+   "codigo": "pc",
+   "nome": "Pacific Community",
+   "classe": "e3s-i-bandeira-pc",
+   "svg": "bandeiras/pc.svg"
+  },
+  {
+   "codigo": "pk",
+   "nome": "Paquistão",
+   "classe": "e3s-i-bandeira-pk",
+   "svg": "bandeiras/pk.svg"
+  },
+  {
+   "codigo": "pw",
+   "nome": "Palau",
+   "classe": "e3s-i-bandeira-pw",
+   "svg": "bandeiras/pw.svg"
+  },
+  {
+   "codigo": "pa",
+   "nome": "Panamá",
+   "classe": "e3s-i-bandeira-pa",
+   "svg": "bandeiras/pa.svg"
+  },
+  {
+   "codigo": "pg",
+   "nome": "Papua Nova Guiné",
+   "classe": "e3s-i-bandeira-pg",
+   "svg": "bandeiras/pg.svg"
+  },
+  {
+   "codigo": "py",
+   "nome": "Paraguai",
+   "classe": "e3s-i-bandeira-py",
+   "svg": "bandeiras/py.svg"
+  },
+  {
+   "codigo": "pe",
+   "nome": "Peru",
+   "classe": "e3s-i-bandeira-pe",
+   "svg": "bandeiras/pe.svg"
+  },
+  {
+   "codigo": "ph",
+   "nome": "Filipinas",
+   "classe": "e3s-i-bandeira-ph",
+   "svg": "bandeiras/ph.svg"
+  },
+  {
+   "codigo": "pn",
+   "nome": "Pitcairn",
+   "classe": "e3s-i-bandeira-pn",
+   "svg": "bandeiras/pn.svg"
+  },
+  {
+   "codigo": "pl",
+   "nome": "Polónia",
+   "classe": "e3s-i-bandeira-pl",
+   "svg": "bandeiras/pl.svg"
+  },
+  {
+   "codigo": "pt",
+   "nome": "Portugal",
+   "classe": "e3s-i-bandeira-pt",
+   "svg": "bandeiras/pt.svg"
+  },
+  {
+   "codigo": "pr",
+   "nome": "Porto Rico",
+   "classe": "e3s-i-bandeira-pr",
+   "svg": "bandeiras/pr.svg"
+  },
+  {
+   "codigo": "qa",
+   "nome": "Catar",
+   "classe": "e3s-i-bandeira-qa",
+   "svg": "bandeiras/qa.svg"
+  },
+  {
+   "codigo": "cg",
+   "nome": "República do Congo",
+   "classe": "e3s-i-bandeira-cg",
+   "svg": "bandeiras/cg.svg"
+  },
+  {
+   "codigo": "ro",
+   "nome": "Roménia",
+   "classe": "e3s-i-bandeira-ro",
+   "svg": "bandeiras/ro.svg"
+  },
+  {
+   "codigo": "ru",
+   "nome": "Russia",
+   "classe": "e3s-i-bandeira-ru",
+   "svg": "bandeiras/ru.svg"
+  },
+  {
+   "codigo": "rw",
+   "nome": "Ruanda",
+   "classe": "e3s-i-bandeira-rw",
+   "svg": "bandeiras/rw.svg"
+  },
+  {
+   "codigo": "re",
+   "nome": "Ilha Reunião",
+   "classe": "e3s-i-bandeira-re",
+   "svg": "bandeiras/re.svg"
+  },
+  {
+   "codigo": "bl",
+   "nome": "Saint Barthélemy",
+   "classe": "e3s-i-bandeira-bl",
+   "svg": "bandeiras/bl.svg"
+  },
+  {
+   "codigo": "sh-hl",
+   "nome": "Saint Helena",
+   "classe": "e3s-i-bandeira-sh-hl",
+   "svg": "bandeiras/sh-hl.svg"
+  },
+  {
+   "codigo": "sh",
+   "nome": "Santa Helena, Ascensão e Tristão da Cunha",
+   "classe": "e3s-i-bandeira-sh",
+   "svg": "bandeiras/sh.svg"
+  },
+  {
+   "codigo": "kn",
+   "nome": "São Cristóvão e Nevis",
+   "classe": "e3s-i-bandeira-kn",
+   "svg": "bandeiras/kn.svg"
+  },
+  {
+   "codigo": "lc",
+   "nome": "Santa Lúcia",
+   "classe": "e3s-i-bandeira-lc",
+   "svg": "bandeiras/lc.svg"
+  },
+  {
+   "codigo": "mf",
+   "nome": "Saint Martin",
+   "classe": "e3s-i-bandeira-mf",
+   "svg": "bandeiras/mf.svg"
+  },
+  {
+   "codigo": "pm",
+   "nome": "Saint Pierre e Miquelon",
+   "classe": "e3s-i-bandeira-pm",
+   "svg": "bandeiras/pm.svg"
+  },
+  {
+   "codigo": "vc",
+   "nome": "São Vicente e Granadinas",
+   "classe": "e3s-i-bandeira-vc",
+   "svg": "bandeiras/vc.svg"
+  },
+  {
+   "codigo": "ws",
+   "nome": "Samoa",
+   "classe": "e3s-i-bandeira-ws",
+   "svg": "bandeiras/ws.svg"
+  },
+  {
+   "codigo": "sm",
+   "nome": "San Marino",
+   "classe": "e3s-i-bandeira-sm",
+   "svg": "bandeiras/sm.svg"
+  },
+  {
+   "codigo": "st",
+   "nome": "São Tomé e Príncipe",
+   "classe": "e3s-i-bandeira-st",
+   "svg": "bandeiras/st.svg"
+  },
+  {
+   "codigo": "sa",
+   "nome": "Arábia Saudita",
+   "classe": "e3s-i-bandeira-sa",
+   "svg": "bandeiras/sa.svg"
+  },
+  {
+   "codigo": "gb-sct",
+   "nome": "Scotland",
+   "classe": "e3s-i-bandeira-gb-sct",
+   "svg": "bandeiras/gb-sct.svg"
+  },
+  {
+   "codigo": "sn",
+   "nome": "Senegal",
+   "classe": "e3s-i-bandeira-sn",
+   "svg": "bandeiras/sn.svg"
+  },
+  {
+   "codigo": "rs",
+   "nome": "Sérvia",
+   "classe": "e3s-i-bandeira-rs",
+   "svg": "bandeiras/rs.svg"
+  },
+  {
+   "codigo": "sc",
+   "nome": "Seychelles",
+   "classe": "e3s-i-bandeira-sc",
+   "svg": "bandeiras/sc.svg"
+  },
+  {
+   "codigo": "sl",
+   "nome": "Serra Leoa",
+   "classe": "e3s-i-bandeira-sl",
+   "svg": "bandeiras/sl.svg"
+  },
+  {
+   "codigo": "sg",
+   "nome": "Singapura",
+   "classe": "e3s-i-bandeira-sg",
+   "svg": "bandeiras/sg.svg"
+  },
+  {
+   "codigo": "sx",
+   "nome": "Sint Maarten",
+   "classe": "e3s-i-bandeira-sx",
+   "svg": "bandeiras/sx.svg"
+  },
+  {
+   "codigo": "sk",
+   "nome": "Eslováquia",
+   "classe": "e3s-i-bandeira-sk",
+   "svg": "bandeiras/sk.svg"
+  },
+  {
+   "codigo": "si",
+   "nome": "Eslovénia",
+   "classe": "e3s-i-bandeira-si",
+   "svg": "bandeiras/si.svg"
+  },
+  {
+   "codigo": "sb",
+   "nome": "Ilhas Salomão",
+   "classe": "e3s-i-bandeira-sb",
+   "svg": "bandeiras/sb.svg"
+  },
+  {
+   "codigo": "so",
+   "nome": "Somália",
+   "classe": "e3s-i-bandeira-so",
+   "svg": "bandeiras/so.svg"
+  },
+  {
+   "codigo": "za",
+   "nome": "África do Sul",
+   "classe": "e3s-i-bandeira-za",
+   "svg": "bandeiras/za.svg"
+  },
+  {
+   "codigo": "gs",
+   "nome": "Ilhas Geórgia do Sul e Sandwich do Sul",
+   "classe": "e3s-i-bandeira-gs",
+   "svg": "bandeiras/gs.svg"
+  },
+  {
+   "codigo": "kr",
+   "nome": "Coreia do Sul",
+   "classe": "e3s-i-bandeira-kr",
+   "svg": "bandeiras/kr.svg"
+  },
+  {
+   "codigo": "ss",
+   "nome": "Sudão do Sul",
+   "classe": "e3s-i-bandeira-ss",
+   "svg": "bandeiras/ss.svg"
+  },
+  {
+   "codigo": "es",
+   "nome": "Espanha",
+   "classe": "e3s-i-bandeira-es",
+   "svg": "bandeiras/es.svg"
+  },
+  {
+   "codigo": "lk",
+   "nome": "Sri Lanka",
+   "classe": "e3s-i-bandeira-lk",
+   "svg": "bandeiras/lk.svg"
+  },
+  {
+   "codigo": "ps",
+   "nome": "State of Palestine",
+   "classe": "e3s-i-bandeira-ps",
+   "svg": "bandeiras/ps.svg"
+  },
+  {
+   "codigo": "sd",
+   "nome": "Sudão",
+   "classe": "e3s-i-bandeira-sd",
+   "svg": "bandeiras/sd.svg"
+  },
+  {
+   "codigo": "sr",
+   "nome": "Suriname",
+   "classe": "e3s-i-bandeira-sr",
+   "svg": "bandeiras/sr.svg"
+  },
+  {
+   "codigo": "sj",
+   "nome": "Svalbard e Jan Mayen",
+   "classe": "e3s-i-bandeira-sj",
+   "svg": "bandeiras/sj.svg"
+  },
+  {
+   "codigo": "se",
+   "nome": "Suécia",
+   "classe": "e3s-i-bandeira-se",
+   "svg": "bandeiras/se.svg"
+  },
+  {
+   "codigo": "ch",
+   "nome": "Suíça",
+   "classe": "e3s-i-bandeira-ch",
+   "svg": "bandeiras/ch.svg"
+  },
+  {
+   "codigo": "sy",
+   "nome": "Síria",
+   "classe": "e3s-i-bandeira-sy",
+   "svg": "bandeiras/sy.svg"
+  },
+  {
+   "codigo": "tw",
+   "nome": "Taiwan",
+   "classe": "e3s-i-bandeira-tw",
+   "svg": "bandeiras/tw.svg"
+  },
+  {
+   "codigo": "tj",
+   "nome": "Tajiquistão",
+   "classe": "e3s-i-bandeira-tj",
+   "svg": "bandeiras/tj.svg"
+  },
+  {
+   "codigo": "tz",
+   "nome": "Tanzânia",
+   "classe": "e3s-i-bandeira-tz",
+   "svg": "bandeiras/tz.svg"
+  },
+  {
+   "codigo": "th",
+   "nome": "Tailândia",
+   "classe": "e3s-i-bandeira-th",
+   "svg": "bandeiras/th.svg"
+  },
+  {
+   "codigo": "tl",
+   "nome": "Timor-Leste",
+   "classe": "e3s-i-bandeira-tl",
+   "svg": "bandeiras/tl.svg"
+  },
+  {
+   "codigo": "tg",
+   "nome": "Togo",
+   "classe": "e3s-i-bandeira-tg",
+   "svg": "bandeiras/tg.svg"
+  },
+  {
+   "codigo": "tk",
+   "nome": "Tokelau",
+   "classe": "e3s-i-bandeira-tk",
+   "svg": "bandeiras/tk.svg"
+  },
+  {
+   "codigo": "to",
+   "nome": "Tonga",
+   "classe": "e3s-i-bandeira-to",
+   "svg": "bandeiras/to.svg"
+  },
+  {
+   "codigo": "tt",
+   "nome": "Trindade e Tobago",
+   "classe": "e3s-i-bandeira-tt",
+   "svg": "bandeiras/tt.svg"
+  },
+  {
+   "codigo": "sh-ta",
+   "nome": "Tristan da Cunha",
+   "classe": "e3s-i-bandeira-sh-ta",
+   "svg": "bandeiras/sh-ta.svg"
+  },
+  {
+   "codigo": "tn",
+   "nome": "Tunísia",
+   "classe": "e3s-i-bandeira-tn",
+   "svg": "bandeiras/tn.svg"
+  },
+  {
+   "codigo": "tm",
+   "nome": "Turquemenistão",
+   "classe": "e3s-i-bandeira-tm",
+   "svg": "bandeiras/tm.svg"
+  },
+  {
+   "codigo": "tc",
+   "nome": "Ilhas Turcas e Caicos",
+   "classe": "e3s-i-bandeira-tc",
+   "svg": "bandeiras/tc.svg"
+  },
+  {
+   "codigo": "tv",
+   "nome": "Tuvalu",
+   "classe": "e3s-i-bandeira-tv",
+   "svg": "bandeiras/tv.svg"
+  },
+  {
+   "codigo": "tr",
+   "nome": "Turquia",
+   "classe": "e3s-i-bandeira-tr",
+   "svg": "bandeiras/tr.svg"
+  },
+  {
+   "codigo": "ug",
+   "nome": "Uganda",
+   "classe": "e3s-i-bandeira-ug",
+   "svg": "bandeiras/ug.svg"
+  },
+  {
+   "codigo": "ua",
+   "nome": "Ucrânia",
+   "classe": "e3s-i-bandeira-ua",
+   "svg": "bandeiras/ua.svg"
+  },
+  {
+   "codigo": "ae",
+   "nome": "Emirados Árabes Unidos",
+   "classe": "e3s-i-bandeira-ae",
+   "svg": "bandeiras/ae.svg"
+  },
+  {
+   "codigo": "gb",
+   "nome": "Reino Unido",
+   "classe": "e3s-i-bandeira-gb",
+   "svg": "bandeiras/gb.svg"
+  },
+  {
+   "codigo": "un",
+   "nome": "United Nations",
+   "classe": "e3s-i-bandeira-un",
+   "svg": "bandeiras/un.svg"
+  },
+  {
+   "codigo": "um",
+   "nome": "Ilhas Menores Distantes dos Estados Unidos",
+   "classe": "e3s-i-bandeira-um",
+   "svg": "bandeiras/um.svg"
+  },
+  {
+   "codigo": "us",
+   "nome": "Estados Unidos da América",
+   "classe": "e3s-i-bandeira-us",
+   "svg": "bandeiras/us.svg"
+  },
+  {
+   "codigo": "xx",
+   "nome": "Unknown",
+   "classe": "e3s-i-bandeira-xx",
+   "svg": "bandeiras/xx.svg"
+  },
+  {
+   "codigo": "uy",
+   "nome": "Uruguai",
+   "classe": "e3s-i-bandeira-uy",
+   "svg": "bandeiras/uy.svg"
+  },
+  {
+   "codigo": "uz",
+   "nome": "Uzbequistão",
+   "classe": "e3s-i-bandeira-uz",
+   "svg": "bandeiras/uz.svg"
+  },
+  {
+   "codigo": "vu",
+   "nome": "Vanuatu",
+   "classe": "e3s-i-bandeira-vu",
+   "svg": "bandeiras/vu.svg"
+  },
+  {
+   "codigo": "ve",
+   "nome": "Venezuela",
+   "classe": "e3s-i-bandeira-ve",
+   "svg": "bandeiras/ve.svg"
+  },
+  {
+   "codigo": "vn",
+   "nome": "Vietname",
+   "classe": "e3s-i-bandeira-vn",
+   "svg": "bandeiras/vn.svg"
+  },
+  {
+   "codigo": "vg",
+   "nome": "Virgin Islands (British)",
+   "classe": "e3s-i-bandeira-vg",
+   "svg": "bandeiras/vg.svg"
+  },
+  {
+   "codigo": "vi",
+   "nome": "Virgin Islands (U.S.)",
+   "classe": "e3s-i-bandeira-vi",
+   "svg": "bandeiras/vi.svg"
+  },
+  {
+   "codigo": "gb-wls",
+   "nome": "Wales",
+   "classe": "e3s-i-bandeira-gb-wls",
+   "svg": "bandeiras/gb-wls.svg"
+  },
+  {
+   "codigo": "wf",
+   "nome": "Wallis e Futuna",
+   "classe": "e3s-i-bandeira-wf",
+   "svg": "bandeiras/wf.svg"
+  },
+  {
+   "codigo": "eh",
+   "nome": "Saara Ocidental",
+   "classe": "e3s-i-bandeira-eh",
+   "svg": "bandeiras/eh.svg"
+  },
+  {
+   "codigo": "ye",
+   "nome": "Iémen",
+   "classe": "e3s-i-bandeira-ye",
+   "svg": "bandeiras/ye.svg"
+  },
+  {
+   "codigo": "zm",
+   "nome": "Zâmbia",
+   "classe": "e3s-i-bandeira-zm",
+   "svg": "bandeiras/zm.svg"
+  },
+  {
+   "codigo": "zw",
+   "nome": "Zimbábue",
+   "classe": "e3s-i-bandeira-zw",
+   "svg": "bandeiras/zw.svg"
+  }
+ ],
+ "atribuicoes": {
+  "bandeiras": "flag-icons v7.6.0, MIT; ver bandeiras/LICENSE"
+ }
 }
